@@ -1,0 +1,66 @@
+/*
+Client: CY BUILDING PTY LTD
+Author: Josh SHEN & Alex LIU
+Author URI: http://www.www.com.au
+Description: Nothing yet
+Version: 1.0
+License: All plug-ins are with MIT License
+Tags: Dark cold colour scheme
+*/
+/*===========================================================
+											MAIN SETUPS
+===========================================================*/
+/************************************
+		Colour Scheme Selection
+************************************/
+/************************************
+		Other Color Style
+************************************/
+/************************************
+		Font Style Setup
+************************************/
+/*===========================================================
+											PREFIX & RESET
+===========================================================*/
+/************************************
+		CSS3 Prefix
+************************************/
+/* line 92, sass/style.scss */
+body { background: #fff; line-height: 1.42857; }
+
+/* line 96, sass/style.scss */
+*, *::before, *::after { box-sizing: border-box; }
+
+/* line 99, sass/style.scss */
+.pointer { cursor: pointer; }
+
+/* line 102, sass/style.scss */
+.cevc { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+
+/*===========================================================
+											HEADER SECTION
+===========================================================*/
+/************************************
+		Mobile
+************************************/
+/* MENU 1 */
+/* line 115, sass/style.scss */
+#menu1 { position: relative; }
+
+/* line 119, sass/style.scss */
+#lines1 { width: 30px; height: 15px; margin: 5%, auto; border-top: 3px solid black; -webkit-transition: 0.3s; transition: 0.3s; }
+
+/* line 127, sass/style.scss */
+#lines1::before { position: absolute; content: ''; width: 30px; height: 10px; top: 10px; border-top: 3px solid black; -webkit-transition: 0.3s; transition: 0.3s; }
+
+/* line 138, sass/style.scss */
+#lines1::after { position: absolute; content: ''; width: 30px; height: 10px; top: 20px; border-top: 3px solid black; -webkit-transition: 0.3s; transition: 0.3s; }
+
+/* line 149, sass/style.scss */
+#lines1.close { border-top: 3px solid transparent; }
+
+/* line 153, sass/style.scss */
+#lines1.close::before { border-top: 3px solid #ff4040; -webkit-transform: rotate(45deg) translate(-2.5px, 0px); transform: rotate(45deg) translate(-2.5px, 0px); }
+
+/* line 159, sass/style.scss */
+#lines1.close::after { border-top: 3px solid #ff4040; -webkit-transform: rotate(-45deg) translate(11px, -5px); transform: rotate(-45deg) translate(11px, -5px); }

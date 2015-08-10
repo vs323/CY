@@ -13,8 +13,8 @@ Tags: Dark cold colour scheme
 											MAIN SETUPS
 ===========================================================*/
 
-@import url('https://necolas.github.io/normalize.css/3.0.2/normalize.css');
-
+// @import url('https://necolas.github.io/normalize.css/3.0.2/normalize.css');
+// @import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 /************************************
 		Colour Scheme Selection
 ************************************/
@@ -35,9 +35,6 @@ $a_hover: #fff;
 /************************************
 		Font Style Setup
 ************************************/
-*, h1, h2, h3, h4 {
-	font-family: montserrat;
-}
 
 
 /*===========================================================
@@ -99,33 +96,68 @@ body {
 *, *::before, *::after, {
 	box-sizing:border-box;
 }
-input {
-  background: #F3F3F3;
-  border-radius: 2px;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.12) inset;
-  padding: 4px 4px 4px 10px;
-  margin-top: 5px;
-  border: 1px solid #d6d3ce;
-  height: 25px;
-}
-button {
-  border-radius: 5px;
-  background: #fff;
-  border: 0;
-  color: white;
-  height: 25px;
-}
-a {
-	text-decoration:none;
-	color:#000;
-	&:hover {
-		color:#fff;
-	}
-}
 .pointer {
 	cursor:pointer;
 }
 .cevc { //Child Elements Vertically Centered
 	@include display-flex();
 	@include align-items(center);
+}
+
+/*===========================================================
+											HEADER SECTION
+===========================================================*/
+/************************************
+		Mobile
+************************************/
+/* MENU 1 */
+
+#menu1 {
+  position: relative;
+}
+
+#lines1 {
+  width: 30px;
+  height: 15px;
+  margin: 5%, auto;
+  border-top: 3px solid black;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#lines1::before {
+  position: absolute;
+  content:'';
+  width: 30px;
+  height: 10px;
+  top: 10px;
+  border-top: 3px solid black;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#lines1::after{
+  position: absolute;
+  content:'';
+  width: 30px;
+  height: 10px;
+  top: 20px;
+  border-top: 3px solid black;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#lines1.close {
+    border-top: 3px solid transparent;
+}
+
+#lines1.close::before {
+    border-top: 3px solid #ff4040;
+    -webkit-transform: rotate(45deg) translate(-2.5px,0px);
+    transform: rotate(45deg) translate(-2.5px,0px);
+}
+
+#lines1.close::after {
+    border-top: 3px solid #ff4040;
+    -webkit-transform: rotate(-45deg) translate(11px, -5px);
+    transform: rotate(-45deg) translate(11px, -5px);
 }

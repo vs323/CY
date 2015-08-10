@@ -6,6 +6,9 @@
   <meta name="description" content="content" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="js/js_main.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
 <!--[if lt IE 9]>
@@ -15,7 +18,8 @@
 <!--==================================
 		Mobile Header
 ====================================-->
-<nav>
-	<
-</nav>
+	<nav class="nav_container">
+		<div class="logo_img"></div>
+
+	</nav>
 </header>
