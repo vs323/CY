@@ -1,0 +1,131 @@
+/*
+Client: CY BUILDING PTY LTD
+Author: Josh SHEN & Alex LIU
+Author URI: http://www.www.com.au
+Description: Nothing yet
+Version: 1.0
+License: All plug-ins are with MIT License
+Tags: Dark cold colour scheme
+*/
+
+
+/*===========================================================
+											MAIN SETUPS
+===========================================================*/
+
+@import url('https://necolas.github.io/normalize.css/3.0.2/normalize.css');
+
+/************************************
+		Colour Scheme Selection
+************************************/
+$light_color: #FCFFF5;			//Touching Grey;
+$second_color: #D1DBBD;			//Grey Yellow;
+$medium_color: #91AA9D;			//Light grey mixing with blue;
+$fourth_color: #3E606F;			//Grey blue;
+$dark_color: #193441;				//Navy blue;
+
+//URL: https://color.adobe.com/library/536280FB-1B6F-4E45-8327-E0BE4556E788/theme/e7460fbd-75e6-4a9c-869b-3dd71cf832e6/
+
+/************************************
+		Other Color Style
+************************************/
+$href: #fff;
+$a_hover: #fff;
+
+/************************************
+		Font Style Setup
+************************************/
+*, h1, h2, h3, h4 {
+	font-family: montserrat;
+}
+
+
+/*===========================================================
+											PREFIX & RESET
+===========================================================*/
+
+/************************************
+		CSS3 Prefix
+************************************/
+@mixin display-flex(){
+	display:flex;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+}
+@mixin flex-wrap($type) {
+	-webkit-flex-wrap:$type;
+	    -ms-flex-wrap:$type;
+		    flex-wrap:$type;
+}
+@mixin align-items($type){
+		-webkit-box-align: $type;
+	-webkit-align-items: $type;
+	    -ms-flex-align: $type;
+	        align-items: $type;
+}
+
+@mixin justify-content($type){
+	    	-webkit-box-pack: $type;
+ -webkit-justify-content: $type;
+           -ms-flex-pack: $type;
+         justify-content: $type;	
+}
+@mixin flex-direction ($type){
+	 -webkit-flex-direction: $type;
+       -ms-flex-direction: $type;
+	         flex-direction: $type;	
+}
+@mixin transform ($type) {
+			  -webkit-transform: $type;
+			      -ms-transform: $type;
+			          transform: $type;
+}
+@mixin transition ($type) {
+	-webkit-transition: $type;
+					transition: $type;
+}
+@mixin background-linear($type) {
+	background-image: -webkit-linear-gradient($type);
+	background-image: -moz-linear-gradient($type);
+	background-image: linear-gradient($type);
+}
+
+
+body {
+	background: #fff;
+	line-height: 1.42857;
+}
+*, *::before, *::after, {
+	box-sizing:border-box;
+}
+input {
+  background: #F3F3F3;
+  border-radius: 2px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.12) inset;
+  padding: 4px 4px 4px 10px;
+  margin-top: 5px;
+  border: 1px solid #d6d3ce;
+  height: 25px;
+}
+button {
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  color: white;
+  height: 25px;
+}
+a {
+	text-decoration:none;
+	color:#000;
+	&:hover {
+		color:#fff;
+	}
+}
+.pointer {
+	cursor:pointer;
+}
+.cevc { //Child Elements Vertically Centered
+	@include display-flex();
+	@include align-items(center);
+}
