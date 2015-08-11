@@ -12,3 +12,4 @@ Some of parallex scrolling js
 http://markdalgleish.com/projects/stellar.js
 http://pixelcog.github.io/parallax.js/
 Skrollr.js
+

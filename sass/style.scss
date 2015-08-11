@@ -13,12 +13,13 @@ Tags: Dark cold colour scheme
 											MAIN SETUPS
 ===========================================================*/
 
-// @import url('https://necolas.github.io/normalize.css/3.0.2/normalize.css');
-// @import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+@import url('https://necolas.github.io/normalize.css/3.0.2/normalize.css');
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
 /************************************
 		Colour Scheme Selection
 ************************************/
-$light_color: #FCFFF5;			//Touching Grey;
+$light_color: #F7FAF0;			//Touching Grey;
 $second_color: #D1DBBD;			//Grey Yellow;
 $medium_color: #91AA9D;			//Light grey mixing with blue;
 $fourth_color: #3E606F;			//Grey blue;
@@ -29,13 +30,16 @@ $dark_color: #193441;				//Navy blue;
 /************************************
 		Other Color Style
 ************************************/
-$href: #fff;
-$a_hover: #fff;
+$href: #91AA9D;
+$a_hover: #91AA9D;
 
 /************************************
 		Font Style Setup
 ************************************/
 
+* {
+	font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+}
 
 /*===========================================================
 											PREFIX & RESET
@@ -80,6 +84,7 @@ $a_hover: #fff;
 }
 @mixin transition ($type) {
 	-webkit-transition: $type;
+		 -moz-transition: $type;
 					transition: $type;
 }
 @mixin background-linear($type) {
@@ -90,11 +95,21 @@ $a_hover: #fff;
 
 
 body {
-	background: #fff;
+	background: $light_color;
 	line-height: 1.42857;
 }
 *, *::before, *::after, {
 	box-sizing:border-box;
+}
+
+/************************************
+		Other Styles Setup
+************************************/
+button {
+  border-radius: 5px;
+  background: $medium_color;
+  border: 0;
+  color: white;
 }
 .pointer {
 	cursor:pointer;
@@ -103,6 +118,7 @@ body {
 	@include display-flex();
 	@include align-items(center);
 }
+.unlist_style { list-style:none; }
 
 /*===========================================================
 											HEADER SECTION
@@ -110,54 +126,122 @@ body {
 /************************************
 		Mobile
 ************************************/
-/* MENU 1 */
-
-#menu1 {
-  position: relative;
+body {
+	min-width:320px;
+}
+.nav_container {
+	display:block;
+	h1, h2, h3, h4, i {
+		color:#fff;
+		margin-bottom:0;
+	}
+}
+.background_blur {
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:-100;
+	background-image: url('images/demo/house1_ex.jpg');
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:120%;
+	min-width:320px;
+	width:100%;
+	height:300px;
+}
+.tool_bar {
+	@include display-flex();
+	@include justify-content(space-between);
+	width:100%;
+	background-color: rgba(0,0,0,0.8);
+	min-width:320px;
+	height:60px;
+	position:fixed;
+	z-index:200;
+	i {
+		font-size:1.75em;
+		margin-right:15px;
+	}
+	img {
+		height:30px;
+		margin-left:5%;
+	}
+}
+.tool_bar_clearfix { display:block; height:60px; }
+.tool_bar_clearfix_2 { display:block; height:49px; }
+.menu_overlay {
+	position:fixed;
+	right:-1000px;
+	top:60px;
+	z-index:200;
+	width:61.8%;
+	background: rgba(0,0,0,0.8);
+	height:100%;
+	@include transition(all 1s ease);
+		ul{
+		white-space: nowrap;
+		display:block;
+		font-size: 1em;
+		font-weight: 500;
+		margin:0;
+		padding:25px;
+		li {
+			height: 50px;
+			padding: 15px 0 15px 0;
+			border-top: 1px solid #c9c9c9;
+			&:first-child {
+				border: none;
+			}
+			a {
+				text-decoration:none;
+				color:$second_color;
+				font-weight: 600;
+				&:active { color: $light_color; }
+			}
+		}
+	}
+}
+.menu_overlay_push {
+	right:0;
+	@include transition(all 1s ease);
+}
+// .grey_overlay {
+// 	display:none;
+// 	z-index:100;
+// 	position:fixed;
+// 	background:#5c5c5c;
+// 	opacity:.80;
+// 	width:100%;
+// 	height:100%;
+// }
+.head_text {
+	max-width:350px;
+	margin:0 auto;
+	padding-left:5%;
+	padding-top:50px;
+}
+.under_bk {
+	@include display-flex();
+	@include justify-content(space-around);
+	background:$dark_color;
+	width:100%;
+	height:100px;
+	font-weight:600;
+	button {
+		width:150px;
+		height:50px;
+	}
+	& button:nth-child(2) {
+		background:none;
+		border:2px solid #fff;
+	}
 }
 
-#lines1 {
-  width: 30px;
-  height: 15px;
-  margin: 5%, auto;
-  border-top: 3px solid black;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-#lines1::before {
-  position: absolute;
-  content:'';
-  width: 30px;
-  height: 10px;
-  top: 10px;
-  border-top: 3px solid black;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
 
-#lines1::after{
-  position: absolute;
-  content:'';
-  width: 30px;
-  height: 10px;
-  top: 20px;
-  border-top: 3px solid black;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-#lines1.close {
-    border-top: 3px solid transparent;
-}
-
-#lines1.close::before {
-    border-top: 3px solid #ff4040;
-    -webkit-transform: rotate(45deg) translate(-2.5px,0px);
-    transform: rotate(45deg) translate(-2.5px,0px);
-}
-
-#lines1.close::after {
-    border-top: 3px solid #ff4040;
-    -webkit-transform: rotate(-45deg) translate(11px, -5px);
-    transform: rotate(-45deg) translate(11px, -5px);
+/*===========================================================
+											MEDIA QUERY
+===========================================================*/
+@media screen and (max-width: 400px) {
+	.background_blur { 	background-size:150%; }
 }
