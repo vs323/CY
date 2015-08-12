@@ -30,25 +30,25 @@ Tags: Dark cold colour scheme
 /************************************
 		CSS3 Prefix
 ************************************/
-/* line 97, sass/style.scss */
+/* line 102, sass/style.scss */
 body { background: #F7FAF0; line-height: 1.42857; }
 
-/* line 101, sass/style.scss */
+/* line 106, sass/style.scss */
 *, *::before, *::after { box-sizing: border-box; }
 
 /************************************
 		Other Styles Setup
 ************************************/
-/* line 108, sass/style.scss */
+/* line 113, sass/style.scss */
 button { border-radius: 5px; background: #91AA9D; border: 0; color: white; }
 
-/* line 114, sass/style.scss */
+/* line 119, sass/style.scss */
 .pointer { cursor: pointer; }
 
-/* line 117, sass/style.scss */
+/* line 122, sass/style.scss */
 .cevc { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
 
-/* line 121, sass/style.scss */
+/* line 126, sass/style.scss */
 .unlist_style { list-style: none; }
 
 /*===========================================================
@@ -57,58 +57,95 @@ button { border-radius: 5px; background: #91AA9D; border: 0; color: white; }
 /************************************
 		Mobile
 ************************************/
-/* line 129, sass/style.scss */
-body { min-width: 320px; }
+/* background setup */
+/* line 135, sass/style.scss */
+.nav_container { background-repeat: no-repeat; /* custom background-position */ background-position: 50% 50%; /* ie8- graceful degradation */ background-position: 50% 50% \9  !important; }
 
-/* line 132, sass/style.scss */
-.nav_container { display: block; }
-/* line 134, sass/style.scss */
+/* fullscreen setup */
+/* line 144, sass/style.scss */
+html, body { height: 100%; min-width: 320px; }
+
+/* line 148, sass/style.scss */
+.fullscreen { width: 100%; min-height: 100%; }
+
+/* line 152, sass/style.scss */
+.not-fullscreen, .fullscreen.not-overflow { height: 100%; overflow: hidden; }
+
+/* line 158, sass/style.scss */
+.nav_container { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; -webkit-box-align: flex-end; -webkit-align-items: flex-end; -ms-flex-align: flex-end; align-items: flex-end; }
+/* line 161, sass/style.scss */
 .nav_container h1, .nav_container h2, .nav_container h3, .nav_container h4, .nav_container i { color: #fff; margin-bottom: 0; }
 
-/* line 139, sass/style.scss */
-.background_blur { display: block; position: absolute; left: 0; top: 0; z-index: -100; background-image: url("images/demo/house1_ex.jpg"); background-repeat: no-repeat; background-position: center; background-size: 120%; min-width: 320px; width: 100%; height: 300px; }
-
-/* line 153, sass/style.scss */
+/* line 167, sass/style.scss */
 .tool_bar { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; -webkit-box-pack: space-between; -webkit-justify-content: space-between; -ms-flex-pack: space-between; justify-content: space-between; width: 100%; background-color: rgba(0, 0, 0, 0.8); min-width: 320px; height: 60px; position: fixed; z-index: 200; }
-/* line 162, sass/style.scss */
+/* line 176, sass/style.scss */
 .tool_bar i { font-size: 1.75em; margin-right: 15px; }
-/* line 166, sass/style.scss */
+/* line 180, sass/style.scss */
 .tool_bar img { height: 30px; margin-left: 5%; }
 
-/* line 171, sass/style.scss */
-.tool_bar_clearfix { display: block; height: 60px; }
-
-/* line 172, sass/style.scss */
-.tool_bar_clearfix_2 { display: block; height: 49px; }
-
-/* line 173, sass/style.scss */
+/* line 186, sass/style.scss */
 .menu_overlay { position: fixed; right: -1000px; top: 60px; z-index: 200; width: 61.8%; background: rgba(0, 0, 0, 0.8); height: 100%; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease; }
-/* line 182, sass/style.scss */
+/* line 195, sass/style.scss */
 .menu_overlay ul { white-space: nowrap; display: block; font-size: 1em; font-weight: 500; margin: 0; padding: 25px; }
-/* line 189, sass/style.scss */
+/* line 202, sass/style.scss */
 .menu_overlay ul li { height: 50px; padding: 15px 0 15px 0; border-top: 1px solid #c9c9c9; }
-/* line 193, sass/style.scss */
+/* line 206, sass/style.scss */
 .menu_overlay ul li:first-child { border: none; }
-/* line 196, sass/style.scss */
+/* line 209, sass/style.scss */
 .menu_overlay ul li a { text-decoration: none; color: #D1DBBD; font-weight: 600; }
-/* line 200, sass/style.scss */
+/* line 213, sass/style.scss */
 .menu_overlay ul li a:active { color: #F7FAF0; }
 
-/* line 205, sass/style.scss */
+/* line 218, sass/style.scss */
 .menu_overlay_push { right: 0; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease; }
 
-/* line 218, sass/style.scss */
-.head_text { max-width: 350px; margin: 0 auto; padding-left: 5%; padding-top: 50px; }
+/* line 222, sass/style.scss */
+.home_content { position: absolute; top: 35%; left: 10%; width: 100%; max-width: 400px; min-width: 320px; }
 
-/* line 224, sass/style.scss */
+/* line 232, sass/style.scss */
 .under_bk { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; -webkit-box-pack: space-around; -webkit-justify-content: space-around; -ms-flex-pack: space-around; justify-content: space-around; background: #193441; width: 100%; height: 100px; font-weight: 600; }
-/* line 231, sass/style.scss */
+/* line 240, sass/style.scss */
 .under_bk button { width: 150px; height: 50px; }
-/* line 235, sass/style.scss */
+/* line 244, sass/style.scss */
 .under_bk button:nth-child(2) { background: none; border: 2px solid #fff; }
+
+/*===========================================================
+											2ND PAGE SECTION
+===========================================================*/
+/************************************
+		Mobile
+************************************/
+/* line 256, sass/style.scss */
+.second_page { display: block; width: 100%; padding: 10px 5% 10px 5%; text-align: justify; }
+/* line 261, sass/style.scss */
+.second_page h2 { margin-bottom: 10px; }
+
+/* line 263, sass/style.scss */
+.little_line { height: 2px; width: 75px; border: 2px solid #91AA9D; margin-bottom: 10px; }
+
+/*===========================================================
+											3ND PAGE SECTION - GALLERY
+===========================================================*/
+/************************************
+		Mobile
+************************************/
+/* line 271, sass/style.scss */
+.gl_head { display: block; width: 100%; height: 100px; background: #222222; padding: 10px 5% 10px 5%; }
+/* line 277, sass/style.scss */
+.gl_head h2 { color: #fff; margin-bottom: 10px; }
+
+/* line 279, sass/style.scss */
+.gl_container { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; background: #222222; padding: 15px 5% 15px 5%; margin: 0; width: 100%; }
+
+/* line 287, sass/style.scss */
+.gl_items { width: 100%; margin: 10px auto; }
+/* line 291, sass/style.scss */
+.gl_items img { max-width: 100%; }
+/* line 294, sass/style.scss */
+.gl_items .gl_subtitle { display: none; width: 100%; color: #fff; font-size: 0.65em; padding-right: 10px; text-align: right; }
 
 /*===========================================================
 											MEDIA QUERY
 ===========================================================*/
-@media screen and (max-width: 400px) { /* line 246, sass/style.scss */
+@media screen and (max-width: 400px) { /* line 311, sass/style.scss */
   .background_blur { background-size: 150%; } }

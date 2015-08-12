@@ -72,6 +72,11 @@ $a_hover: #91AA9D;
            -ms-flex-pack: $type;
          justify-content: $type;	
 }
+@mixin align-self($type){
+	    -webkit-align-self: $type;
+     -ms-flex-item-align: $type;
+					    align-self: $type;
+}
 @mixin flex-direction ($type){
 	 -webkit-flex-direction: $type;
        -ms-flex-direction: $type;
@@ -126,30 +131,39 @@ button {
 /************************************
 		Mobile
 ************************************/
-body {
-	min-width:320px;
-}
+/* background setup */
 .nav_container {
-	display:block;
+    background-repeat:no-repeat;
+    /* custom background-position */
+    background-position:50% 50%;
+    /* ie8- graceful degradation */
+    background-position:50% 50%\9 !important;
+}
+
+/* fullscreen setup */
+html, body {
+    height:100%;
+    min-width:320px;
+}
+.fullscreen {
+    width:100%;
+    min-height:100%;
+}
+.not-fullscreen ,
+.fullscreen.not-overflow {
+    height:100%;
+    overflow:hidden;
+}
+
+.nav_container {
+	@include display-flex();
+		@include align-items(flex-end);
 	h1, h2, h3, h4, i {
 		color:#fff;
 		margin-bottom:0;
 	}
 }
-.background_blur {
-	display:block;
-	position:absolute;
-	left:0;
-	top:0;
-	z-index:-100;
-	background-image: url('images/demo/house1_ex.jpg');
-	background-repeat: no-repeat;
-	background-position:center;
-	background-size:120%;
-	min-width:320px;
-	width:100%;
-	height:300px;
-}
+
 .tool_bar {
 	@include display-flex();
 	@include justify-content(space-between);
@@ -168,8 +182,7 @@ body {
 		margin-left:5%;
 	}
 }
-.tool_bar_clearfix { display:block; height:60px; }
-.tool_bar_clearfix_2 { display:block; height:49px; }
+
 .menu_overlay {
 	position:fixed;
 	right:-1000px;
@@ -206,24 +219,20 @@ body {
 	right:0;
 	@include transition(all 1s ease);
 }
-// .grey_overlay {
-// 	display:none;
-// 	z-index:100;
-// 	position:fixed;
-// 	background:#5c5c5c;
-// 	opacity:.80;
-// 	width:100%;
-// 	height:100%;
-// }
-.head_text {
-	max-width:350px;
-	margin:0 auto;
-	padding-left:5%;
-	padding-top:50px;
+.home_content {
+	position:absolute;
+	top:35%;
+	left:10%;
+	width:100%;
+	max-width:400px;
+	min-width:320px;
 }
+
+
 .under_bk {
 	@include display-flex();
 	@include justify-content(space-around);
+	
 	background:$dark_color;
 	width:100%;
 	height:100px;
@@ -237,6 +246,62 @@ body {
 		border:2px solid #fff;
 	}
 }
+
+/*===========================================================
+											2ND PAGE SECTION
+===========================================================*/
+/************************************
+		Mobile
+************************************/
+.second_page {
+	display:block;
+	width:100%;
+	padding:10px 5% 10px 5%;
+	text-align: justify;
+	h2 { margin-bottom:10px; }
+}
+.little_line { height:2px; width: 75px; border: 2px solid $medium_color; margin-bottom: 10px; }
+
+/*===========================================================
+											3ND PAGE SECTION - GALLERY
+===========================================================*/
+/************************************
+		Mobile
+************************************/
+.gl_head {
+	display:block;
+	width:100%;
+	height:100px;
+	background:#222222;
+	padding:10px 5% 10px 5%;
+	h2 { color: #fff; margin-bottom:10px; }
+}
+.gl_container {
+	@include display-flex();
+	@include flex-direction (column);
+		background:#222222;
+	padding: 15px 5% 15px 5%;
+	margin:0;
+	width:100%;
+}
+.gl_items {
+	width:100%;
+	// border: 5px solid $light_color;
+	margin: 10px auto;
+	img {
+		max-width:100%;
+	}
+	.gl_subtitle {
+		display:none;
+		width:100%;
+		color:#fff;
+		font-size:0.65em;
+		padding-right:10px;
+		text-align: right;
+	}
+}
+
+
 
 
 /*===========================================================

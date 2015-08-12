@@ -15,12 +15,13 @@
 <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
+
 <!--==================================
 		Mobile Header
 ====================================-->
 		
 	<section class="nav_container background fullscreen no-overflow" style="background-image:url('images/demo/house1_ex.jpg');" data-img-width="1300" data-img-height="867">
-		<div class="tool_bar cevc pointer">
+		<div class="tool_bar cevc">
 			<img src="images/demo/logo.png" alt="logo" />
 			<div><i class="fa fa-bars" id="menu_icon"></i></div>
 		</div>
@@ -36,14 +37,20 @@
 			</ul>
 		</nav>
 		
-	 <div class="home_content">
-	 <h2>YC BUILDING</h2>
-	 <h3>Trusted Canberra Based Contractor & Builder</h3>
-	 </div>	
+<!-- 		<div class="tool_bar_clearfix"></div>
+		
+		<div class="head_text">
+			<h2>YC BUILDING</h2>
+			<h3>Trusted Canberra Based Contractor & Builder</h3>
+		</div>
+		
+		<div class="tool_bar_clearfix_2"></div>
 		<div class="under_bk cevc">
 			<button>OUR WORK</button><button>GET QUOTES</button>
 		</div>
-
+ -->
 
 	</section>
+
+
 
