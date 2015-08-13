@@ -20,8 +20,40 @@
 		<div class="gl_items"><img src="images/demo/gl/house4-600x300.jpg" alt="c" /><span class="gl_subtitle">3 George St, Lawson, ACT</span></div>
 		<div class="gl_items"><img src="images/demo/gl/interior5-600x300.jpg" alt="d" /><span class="gl_subtitle">43 Johnston Ave, Crace, ACT</span></div>
 		<div class="gl_items"><img src="images/demo/gl/slider01-600x300.jpg" alt="e" /><span class="gl_subtitle">29 Melbourn Ave, Deakin, ACT</span></div>
-		<div class="gl_items"><img src="images/demo/gl/slider02-600x300.jpg" alt="f" /><span class="gl_subtitle">22 Lincon Cr, ACT</span></div>
+		<div class="gl_items"><img src="images/demo/gl/slider02-600x300.jpg" alt="f" /><span class="gl_subtitle">22 Lincon Cr, Franklin, ACT</span></div>
 	</div>
+</section>
+<!-- Page 4 -->
+<section class="testimonial">
+		<div class="test_head">
+			<h2>Testimonials</h2>
+			<div class="little_line"></div>
+		</div>
+		<div class="testimonial_container">
+			<div>
+				<p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. This is required when, for example, the final text is not yet available.</p>
+			</div>
+			<div class="potrait">
+				<img src="images/demo/1.jpg" alt="potrait" /><div class="t_name">Jason Statham</div>
+			</div>
+		</div>
+
+		<div class="testimonial_container">
+			<div>
+				<p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. This is required when, for example, the final text is not yet available.</p>
+			</div>
+			<div class="potrait">
+				<img src="images/demo/2.jpeg" alt="potrait" /><div class="t_name">Scarlett Johan</div>
+			</div>
+		</div>
+</section>
+<!-- Page 5 -->
+<section class="contact_us">
+
+</section>
+
+<!-- Page 6 -->
+<section class="find_us">
 </section>
 
 <?php 

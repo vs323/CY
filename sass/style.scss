@@ -286,13 +286,13 @@ html, body {
 }
 .gl_items {
 	width:100%;
-	// border: 5px solid $light_color;
 	margin: 10px auto;
 	img {
 		max-width:100%;
+			border: 5px solid $light_color;
 	}
 	.gl_subtitle {
-		display:none;
+		display:block;
 		width:100%;
 		color:#fff;
 		font-size:0.65em;
@@ -301,6 +301,68 @@ html, body {
 	}
 }
 
+
+/*===========================================================
+											4ND PAGE SECTION - TESTIMONIALS
+===========================================================*/
+/************************************
+		Mobile
+************************************/
+.test_head {
+	background:$light_color;
+	display:block;
+	width:100%;
+	height:100px;
+	padding:10px 5% 10px 5%;
+}
+.testimonial_container {
+	display:block;
+	position:relative;
+	border: 1px solid #e9e9e9;
+	border-radius: 2px;
+	width:90%;
+	height:100%;
+	margin: 10px auto;
+	padding: 15px;
+	min-width:320px;
+	margin-bottom:70px;
+	.potrait {
+		position: absolute;
+		bottom:-50px;
+		left:20px;
+		 & img {
+				width:70px;
+				border-radius:100%;
+		}
+		.t_name {
+			position: absolute;
+			bottom:20px;
+			left:100px;
+			white-space:nowrap;
+			font-weight: 600;
+		}
+	}
+}
+/*===========================================================
+											4ND PAGE SECTION - TESTIMONIALS
+===========================================================*/
+/************************************
+		Mobile
+************************************/
+.form_container {
+	background:#222222;
+	color: #fff;
+	.input_all {
+		display:block;
+		margin-bottom: 20px;
+	}
+	form {
+		margin: 0 5%;
+		label {
+			width: 20px;
+		}
+	}
+}
 
 
 
