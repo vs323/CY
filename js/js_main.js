@@ -47,6 +47,15 @@ function backgroundResize(){
         path.css("background-size", imgW + "px " + imgH + "px");
     });
 }
+
+	function BackgroundClick(){
+	
+	  $('').click(function(){
+	  console.log("header");
+	  
+	  });
+	
+	}
 $(window).resize(backgroundResize);
 $(window).focus(backgroundResize);
 backgroundResize();
@@ -54,7 +63,23 @@ backgroundResize();
 
 
 $(document).ready(function(){
+
 	$('#menu_icon').click(function(){
 		$('.menu_overlay').toggleClass('menu_overlay_push');
+		$("#MobileMenuOverlay").hide();
+		if($(".menu_overlay_push").is(":visible")==true)
+		{
+			$("#MobileMenuOverlay").show();
+			$(".overlay").click(function(){
+				$("#MobileMenuOverlay").hide();
+				$(".menu_overlay, .menu_overlay_push").removeClass("menu_overlay_push");
+			});
+		}
+		else
+		{
+		$(".menu_overlay, .menu_overlay_push").removeClass("menu_overlay_push");
+		}
+		
+		
 	});
 });
