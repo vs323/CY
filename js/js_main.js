@@ -79,6 +79,10 @@ $(document).ready(function(){
 		$(".menu_overlay, .menu_overlay_push").removeClass("menu_overlay_push");
 		}
 		
+<<<<<<< HEAD
+=======
+		
+>>>>>>> origin/master
 	});
 	
 	function initialize() {
