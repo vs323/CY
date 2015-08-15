@@ -9,6 +9,7 @@
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<a name="ourwork"></a></p>
 </section>
 <!-- Page 3 -->
+<div class="overlay_Modal" id="MenuOverlayModal"></div>
 <section class="gallery">
 	<div class="gl_head">
 		<h2>OUR WORK</h2>
@@ -49,11 +50,43 @@
 </section>
 <!-- Page 5 -->
 <section class="contact_us">
+<div class="ContactForm">
+<h2>Enquiry Form</h2>
 
+<P>If you would like a quote or more information about YC Building, please use the contact form on this page to submit an enquiry </P>
+<form action="MAILTO:lozaza323@gmail.com" method="post">
+<label>Full Name</label>
+<input type="text"><br>
+
+<label>Your Email Address</label>
+<input type="text"><br>
+
+<label>Phone Number</label>
+<input type="text"><br>
+
+<label>Enquiry Description</label>
+<input type="text"><br>
+
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+
+</form>
+</div>
+<div> Your message has been successfully sent. </div>
 </section>
 
 <!-- Page 6 -->
 <section class="find_us">
+<div class="address">
+
+Phone Number: 0448 888 045 <br>
+Fax Number: (02) 6111 1111 <br>
+Address: 1 Awesome Street Mitchell <br>
+Email: ycbuilding@gmail.com <br>
+
+</div>
+
+<div id="map"></div>
 </section>
 
 <?php 

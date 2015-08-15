@@ -9,6 +9,7 @@
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
   <script type="text/javascript" src="js/js_main.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
 </head>
 <body>
 <!--[if lt IE 9]>
@@ -18,8 +19,9 @@
 <!--==================================
 		Mobile Header
 ====================================-->
-		
+	<div class="overlay" id="MobileMenuOverlay"></div>
 	<section class="nav_container background fullscreen no-overflow" style="background-image:url('images/demo/house1_ex.jpg');" data-img-width="1300" data-img-height="867">
+		
 		<div class="tool_bar cevc pointer">
 			<img src="images/demo/logo.png" alt="logo" />
 			<div><i class="fa fa-bars" id="menu_icon"></i></div>
@@ -46,4 +48,4 @@
 
 
 	</section>
-
+	
