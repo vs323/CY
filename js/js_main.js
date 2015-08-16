@@ -47,14 +47,75 @@ function backgroundResize(){
         path.css("background-size", imgW + "px " + imgH + "px");
     });
 }
+
+	function BackgroundClick(){
+	
+	  $('').click(function(){
+	  console.log("header");
+	  
+	  });
+	
+	}
 $(window).resize(backgroundResize);
 $(window).focus(backgroundResize);
 backgroundResize();
 
 
-
 $(document).ready(function(){
+
 	$('#menu_icon').click(function(){
 		$('.menu_overlay').toggleClass('menu_overlay_push');
+		$("#MobileMenuOverlay").hide();
+		if($(".menu_overlay_push").is(":visible")==true)
+		{
+			$("#MobileMenuOverlay").show();
+			$(".overlay").click(function(){
+				$("#MobileMenuOverlay").hide();
+				$(".menu_overlay, .menu_overlay_push").removeClass("menu_overlay_push");
+			});
+		}
+		else
+		{
+		$(".menu_overlay, .menu_overlay_push").removeClass("menu_overlay_push");
+		}
+		
 	});
+	
+		
+	function goToByScroll(id){
+      // Remove "link" from the ID
+    id = id.replace("link", "");
+      // Scroll
+    $('html,body').animate({
+        scrollTop: $("."+id).offset().top},
+        'slow');
+	}
+
+	$("#testimoniallink").click(function(e) { 
+	console.log("hi");
+      // Prevent a page reload when a link is pressed
+    e.preventDefault(); 
+      // Call the scroll function
+    goToByScroll($(this).attr("id"));    
+	$(".menu_overlay, .menu_overlay_push").removeClass("menu_overlay_push");
+});
+
+	
+	
+	function initialize() {
+	var myLatLng = new google.maps.LatLng(-35.2235276,149.1419802);
+	var mapProp = {
+    center:myLatLng,
+    zoom:14,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+	};	
+	
+	var map = new google.maps.Map(document.getElementById("map"), mapProp);
+	var marker = new google.maps.Marker({
+	map: map,
+	position: myLatLng
+	});
+	}
+	google.maps.event.addDomListener(window, 'load', initialize);
+
 });
