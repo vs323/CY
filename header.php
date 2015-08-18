@@ -42,11 +42,12 @@
 		</nav>
 		
 	 <div class="home_content">
-	 <h2>YC BUILDING</h2>
-	 <h3>Trusted Canberra Based Contractor & Builder</h3>
+	 <h2>YOUR DREAM HOUSE</h2>
+	 <p style="color:#fff;">Canberra Based Builder</p>
+	 <p style="color:#fff;">Only Trusted Tradies Are Used</p>
 	 </div>	
 		<div class="under_bk cevc">
-			<button>OUR WORK</button><button>GET QUOTES</button>
+			<button>CONTACT US</button><button>GET QUOTES</button>
 		</div>
 
 
