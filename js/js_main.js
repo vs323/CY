@@ -79,6 +79,10 @@ $(document).ready(function(){
 		$(".menu_overlay, .menu_overlay_push").removeClass("menu_overlay_push");
 		}
 		
+<<<<<<< HEAD
+	});
+=======
+<<<<<<< HEAD
 	});
 	
 		
@@ -128,6 +132,62 @@ $(document).ready(function(){
 	
 	
 	
+=======
+<<<<<<< HEAD
+	});
+>>>>>>> origin/master
+	
+		
+	function goToByScroll(id){
+      // Remove "link" from the ID
+    id = id.replace("link", "");
+      // Scroll
+    $('html,body').animate({
+        scrollTop: $("."+id).offset().top},
+        'slow');
+	}
+
+	$("#testimoniallink").click(function(e) { 
+	console.log("hi");
+      // Prevent a page reload when a link is pressed
+    e.preventDefault(); 
+      // Call the scroll function
+    goToByScroll($(this).attr("id"));    
+	$(".menu_overlay, .menu_overlay_push").removeClass("menu_overlay_push");
+});
+
+<<<<<<< HEAD
+
+	var windowsWidth = $(window).width();
+	console.log(windowsWidth);
+	if(windowsWidth > 700) {
+	$(".gl_items").colorbox({rel:'group1'});
+	$("#click").click(function(){ 
+	$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+			return false;
+	});
+	}
+	
+	$(window).resize(function(){
+	var windowsWidth = $(window).width();
+	if(windowsWidth > 700) {
+	$(".gl_items").colorbox({rel:'group1'});
+	$("#click").click(function(){ 
+	$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+			return false;
+	});
+	}
+	
+	})
+	
+	
+	
+	
+	
+	
+=======
+	
+	
 	function initialize() {
 	var myLatLng = new google.maps.LatLng(-35.2235276,149.1419802);
 	var mapProp = {
@@ -141,6 +201,35 @@ $(document).ready(function(){
 	map: map,
 	position: myLatLng
 	});
+=======
+<<<<<<< HEAD
+=======
+		
+>>>>>>> origin/master
+	});
+	
+>>>>>>> origin/master
+>>>>>>> origin/master
+	function initialize() {
+	var myLatLng = new google.maps.LatLng(-35.2235276,149.1419802);
+	var mapProp = {
+    center:myLatLng,
+    zoom:14,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+	};	
+	
+	var map = new google.maps.Map(document.getElementById("map"), mapProp);
+	var marker = new google.maps.Marker({
+	map: map,
+	position: myLatLng
+	});
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
+>>>>>>> origin/master
 	}
 	google.maps.event.addDomListener(window, 'load', initialize);
 
