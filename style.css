@@ -1,0 +1,221 @@
+/*
+Client: CY BUILDING PTY LTD
+Author: Josh SHEN & Alex LIU
+Author URI: http://www.www.com.au
+Description: Nothing yet
+Version: 1.0
+License: All plug-ins are with MIT License
+Tags: Dark cold colour scheme
+*/
+/*===========================================================
+											MAIN SETUPS
+===========================================================*/
+@import url("https://necolas.github.io/normalize.css/3.0.2/normalize.css");
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+/************************************
+		Colour Scheme Selection
+************************************/
+/************************************
+		Other Color Style
+************************************/
+/************************************
+		Font Style Setup
+************************************/
+/* line 40, sass/style.scss */
+* { font-family: "Helvetica Neue","Helvetica","Arial",sans-serif; }
+
+/*===========================================================
+											PREFIX & RESET
+===========================================================*/
+/************************************
+		CSS3 Prefix
+************************************/
+/* line 102, sass/style.scss */
+body { background: #F7FAF0; line-height: 1.42857; }
+
+/* line 106, sass/style.scss */
+*, *::before, *::after { box-sizing: border-box; }
+
+/************************************
+		Other Styles Setup
+************************************/
+/* line 113, sass/style.scss */
+button { border-radius: 5px; background: #91AA9D; border: 0; color: white; }
+
+/* line 119, sass/style.scss */
+.pointer { cursor: pointer; }
+
+/* line 122, sass/style.scss */
+.cevc { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
+
+/* line 126, sass/style.scss */
+.unlist_style { list-style: none; }
+
+/*===========================================================
+											HEADER SECTION
+===========================================================*/
+/************************************
+		Mobile
+************************************/
+/* background setup */
+/* line 135, sass/style.scss */
+.nav_container { background-repeat: no-repeat; /* custom background-position */ background-position: 50% 50%; /* ie8- graceful degradation */ background-position: 50% 50% \9  !important; }
+
+/* fullscreen setup */
+/* line 144, sass/style.scss */
+html, body { height: 100%; min-width: 320px; }
+
+/* line 148, sass/style.scss */
+.fullscreen { width: 100%; min-height: 100%; }
+
+/* line 152, sass/style.scss */
+.not-fullscreen, .fullscreen.not-overflow { height: 100%; overflow: hidden; }
+
+/* line 158, sass/style.scss */
+.nav_container { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; -webkit-box-align: flex-end; -webkit-align-items: flex-end; -ms-flex-align: flex-end; align-items: flex-end; }
+/* line 161, sass/style.scss */
+.nav_container h1, .nav_container h2, .nav_container h3, .nav_container h4, .nav_container i { color: #fff; margin-bottom: 0; }
+
+/* line 167, sass/style.scss */
+.tool_bar { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; -webkit-box-pack: space-between; -webkit-justify-content: space-between; -ms-flex-pack: space-between; justify-content: space-between; width: 100%; background-color: rgba(0, 0, 0, 0.8); min-width: 320px; height: 60px; position: fixed; z-index: 200; }
+/* line 176, sass/style.scss */
+.tool_bar i { font-size: 1.75em; margin-right: 15px; }
+/* line 180, sass/style.scss */
+.tool_bar img { height: 30px; margin-left: 5%; }
+
+/* line 186, sass/style.scss */
+.menu_overlay { position: fixed; right: -1000px; top: 60px; z-index: 200; width: 61.8%; background: rgba(0, 0, 0, 0.8); height: 100%; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease; }
+/* line 195, sass/style.scss */
+.menu_overlay ul { white-space: nowrap; display: block; font-size: 1em; font-weight: 500; margin: 0; padding: 25px; }
+/* line 202, sass/style.scss */
+.menu_overlay ul li { height: 50px; padding: 15px 0 15px 0; border-top: 1px solid #c9c9c9; }
+/* line 206, sass/style.scss */
+.menu_overlay ul li:first-child { border: none; }
+/* line 209, sass/style.scss */
+.menu_overlay ul li a { text-decoration: none; color: #D1DBBD; font-weight: 600; }
+/* line 213, sass/style.scss */
+.menu_overlay ul li a:active { color: #F7FAF0; }
+
+/* line 218, sass/style.scss */
+.menu_overlay_push { right: 0; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease; }
+
+/* line 222, sass/style.scss */
+.home_content { position: absolute; top: 35%; left: 10%; width: 100%; max-width: 400px; min-width: 320px; }
+
+/* line 232, sass/style.scss */
+.under_bk { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; -webkit-box-pack: space-around; -webkit-justify-content: space-around; -ms-flex-pack: space-around; justify-content: space-around; background: #193441; width: 100%; height: 100px; font-weight: 600; }
+/* line 240, sass/style.scss */
+.under_bk button { width: 150px; height: 50px; }
+/* line 244, sass/style.scss */
+.under_bk button:nth-child(2) { background: none; border: 2px solid #fff; }
+
+.overlay {
+  display: none;
+  z-index: 100;
+  position: fixed;
+  background-color: transparent;  
+  width: 100%;
+  height: 100%;
+}
+
+.overlay_Modal{
+  display: none;
+  z-index: 100;
+  position: fixed;
+  background: #5c5c5c;
+  opacity: .80;
+  width: 100%;
+  height: 100%;
+}
+
+/*===========================================================
+											2ND PAGE SECTION
+===========================================================*/
+/************************************
+		Mobile
+************************************/
+/* line 256, sass/style.scss */
+.second_page { display: block; width: 100%; padding: 10px 5% 10px 5%; text-align: justify; }
+/* line 261, sass/style.scss */
+.second_page h2 { margin-bottom: 10px; }
+
+/* line 263, sass/style.scss */
+.little_line { height: 2px; width: 75px; border: 2px solid #91AA9D; margin-bottom: 10px; }
+
+/*===========================================================
+											3ND PAGE SECTION - GALLERY
+===========================================================*/
+/************************************
+		Mobile
+************************************/
+/* line 271, sass/style.scss */
+.gl_head { display: block; width: 100%; height: 100px; background: #222222; padding: 10px 5% 10px 5%; }
+/* line 277, sass/style.scss */
+.gl_head h2 { color: #fff; margin-bottom: 10px; }
+
+/* line 279, sass/style.scss */
+.gl_container { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; background: #222222; padding: 15px 5% 15px 5%; margin: 0; width: 100%; }
+
+/* line 287, sass/style.scss */
+.gl_items { width: 100%; margin: 10px auto; }
+/* line 290, sass/style.scss */
+.gl_items img { max-width: 100%; border: 5px solid #F7FAF0; }
+/* line 294, sass/style.scss */
+.gl_items .gl_subtitle { display: block; width: 100%; color: #fff; font-size: 0.65em; padding-right: 10px; text-align: right; }
+
+/*===========================================================
+											4ND PAGE SECTION - TESTIMONIALS
+===========================================================*/
+/************************************
+		Mobile
+************************************/
+/* line 311, sass/style.scss */
+.test_head { background: #F7FAF0; display: block; width: 100%; height: 100px; padding: 10px 5% 10px 5%; }
+
+/* line 318, sass/style.scss */
+.testimonial_container { display: block; position: relative; border: 1px solid #e9e9e9; border-radius: 2px; width: 90%; height: 100%; margin: 10px auto; padding: 15px; min-width: 320px; margin-bottom: 70px; }
+/* line 329, sass/style.scss */
+.testimonial_container .potrait { position: absolute; bottom: -50px; left: 20px; }
+/* line 333, sass/style.scss */
+.testimonial_container .potrait img { width: 70px; border-radius: 100%; }
+/* line 337, sass/style.scss */
+.testimonial_container .potrait .t_name { position: absolute; bottom: 20px; left: 100px; white-space: nowrap; font-weight: 600; }
+
+/*===========================================================
+											4ND PAGE SECTION - TESTIMONIALS
+===========================================================*/
+/************************************
+		Mobile
+************************************/
+/* line 352, sass/style.scss */
+.form_container { background: #222222; color: #fff; }
+/* line 355, sass/style.scss */
+.form_container .input_all { display: block; margin-bottom: 20px; }
+/* line 359, sass/style.scss */
+.form_container form { margin: 0 5%; }
+/* line 361, sass/style.scss */
+.form_container form label { width: 20px; }
+
+
+
+/*===========================================================
+											6TH PAGE SECTION - Find Us
+===========================================================*/
+
+#map {
+        height: 380px;
+		width:500px;
+      }
+
+
+
+
+/************************************
+		Mobile
+************************************/
+
+/*===========================================================
+											MEDIA QUERY
+===========================================================*/
+@media screen and (max-width: 400px) { /* line 373, sass/style.scss */
+  .background_blur { background-size: 150%; } }
