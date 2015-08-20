@@ -30,7 +30,7 @@ $dark_color: #193441;				//Navy blue;
 /************************************
 		Other Color Style
 ************************************/
-$href: #91AA9D;
+$href: #fff;
 $a_hover: #91AA9D;
 
 /************************************
@@ -116,6 +116,10 @@ button {
   border: 0;
   color: white;
 }
+a {
+	text-decoration:none;
+	color:$href;
+}
 .pointer {
 	cursor:pointer;
 }
@@ -165,21 +169,31 @@ html, body {
 }
 
 .tool_bar {
-	@include display-flex();
-	@include justify-content(space-between);
 	width:100%;
 	background-color: rgba(0,0,0,0.8);
 	min-width:320px;
 	height:60px;
 	position:fixed;
 	z-index:200;
+	.icon_menu {
+		margin:auto 0;
+		margin-right: 10%;
+	}
 	i {
 		font-size:1.75em;
-		margin-right:15px;
 	}
-	img {
-		height:30px;
-		margin-left:5%;
+	.fix_test {
+		@include display-flex();
+		@include justify-content(space-between);
+		width:100%;
+		max-width:1024px;
+		height:60px;
+		margin:0 auto;
+		img {
+			height:35px;
+			margin:auto 0;
+			margin-left:20px;
+		}
 	}
 }
 
@@ -219,20 +233,23 @@ html, body {
 	right:0;
 	@include transition(all 1s ease);
 }
+.home_content_container {
+	width:100%;	
+}
 .home_content {
 	position:absolute;
 	top:35%;
 	left:10%;
 	width:100%;
-	max-width:400px;
 	min-width:320px;
-	h2 {
+	max-width:1024px;
+	h1 {
 		margin-bottom:22px;
 	}
 	p {
 		margin:0;
 		padding:0;
-		font-size:0.75em;
+		font-size:0.95em;
 	}
 }
 
@@ -259,11 +276,47 @@ html, body {
   display: none;
   z-index: 100;
   position: fixed;
-  background-color: rgba(0,0,0,0.8);  
+  background-color: rgba(0,0,0,0.3);  
   width: 100%;
   height: 100%;
 }
-
+/************************************
+		Desktop
+************************************/
+.nav_bar {
+	display:none;
+	// margin-right:5%;
+	ul {
+		list-style:none;
+		display:inline-block;
+		white-space:nowrap;
+		padding-top:15px;
+		padding-left:0;
+		li {
+			float:left;
+			font-size:0.85em;
+			padding:0 13px;
+			a:hover { color: $a_hover; }
+		}
+	}
+}
+.d_under_bk {
+	display:none;
+	width:100%;
+	height:100px;
+	font-weight:600;
+	button {
+		margin-top:30px;
+		margin-right:20px;
+		width:115px;
+		height:40px;
+		font-size:0.85em;
+	}
+	& button:nth-child(2) {
+		background:none;
+		border:2px solid #fff;
+	}
+}
 /*===========================================================
 											2ND PAGE SECTION
 ===========================================================*/
@@ -305,8 +358,9 @@ html, body {
 	width:100%;
 	margin: 10px auto;
 	img {
-		max-width:100%;
-			border: 5px solid $light_color;
+		width:100%;
+		height:auto;
+		border: 5px solid $light_color;
 	}
 	.gl_subtitle {
 		display:block;
@@ -386,6 +440,12 @@ html, body {
 /*===========================================================
 											MEDIA QUERY
 ===========================================================*/
-@media screen and (max-width: 400px) {
-	.background_blur { 	background-size:150%; }
+@media screen and (min-width: 750px) {
+	.menu_overlay, .under_bk { display:none; }
+	.icon_menu {
+		display:none;
+	}
+	.nav_bar, .d_under_bk {
+		display:block;
+	}
 }

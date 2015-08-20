@@ -26,8 +26,19 @@
 	<section class="nav_container background fullscreen no-overflow" style="background-image:url('images/demo/house1_ex.jpg');" data-img-width="1300" data-img-height="867">
 		
 		<div class="tool_bar cevc pointer">
-			<img src="images/demo/logo.png" alt="logo" />
-			<div><i class="fa fa-bars" id="menu_icon"></i></div>
+			<div class="fix_test">
+				<img src="images/demo/logo_white.png" alt="logo" />
+				<div class="icon_menu"><i class="fa fa-bars" id="menu_icon"></i></div>
+				<div class="nav_bar">
+					<ul class="unlist_style">
+					<li><a href="#homepage">Home</a></li>
+					<li><a href="#">Who We Are</a></li>
+					<li><a href="#">Our Work</a></li>
+					<li><a id="testimoniallink" href="#">Testimonial</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+				</div>
+				</div>
 		</div>
 
 		<!-- Navigation Menu -->
@@ -40,14 +51,19 @@
 				<li><a href="#">Contact Us</a></li>
 			</ul>
 		</nav>
-		
-	 <div class="home_content">
-	 <h2>YOUR DREAM HOUSE</h2>
-	 <p style="color:#fff;">Canberra Based Builder</p>
-	 <p style="color:#fff;">Only Trusted Tradies Are Used</p>
-	 </div>	
-		<div class="under_bk cevc">
-			<button>CONTACT US</button><button>GET QUOTES</button>
+		<div class="home_content_container">
+			 <div class="home_content">
+				 <h1>YOUR DREAM HOUSE</h1>
+				 <p style="color:#fff;">Listen better. Plan better. Build better.</p>
+				 <p style="color:#fff;">We are Canberra based & trustworthy building company. </p>
+				 
+				 <div class="d_under_bk">
+				 	<button>CONTACT US</button><button>GET QUOTES</button>
+				 </div>
+			 </div>	
+				<div class="under_bk cevc">
+					<button>CONTACT US</button><button>GET QUOTES</button>
+				</div>
 		</div>
 
 
