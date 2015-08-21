@@ -159,7 +159,10 @@ html, body { height: 100%; min-width: 320px; }
 /* line 347, sass/style.scss */
 .container_box { max-width: 1024px; margin: 0 auto; }
 
-/* line 352, sass/style.scss */
+/* line 351, sass/style.scss */
+.container_box_dk { max-width: 1024px; margin: 0 auto; color: #fff; padding: 10px 5% 10px 0; }
+
+/* line 357, sass/style.scss */
 .little_line { height: 2px; width: 75px; border: 2px solid #91AA9D; margin-bottom: 10px; }
 
 /*===========================================================
@@ -168,22 +171,22 @@ html, body { height: 100%; min-width: 320px; }
 /************************************
 		Mobile
 ************************************/
-/* line 360, sass/style.scss */
-.gallery { background: #222222; }
+/* line 365, sass/style.scss */
+.gallery { background: #222222; padding: 10px 5% 10px 5%; padding-bottom: 40px; }
 
-/* line 363, sass/style.scss */
-.gl_head { display: block; width: 100%; height: 100px; background: #222222; padding: 10px 5% 10px 0; }
-/* line 369, sass/style.scss */
+/* line 370, sass/style.scss */
+.gl_head { display: block; width: 100%; height: 100px; background: #222222; padding: 10px 5% 10px 5%; }
+/* line 376, sass/style.scss */
 .gl_head h2 { color: #fff; margin-bottom: 10px; }
 
-/* line 371, sass/style.scss */
+/* line 378, sass/style.scss */
 .gl_container { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; background: #222222; padding: 15px 5% 15px 5%; margin: 0; width: 100%; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease; }
 
-/* line 380, sass/style.scss */
+/* line 387, sass/style.scss */
 .gl_items { width: 100%; margin: 10px auto; }
-/* line 383, sass/style.scss */
+/* line 390, sass/style.scss */
 .gl_items img { width: 100%; height: auto; border: 5px solid #F7FAF0; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease; }
-/* line 389, sass/style.scss */
+/* line 396, sass/style.scss */
 .gl_items .gl_subtitle { display: block; width: 100%; color: #fff; font-size: 0.65em; padding-right: 10px; text-align: right; }
 
 /*===========================================================
@@ -192,46 +195,75 @@ html, body { height: 100%; min-width: 320px; }
 /************************************
 		Mobile
 ************************************/
-/* line 406, sass/style.scss */
-.test_head { background: #F7FAF0; display: block; width: 100%; height: 100px; padding: 10px 5% 10px 5%; }
-
 /* line 413, sass/style.scss */
-.testimonial_container { display: block; position: relative; border: 1px solid #e9e9e9; border-radius: 2px; width: 90%; height: 100%; margin: 10px auto; padding: 15px; min-width: 320px; margin-bottom: 70px; }
+.testimonial { padding: 10px 5% 10px 5%; }
+
+/* line 416, sass/style.scss */
+.test_head { background: #F7FAF0; display: block; width: 100%; height: 100px; margin: 0 auto; max-width: 1024px; }
+
 /* line 424, sass/style.scss */
+.testimonial_container { display: block; position: relative; border: 1px solid #e9e9e9; border-radius: 2px; width: 90%; height: 100%; margin: 10px auto; padding: 15px; min-width: 320px; margin-bottom: 70px; }
+/* line 435, sass/style.scss */
 .testimonial_container .potrait { position: absolute; bottom: -50px; left: 20px; }
-/* line 428, sass/style.scss */
+/* line 439, sass/style.scss */
 .testimonial_container .potrait img { width: 70px; border-radius: 100%; }
-/* line 432, sass/style.scss */
+/* line 443, sass/style.scss */
 .testimonial_container .potrait .t_name { position: absolute; bottom: 20px; left: 100px; white-space: nowrap; font-weight: 600; }
 
 /*===========================================================
-											4ND PAGE SECTION - TESTIMONIALS
+											5TH PAGE SECTION - Contact Us
 ===========================================================*/
 /************************************
 		Mobile
 ************************************/
-/* line 447, sass/style.scss */
+/* line 458, sass/style.scss */
 .form_container { background: #222222; color: #fff; }
-/* line 450, sass/style.scss */
+/* line 461, sass/style.scss */
 .form_container .input_all { display: block; margin-bottom: 20px; }
-/* line 454, sass/style.scss */
+/* line 465, sass/style.scss */
 .form_container form { margin: 0 5%; }
-/* line 456, sass/style.scss */
+/* line 467, sass/style.scss */
 .form_container form label { width: 20px; }
+
+/*===========================================================
+											Footer
+===========================================================*/
+/************************************
+		Mobile
+************************************/
+/* line 480, sass/style.scss */
+.bottom_footer { background: #222; border-top: 1px solid #333; padding: 20px 0; }
+/* line 484, sass/style.scss */
+.bottom_footer .copyright { display: block; color: #777; text-align: center; font-size: 0.85em; }
+/* line 489, sass/style.scss */
+.bottom_footer .copyright span { color: #fff; }
+/* line 493, sass/style.scss */
+.bottom_footer .footer_menu { display: block; display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
+/* line 497, sass/style.scss */
+.bottom_footer .footer_menu ul { list-style: none; margin: 10px auto; }
+/* line 500, sass/style.scss */
+.bottom_footer .footer_menu ul li { float: left; font-size: 0.85em; padding: 0 13px; }
+/* line 504, sass/style.scss */
+.bottom_footer .footer_menu ul li a:hover { color: #91AA9D; }
 
 /*===========================================================
 											MEDIA QUERY
 ===========================================================*/
-@media screen and (min-width: 750px) { /* line 468, sass/style.scss */
+@media screen and (min-width: 750px) { /* line 514, sass/style.scss */
   .menu_overlay, .under_bk { display: none; }
-  /* line 469, sass/style.scss */
+  /* line 515, sass/style.scss */
   .icon_menu { display: none; }
-  /* line 472, sass/style.scss */
+  /* line 518, sass/style.scss */
   .nav_bar, .d_under_bk { display: block; }
   /************************************ 		Gallery - Desktop ***********************************/
-  /* line 479, sass/style.scss */
+  /* line 525, sass/style.scss */
   .gl_head { max-width: 1024px; margin: 0 auto; }
-  /* line 483, sass/style.scss */
+  /* line 529, sass/style.scss */
   .gl_container { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; flex-flow: row wrap; -webkit-flex: row wrap; -moz-box: row wrap; -webkit-box-pack: space-around; -webkit-justify-content: space-around; -ms-flex-pack: space-around; justify-content: space-around; padding: 0; max-width: 1024px; margin: 0 auto; }
-  /* line 490, sass/style.scss */
-  .gl_container .gl_items { width: 320px; margin: 0; padding: 0; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease; } }
+  /* line 536, sass/style.scss */
+  .gl_container .gl_items { width: 320px; margin: 0; padding: 0; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease; }
+  /************************************ 		Testimonials - Mobile ***********************************/
+  /* line 547, sass/style.scss */
+  .desktop_testi_con { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; flex-flow: row wrap; -webkit-flex: row wrap; -moz-box: row wrap; -webkit-box-pack: space-around; -webkit-justify-content: space-around; -ms-flex-pack: space-around; justify-content: space-around; max-width: 1024px; margin: 0 auto; }
+  /* line 553, sass/style.scss */
+  .desktop_testi_con .testimonial_container { width: 45%; } }

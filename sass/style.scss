@@ -348,7 +348,12 @@ html, body {
 	max-width:1024px;
 	margin:0 auto;
 }
-
+.container_box_dk {
+	max-width:1024px;
+	margin:0 auto;
+	color: #fff;
+	padding:10px 5% 10px 0;
+}
 .little_line { height:2px; width: 75px; border: 2px solid $medium_color; margin-bottom: 10px; }
 
 /*===========================================================
@@ -359,13 +364,15 @@ html, body {
 ************************************/
 .gallery {
 	background:#222222;
+	padding:10px 5% 10px 5%;
+	padding-bottom:40px;
 }
 .gl_head {
 	display:block;
 	width:100%;
 	height:100px;
 	background:#222222;
-	padding:10px 5% 10px 0;
+	padding:10px 5% 10px 5%;
 	h2 { color: #fff; margin-bottom:10px; }
 }
 .gl_container {
@@ -403,12 +410,16 @@ html, body {
 /************************************
 		Mobile
 ************************************/
+	.testimonial {
+			padding:10px 5% 10px 5%;
+	}
 .test_head {
 	background:$light_color;
 	display:block;
 	width:100%;
 	height:100px;
-	padding:10px 5% 10px 5%;
+	margin:0 auto;
+	max-width:1024px;
 }
 .testimonial_container {
 	display:block;
@@ -439,7 +450,7 @@ html, body {
 	}
 }
 /*===========================================================
-											4ND PAGE SECTION - TESTIMONIALS
+											5TH PAGE SECTION - Contact Us
 ===========================================================*/
 /************************************
 		Mobile
@@ -460,6 +471,41 @@ html, body {
 }
 
 
+/*===========================================================
+											Footer
+===========================================================*/
+/************************************
+		Mobile
+************************************/
+.bottom_footer {
+	background: #222;
+	border-top: 1px solid #333;
+	padding:20px 0;
+	.copyright {
+		display:block;
+		color:#777;
+		text-align: center;
+		font-size:0.85em;
+		span {
+			color:#fff;
+		}
+	}
+	.footer_menu {
+		display:block;
+		@include display-flex();
+		@include justify-content(center);
+			ul {
+			list-style:none;
+			margin:10px auto;
+				li {
+					float:left;
+					font-size:0.85em;
+					padding:0 13px;
+					a:hover { color: $a_hover; }
+				}
+		}
+	}
+}
 
 /*===========================================================
 											MEDIA QUERY
@@ -492,6 +538,20 @@ html, body {
 			margin:0;
 			padding:0;
 			@include transition(all 1s ease);
+		}
+	}
+/************************************
+		Testimonials - Mobile
+************************************/
+
+	.desktop_testi_con {
+	@include display-flex();
+	@include flex-flow(row wrap);
+	@include justify-content(space-around);
+	max-width:1024px;
+	margin:0 auto; 
+	.testimonial_container {
+			width:45%;
 		}
 	}
 }

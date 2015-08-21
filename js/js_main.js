@@ -1,7 +1,7 @@
 
 /* fix vertical when not overflow
 call fullscreenFix() if .fullscreen content changes */
-function fullscreenFix(){
+/*function fullscreenFix(){
     var h = $('body').height();
     // set .fullscreen height
     $(".content-b").each(function(i){
@@ -11,7 +11,7 @@ function fullscreenFix(){
     });
 }
 $(window).resize(fullscreenFix);
-fullscreenFix();
+fullscreenFix();*/
 
 /* resize background images */
 function backgroundResize(){
@@ -48,21 +48,13 @@ function backgroundResize(){
     });
 }
 
-	function BackgroundClick(){
-	
-	  $('').click(function(){
-	  console.log("header");
-	  
-	  });
-	
-	}
 $(window).resize(backgroundResize);
 $(window).focus(backgroundResize);
-backgroundResize();
+
 
 
 $(document).ready(function(){
-	
+	backgroundResize();
 	
 
 	$('#menu_icon').click(function(){

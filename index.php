@@ -13,7 +13,7 @@
 <!-- Page 3 -->
 <div class="overlay_Modal" id="MenuOverlayModal"></div>
 <section class="gallery">
-		<div class="gl_head">
+		<div class="container_box_dk">
 			<h2>OUR WORK</h2>
 			<div class="little_line"></div>
 		</div>
@@ -32,26 +32,46 @@
 			<h2>Testimonials</h2>
 			<div class="little_line"></div>
 		</div>
-		<div class="testimonial_container">
-			<div>
-				<p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. This is required when, for example, the final text is not yet available.</p>
-			</div>
-			<div class="potrait">
-				<img src="images/demo/1.jpg" alt="potrait" /><div class="t_name">Jason Statham</div>
-			</div>
-		</div>
+		<div class="desktop_testi_con">
+				<div class="testimonial_container">
+					<div>
+						<p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. This is required when, for example, the final text is not yet available.</p>
+					</div>
+					<div class="potrait">
+						<img src="images/demo/1.jpg" alt="potrait" /><div class="t_name">Jason Statham</div>
+					</div>
+				</div>
 
-		<div class="testimonial_container">
-			<div>
-				<p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. This is required when, for example, the final text is not yet available.</p>
-			</div>
-			<div class="potrait">
-				<img src="images/demo/2.jpeg" alt="potrait" /><div class="t_name">Scarlett Johan</div>
-			</div>
+				<div class="testimonial_container">
+					<div>
+						<p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. This is required when, for example, the final text is not yet available.</p>
+					</div>
+					<div class="potrait">
+						<img src="images/demo/2.jpeg" alt="potrait" /><div class="t_name">Scarlett Johan</div>
+					</div>
+				</div>
+
+				<div class="testimonial_container">
+					<div>
+						<p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. This is required when, for example, the final text is not yet available.</p>
+					</div>
+					<div class="potrait">
+						<img src="images/demo/3.jpg" alt="potrait" /><div class="t_name">Robter Downey Jr.</div>
+					</div>
+				</div>
+
+				<div class="testimonial_container">
+					<div>
+						<p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. This is required when, for example, the final text is not yet available.</p>
+					</div>
+					<div class="potrait">
+						<img src="images/demo/4.jpg" alt="potrait" /><div class="t_name">Anne Hathaway</div>
+					</div>
+				</div>
 		</div>
 </section>
 <!-- Page 5 -->
-<section class="contact_us">
+<!-- <section class="contact_us">
 <div class="ContactForm">
 <h2>Enquiry Form</h2>
 
@@ -67,7 +87,7 @@
 <input type="text"><br>
 
 <label>Enquiry Description</label>
-<input type="text"><br>
+<textarea></textarea><br>
 
 <input type="submit" value="Send">
 <input type="reset" value="Reset">
@@ -77,7 +97,7 @@
 <div> Your message has been successfully sent. </div>
 </section>
 
-<!-- Page 6 -->
+
 <section class="find_us">
 <div class="address">
 
@@ -89,7 +109,7 @@ Email: ycbuilding@gmail.com <br>
 </div>
 
 <div id="map"></div>
-</section>
+</section> -->
 
 <?php 
 	include('footer.php'); 
