@@ -53,19 +53,20 @@
 		</nav>
 		<div class="home_content_container">
 			 <div class="home_content">
-				 <h1>YOUR DREAM HOUSE</h1>
-				 <p style="color:#fff;">Listen better. Plan better. Build better.</p>
-				 <p style="color:#fff;">We are Canberra based & trustworthy building company. </p>
-				 
-				 <div class="d_under_bk">
-				 	<button>CONTACT US</button><button>GET QUOTES</button>
-				 </div>
+			 		<div class="mid_content">
+						 <h1>YOUR DREAM HOUSE</h1>
+						 <p style="color:#fff;">Listen better. Plan better. Build better.</p>
+						 <p style="color:#fff;">We are Canberra based & trustworthy building company. </p>
+				 	</div>
+					 <div class="d_under_bk">
+					 	<button>CONTACT US</button><button>GET QUOTES</button>
+					 </div>
 			 </div>	
-				<div class="under_bk cevc">
-					<button>CONTACT US</button><button>GET QUOTES</button>
-				</div>
 		</div>
-
+		<!-- HOME page Bottom Part -->
+		<div class="under_bk cevc">
+			<button>CONTACT US</button><button>GET QUOTES</button>
+		</div>
 
 	</section>
 	

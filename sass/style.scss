@@ -21,7 +21,7 @@ Tags: Dark cold colour scheme
 ************************************/
 $light_color: #F7FAF0;			//Touching Grey;
 $second_color: #D1DBBD;			//Grey Yellow;
-$medium_color: #91AA9D;			//Light grey mixing with blue;
+$medium_color: #91AA9D;			//Light grey mixing with blue;  RGB(145 170 157) www.color-hex.com
 $fourth_color: #3E606F;			//Grey blue;
 $dark_color: #193441;				//Navy blue;
 
@@ -160,8 +160,8 @@ html, body {
 }
 
 .nav_container {
-	@include display-flex();
-	@include align-items(flex-end);
+	// @include display-flex();
+	// @include align-items(flex-end);
 	h1, h2, h3, h4, h5, i {
 		color:#fff;
 		margin-bottom:0;
@@ -192,7 +192,7 @@ html, body {
 		img {
 			height:35px;
 			margin:auto 0;
-			margin-left:20px;
+			margin-left:5%;
 		}
 	}
 }
@@ -235,14 +235,15 @@ html, body {
 }
 .home_content_container {
 	width:100%;	
+	min-width:320px;
+	position:absolute;
+	padding-left:5%;
+	top:35%;
 }
 .home_content {
-	position:absolute;
-	top:35%;
-	left:10%;
 	width:100%;
-	min-width:320px;
 	max-width:1024px;
+	margin:0 auto;
 	h1 {
 		margin-bottom:22px;
 	}
@@ -250,14 +251,16 @@ html, body {
 		margin:0;
 		padding:0;
 		font-size:0.95em;
+		word-spacing: wrap;
 	}
 }
 
 
 .under_bk {
-	@include display-flex();
 	@include justify-content(space-around);
-	
+	@include align-self(flex-end);
+	position:absolute;
+	bottom:0;
 	background:$dark_color;
 	width:100%;
 	height:100px;
@@ -311,10 +314,16 @@ html, body {
 		width:115px;
 		height:40px;
 		font-size:0.85em;
+		@include transition(all 0.5s ease);
 	}
 	& button:nth-child(2) {
 		background:none;
 		border:2px solid #fff;
+		&:hover {
+			background:#fff;
+			color:#000;
+			@include transition(all 0.5s ease);
+		}
 	}
 }
 /*===========================================================
