@@ -259,11 +259,11 @@ html, body { height: 100%; min-width: 320px; }
   /* line 525, sass/style.scss */
   .gl_head { max-width: 1024px; margin: 0 auto; }
   /* line 529, sass/style.scss */
-  .gl_container { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; flex-flow: row wrap; -webkit-flex: row wrap; -moz-box: row wrap; -webkit-box-pack: space-around; -webkit-justify-content: space-around; -ms-flex-pack: space-around; justify-content: space-around; padding: 0; max-width: 1024px; margin: 0 auto; }
+  .gl_container { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; flex-flow: row wrap; -webkit-flex-flow: row wrap; -moz-box: row wrap; -webkit-box-pack: space-around; -webkit-justify-content: space-around; -ms-flex-pack: space-around; justify-content: space-around; padding: 0; max-width: 1024px; margin: 0 auto; }
   /* line 536, sass/style.scss */
   .gl_container .gl_items { width: 320px; margin: 0; padding: 0; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease; }
   /************************************ 		Testimonials - Mobile ***********************************/
   /* line 547, sass/style.scss */
-  .desktop_testi_con { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; flex-flow: row wrap; -webkit-flex: row wrap; -moz-box: row wrap; -webkit-box-pack: space-around; -webkit-justify-content: space-around; -ms-flex-pack: space-around; justify-content: space-around; max-width: 1024px; margin: 0 auto; }
+  .desktop_testi_con { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; flex-flow: row wrap; -webkit-flex-flow: row wrap; -moz-box: row wrap; -webkit-box-pack: space-around; -webkit-justify-content: space-around; -ms-flex-pack: space-around; justify-content: space-around; max-width: 1024px; margin: 0 auto; }
   /* line 553, sass/style.scss */
   .desktop_testi_con .testimonial_container { width: 45%; } }

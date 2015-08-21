@@ -67,7 +67,7 @@ $a_hover: #91AA9D;
 }
 @mixin flex-flow($type){
 						flex-flow:$type;
-				-webkit-flex: $type;
+		-webkit-flex-flow: $type;
 							-moz-box:$type;
 	}
 @mixin justify-content($type){
