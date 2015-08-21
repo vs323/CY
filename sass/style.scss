@@ -65,7 +65,11 @@ $a_hover: #91AA9D;
 	    -ms-flex-align: $type;
 	        align-items: $type;
 }
-
+@mixin flex-flow($type){
+						flex-flow:$type;
+				-webkit-flex: $type;
+							-moz-box:$type;
+	}
 @mixin justify-content($type){
 	    	-webkit-box-pack: $type;
  -webkit-justify-content: $type;
@@ -339,6 +343,12 @@ html, body {
 	text-align: justify;
 	h2 { margin-bottom:10px; }
 }
+
+.container_box {
+	max-width:1024px;
+	margin:0 auto;
+}
+
 .little_line { height:2px; width: 75px; border: 2px solid $medium_color; margin-bottom: 10px; }
 
 /*===========================================================
@@ -347,21 +357,25 @@ html, body {
 /************************************
 		Mobile
 ************************************/
+.gallery {
+	background:#222222;
+}
 .gl_head {
 	display:block;
 	width:100%;
 	height:100px;
 	background:#222222;
-	padding:10px 5% 10px 5%;
+	padding:10px 5% 10px 0;
 	h2 { color: #fff; margin-bottom:10px; }
 }
 .gl_container {
 	@include display-flex();
 	@include flex-direction (column);
-		background:#222222;
+	background:#222222;
 	padding: 15px 5% 15px 5%;
 	margin:0;
 	width:100%;
+	@include transition(all 1s ease);
 }
 .gl_items {
 	width:100%;
@@ -370,6 +384,7 @@ html, body {
 		width:100%;
 		height:auto;
 		border: 5px solid $light_color;
+		@include transition(all 1s ease);
 	}
 	.gl_subtitle {
 		display:block;
@@ -456,5 +471,27 @@ html, body {
 	}
 	.nav_bar, .d_under_bk {
 		display:block;
+	}
+
+/************************************
+		Gallery - Desktop
+************************************/
+	.gl_head {
+		max-width:1024px;
+		margin:0 auto;
+	}
+	.gl_container {
+	@include display-flex();
+	@include flex-flow(row wrap);
+	@include justify-content(space-around);
+	padding:0;
+	max-width:1024px;
+	margin:0 auto;
+		.gl_items {
+			width:320px;
+			margin:0;
+			padding:0;
+			@include transition(all 1s ease);
+		}
 	}
 }
