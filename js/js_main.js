@@ -75,23 +75,42 @@ $(document).ready(function(){
 		
 	});
 	
-		
-	function goToByScroll(id){
-      // Remove "link" from the ID
+	function goToByScrollHome(id){
+    // Remove "link" from the ID
     id = id.replace("link", "");
       // Scroll
     $('html,body').animate({
         scrollTop: $("."+id).offset().top},
         'slow');
+	}	
+	
+	function goToByScroll(id){
+      // Remove "link" from the ID
+    id = id.replace("link", "");
+      // Scroll
+    $('html,body').animate({
+        scrollTop: $("."+id).offset().top-59},
+        'slow');
 	}
 
-	$("#testimoniallink").click(function(e) { 
+	$(".menu_overlay > ul > li > a").click(function(e) { 
 	console.log("hi");
       // Prevent a page reload when a link is pressed
     e.preventDefault(); 
       // Call the scroll function
     goToByScroll($(this).attr("id"));    
 	$(".menu_overlay, .menu_overlay_push").removeClass("menu_overlay_push");
+	$("#MobileMenuOverlay").hide();
+});
+
+	$(".nav_bar > ul > li > a").click(function(e) { 
+	console.log("hi");
+      // Prevent a page reload when a link is pressed
+    e.preventDefault(); 
+      // Call the scroll function
+    goToByScroll($(this).attr("id"));    
+	$(".menu_overlay, .menu_overlay_push").removeClass("menu_overlay_push");
+	$("#MobileMenuOverlay").hide();
 });
 
 

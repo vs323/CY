@@ -18,12 +18,12 @@
 			<div class="little_line"></div>
 		</div>
 		<div class="gl_container">
-			<div class="gl_items" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
-			<div class="gl_items" href="images/demo/gl/House1-600x300.jpg"><img src="images/demo/gl/House1-600x300.jpg" alt="b" /><span class="gl_subtitle">2 Champton St, Deakin, ACT</span></div>
-			<div class="gl_items" href="images/demo/gl/house4-600x300.jpg"><img src="images/demo/gl/house4-600x300.jpg" alt="c" /><span class="gl_subtitle">3 George St, Lawson, ACT</span></div>
-			<div class="gl_items" href="images/demo/gl/interior5-600x300.jpg"><img src="images/demo/gl/interior5-600x300.jpg" alt="d" /><span class="gl_subtitle">43 Johnston Ave, Crace, ACT</span></div>
-			<div class="gl_items" href="images/demo/gl/slider01-600x300.jpg"><img src="images/demo/gl/slider01-600x300.jpg" alt="e" /><span class="gl_subtitle">29 Melbourn Ave, Deakin, ACT</span></div>
-			<div class="gl_items" href="images/demo/gl/slider02-600x300.jpg"><img src="images/demo/gl/slider02-600x300.jpg" alt="f" /><span class="gl_subtitle">22 Lincon Cr, Franklin, ACT</span></div>
+			<div class="gl_items pointer" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
+			<div class="gl_items pointer" href="images/demo/gl/House1-600x300.jpg"><img src="images/demo/gl/House1-600x300.jpg" alt="b" /><span class="gl_subtitle">2 Champton St, Deakin, ACT</span></div>
+			<div class="gl_items pointer" href="images/demo/gl/house4-600x300.jpg"><img src="images/demo/gl/house4-600x300.jpg" alt="c" /><span class="gl_subtitle">3 George St, Lawson, ACT</span></div>
+			<div class="gl_items pointer" href="images/demo/gl/interior5-600x300.jpg"><img src="images/demo/gl/interior5-600x300.jpg" alt="d" /><span class="gl_subtitle">43 Johnston Ave, Crace, ACT</span></div>
+			<div class="gl_items pointer" href="images/demo/gl/slider01-600x300.jpg"><img src="images/demo/gl/slider01-600x300.jpg" alt="e" /><span class="gl_subtitle">29 Melbourn Ave, Deakin, ACT</span></div>
+			<div class="gl_items pointer" href="images/demo/gl/slider02-600x300.jpg"><img src="images/demo/gl/slider02-600x300.jpg" alt="f" /><span class="gl_subtitle">22 Lincon Cr, Franklin, ACT</span></div>
 		</div>
 </section>
 <!-- Page 4 -->
