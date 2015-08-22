@@ -359,7 +359,7 @@ html, body {
 	max-width:1024px;
 	margin:0 auto;
 	color: #fff;
-	padding:10px 5% 10px 0;
+	padding:10px 0 10px 0;
 }
 .little_line { height:2px; width: 75px; border: 2px solid $medium_color; margin-bottom: 10px; }
 
@@ -443,7 +443,6 @@ html, body {
 	height:100%;
 	margin: 10px auto;
 	padding: 15px;
-	min-width:320px;
 	margin-bottom:70px;
 	.potrait {
 		position: absolute;
@@ -468,17 +467,67 @@ html, body {
 /************************************
 		Mobile
 ************************************/
-.form_container {
-	background:$background_test;
-	color: #fff;
-	.input_all {
-		display:block;
-		margin-bottom: 20px;
+.contact_us {
+	background:#222222;
+	padding:0 5% 10px 5%;
+	padding-bottom:40px;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+	h2 {
+		margin: 5px auto;
 	}
-	form {
-		margin: 0 5%;
-		label {
-			width: 20px;
+	p {
+		font-size:0.85em;
+		padding:0;
+	}
+}
+.contact_form_div {
+	color:#fff;
+	max-width:1024px;
+	margin:0 auto;
+	.form_name {
+		margin-bottom:5px;
+		input, textarea {
+			width:100%;
+			height:35px;
+			color:$second_color;
+			border-radius:5px;
+			padding-left:10px;
+			background:#333;
+			outline: none;
+			border:0;
+			border:1px solid #444;
+			margin-bottom:5px;
+			&:focus {
+				box-shadow:0 0 10px $second_color;
+				@include transition(box-shadow ease 0.5s);
+			}
+		}
+		textarea {
+			height:150px;
+		}
+	}
+	.label_p {
+		display:none;
+		width:100%;
+		margin-right:10px;
+		span {
+			margin:0;
+			font-size:0.55em;
+			text-align: center;
+		}
+	}
+	.form_send {
+		@include display-flex();
+		@include justify-content(space-around);
+		input {
+			background:$fourth_color;
+			width:100px;
+			height:35px;
+			border-radius:5px;
+			border:0;
+			text-shadow: 1px 1px #333;
+			margin-top: 5px;
 		}
 	}
 }
@@ -498,7 +547,7 @@ html, body {
 		display:block;
 		color:#777;
 		text-align: center;
-		font-size:0.85em;
+		font-size:0.75em;
 		span {
 			color:#fff;
 		}
@@ -510,9 +559,10 @@ html, body {
 			ul {
 			list-style:none;
 			margin:10px auto;
+			padding-left:0;
 				li {
 					float:left;
-					font-size:0.85em;
+					font-size:0.75em;
 					padding:0 13px;
 					a:hover { color: $a_hover; }
 				}

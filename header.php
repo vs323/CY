@@ -35,7 +35,7 @@
 					<li><a id="second_pagelink" href="#">Who We Are</a></li>
 					<li><a id="gallerylink" href="#">Our Work</a></li>
 					<li><a id="testimoniallink" href="#">Testimonial</a></li>
-					<li><a id="" href="#">Contact Us</a></li>
+					<li><a id="contact_uslink" href="#">Contact Us</a></li>
 				</ul>
 				</div>
 				</div>
@@ -48,7 +48,7 @@
 					<li><a id="second_pagelink" href="#">Who We Are</a></li>
 					<li><a id="gallerylink" href="#">Our Work</a></li>
 					<li><a id="testimoniallink" href="#">Testimonial</a></li>
-				<li><a href="#">Contact Us</a></li>
+				<li><a id="contact_uslink" href="#">Contact Us</a></li>
 			</ul>
 		</nav>
 		<div class="home_content_container">
@@ -65,7 +65,7 @@
 		</div>
 		<!-- HOME page Bottom Part -->
 		<div class="under_bk cevc">
-			<button>CONTACT US</button><button>GET QUOTES</button>
+			<button>CALL US</button><button><a href="#" id="contact_uslink">GET QUOTES</a></button>
 		</div>
 
 	</section>

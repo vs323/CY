@@ -71,34 +71,42 @@
 		</div>
 </section>
 <!-- Page 5 -->
-<!-- <section class="contact_us">
-<div class="ContactForm">
-<h2>Enquiry Form</h2>
+<section class="contact_us">
+	<div class="container_box_dk">
+		<h2>Contact Us</h2>
+		<div class="little_line"></div>
+		<P>Thanks for your interest in YC Building. Please use the following form to get a free quote for your plan or send any enquries, and we'll get back to you soon.</P>
+	</div>
+	<div class="contact_form_div">
+		<form action="MAILTO:lozaza323@gmail.com" method="post">
+			<div class="form_name">
+				<div class="label_p"><label for="name">Full Name: </label><span>(Required)</span></div>
+				<input type="text" id="name" placeholder="Full Name (Required)" required>
+			</div>
+			<div class="form_name">
+				<div class="label_p"><label for="email">Email: </label><span>(Required)</span></div>
+				<input type="email" id="email" placeholder="Your Email (Required)" required><br>
+			</div>
+			<div class="form_name">
+				<div class="label_p"><label for="number">Phone Number: </label><span>(Required)</span></div>
+				<input type="number" min="0" inputmode="numeric" pattern="[0-9]*" title="Non-negative integral number" id="number" placeholder="Phone Number (Required)" required><br>
+			</div>
+			<div class="form_name">
+				<div class="label_p"><label for="text">Message: </label><span>(Required)</span></div>
+				<textarea type="text" id="text" placeholder="Message Details (Required)" required></textarea><br>
+			</div>
+			<div class="form_send">
+				<input type="submit" value="Send">
+				<input type="reset" value="Reset">
+			</div>
+		</form>
+	</div>
 
-<P>If you would like a quote or more information about YC Building, please use the contact form on this page to submit an enquiry </P>
-<form action="MAILTO:lozaza323@gmail.com" method="post">
-<label>Full Name</label>
-<input type="text"><br>
-
-<label>Your Email Address</label>
-<input type="text"><br>
-
-<label>Phone Number</label>
-<input type="text"><br>
-
-<label>Enquiry Description</label>
-<textarea></textarea><br>
-
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
-
-</form>
-</div>
-<div> Your message has been successfully sent. </div>
+	<!-- <div> Your message has been successfully sent. </div> -->
 </section>
 
 
-<section class="find_us">
+<!-- <section class="find_us">
 <div class="address">
 
 Phone Number: 0448 888 045 <br>
