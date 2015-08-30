@@ -12,6 +12,9 @@
 	<link rel="stylesheet" type="text/css" href="colorbox.css" />
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
 	<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+  <script type="text/javascript" src="js/jquery.form.js"></script>
+	<script type="text/javascript" src="js/contact.js"></script>
 	
 </head>
 <body>
