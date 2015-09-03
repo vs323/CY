@@ -24,7 +24,7 @@
 					<div class="gl_items pointer" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
 					<div class="gl_items pointer" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
 					<div class="gl_items pointer" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
-			<div class="gl_items2 pointer" href="images/demo/gl/House1-600x300.jpg"><img src="images/demo/gl/House1-600x300.jpg" alt="b" /><span class="gl_subtitle">2 Champton St, Deakin, ACT</span></div>
+			<div class="gl_items pointer" href="images/demo/gl/House1-600x300.jpg"><img src="images/demo/gl/House1-600x300.jpg" alt="b" /><span class="gl_subtitle">2 Champton St, Deakin, ACT</span></div>
 					<div class="gl_items pointer" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
 					<div class="gl_items pointer" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
 					<div class="gl_items pointer" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
@@ -81,7 +81,8 @@
 		</div>
 </section>
 <!-- Page 5 -->
-<section class="contact_us">
+<section>
+<div class="contact_us">
 	<div class="container_box_dk">
 		<h2>Contact Us</h2>
 		<div class="little_line"></div>
@@ -91,19 +92,19 @@
 		<form id="contactform" action="processForm.php" method="post">
 			<div class="form_name">
 				<div class="label_p"><label for="name">Name: </label></div>
-				<input type="text" id="name" name="name" placeholder="Full Name (Required)">
-			</div>
-			<div class="form_name">
-				<div class="label_p"><label for="email">Email: </label><span>(Required)</span></div>
-				<input type="email" id="email" name="email" placeholder="Your Email (Required)" required><br>
+				<input type="text" id="name" name="name" placeholder="Full Name">
 			</div>
 			<div class="form_name">
 				<div class="label_p"><label for="number">Phone Number: </label><span>(Required)</span></div>
-				<input type="text" id="number" name="number" placeholder="Phone Number (Required)" required><br>
+				<input type="text" id="number" name="number" placeholder="Phone Number" required><br>
+			</div>
+			<div class="form_name">
+				<div class="label_p"><label for="email">Email: </label><span>(Required)</span></div>
+				<input type="email" id="email" name="email" placeholder="Your Email" required><br>
 			</div>
 			<div class="form_name">
 				<div class="label_p"><label for="message">Message: </label><span>(Required)</span></div>
-				<textarea type="text" id="text" name="message" placeholder="Message Details (Required)" required></textarea><br>
+				<textarea type="text" id="text" name="message" placeholder="Message Details" required></textarea><br>
 			</div>
 			<div class="form_send">
 				<input type="submit" value="Send" id="send">
@@ -112,54 +113,19 @@
 			<div id="response"></div>
 		</form>
 	</div>
-
-	
+</div>
 </section>
 
-
-<!-- Page 4 -->
+<!-- Page 6 -->
 <section class="testimonial">
 		<div class="test_head">
 			<h2>Find Us</h2>
 			<div class="little_line"></div>
 		</div>
-		<div class="desktop_testi_con">
-				<div class="testimonial_container">
-					<div>
-						<p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. This is required when, for example, the final text is not yet available.</p>
-					</div>
-					<div class="potrait">
-						<img src="images/demo/1.jpg" alt="potrait" /><div class="t_name">Jason Statham</div>
-					</div>
-				</div>
 
-				<div class="testimonial_container">
-					<div>
-						<p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. This is required when, for example, the final text is not yet available.</p>
-					</div>
-					<div class="potrait">
-						<img src="images/demo/2.jpeg" alt="potrait" /><div class="t_name">Scarlett Johan</div>
-					</div>
-				</div>
-
-				<div class="testimonial_container">
-					<div>
-						<p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. This is required when, for example, the final text is not yet available.</p>
-					</div>
-					<div class="potrait">
-						<img src="images/demo/3.jpg" alt="potrait" /><div class="t_name">Robter Downey Jr.</div>
-					</div>
-				</div>
-
-				<div class="testimonial_container">
-					<div>
-						<p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. This is required when, for example, the final text is not yet available.</p>
-					</div>
-					<div class="potrait">
-						<img src="images/demo/4.jpg" alt="potrait" /><div class="t_name">Anne Hathaway</div>
-					</div>
-				</div>
-		</div>
+		<div id="map"></div>
+		
+		
 </section>
 
 <?php 

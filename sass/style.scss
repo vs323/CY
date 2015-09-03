@@ -425,12 +425,15 @@ html, body {
 .testimonial {
 	padding:10px 5% 10px 5%;
 	color:#fff;
+		h2 {
+		margin: 5px auto;
+	}
 }
 .test_head {
 	background:$background_test;
 	display:block;
 	width:100%;
-	height:100px;
+	padding-bottom:10px;
 	margin:0 auto;
 	max-width:1024px;
 }
@@ -531,6 +534,22 @@ html, body {
 		}
 	}
 }
+/*===========================================================
+											6TH PAGE SECTION - MAPS
+===========================================================*/
+/************************************
+		Mobile
+************************************/
+#map {
+	display:block;
+	width:100%;
+	max-width:1024px;
+	height:60vh !important;
+	margin:0 auto;
+}
+
+
+
 
 
 /*===========================================================
@@ -542,7 +561,17 @@ html, body {
 .bottom_footer {
 	background: #222;
 	border-top: 1px solid #333;
-	padding:20px 0;
+	padding:20px 5%;
+	.com_info {
+		display:inline;
+		color:#fff;
+		i {
+			width:30px;
+		}
+		span {
+			margin-left:32px;
+		}
+	}
 	.copyright {
 		display:block;
 		color:#777;
@@ -553,15 +582,13 @@ html, body {
 		}
 	}
 	.footer_menu {
-		display:block;
-		@include display-flex();
-		@include justify-content(center);
 			ul {
-			list-style:none;
-			margin:10px auto;
-			padding-left:0;
+				list-style:none;
+				text-align:center;
+				padding:0;
 				li {
-					float:left;
+					position:relative;
+					display:inline-block;
 					font-size:0.75em;
 					padding:0 13px;
 					a:hover { color: $a_hover; }
@@ -569,6 +596,8 @@ html, body {
 		}
 	}
 }
+
+
 
 /*===========================================================
 											MEDIA QUERY
@@ -604,7 +633,7 @@ html, body {
 		}
 	}
 /************************************
-		Testimonials - Mobile
+		Testimonials - DESKTOP
 ************************************/
 
 	.desktop_testi_con {
@@ -616,5 +645,11 @@ html, body {
 	.testimonial_container {
 			width:45%;
 		}
+	}
+/************************************
+		CONTACT - DESKTOP
+************************************/
+	.contact_us {
+		width:50%;
 	}
 }

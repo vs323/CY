@@ -139,22 +139,175 @@ $(document).ready(function(){
 	
 	
 	
-	
-	
-	function initialize() {
-	var myLatLng = new google.maps.LatLng(-35.2235276,149.1419802);
-	var mapProp = {
-    center:myLatLng,
-    zoom:14,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-	};	
-	
-	var map = new google.maps.Map(document.getElementById("map"), mapProp);
-	var marker = new google.maps.Marker({
-	map: map,
-	position: myLatLng
-	});
-	}
-	google.maps.event.addDomListener(window, 'load', initialize);
+function initialize() {
+ // Create an array of styles.
+  var styles = [
+    {
+        "featureType": "administrative",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#b1b1b3"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#3c3d41"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#525459"
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#f14e4e"
+            },
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "color": "#1c262d"
+            },
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "color": "#f14e4e"
+            },
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#3c3d41"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#3c3d41"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#eeeeee"
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#3c3d41"
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#f14e4e"
+            },
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#3c3d41"
+            }
+        ]
+    }
+];
+
+  // Create a new StyledMapType object, passing it the array of styles,
+  // as well as the name to be displayed on the map type control.
+  var styledMap = new google.maps.StyledMapType(styles,
+    {name: "Styled Map"});
+
+  // Create a map object, and include the MapTypeId to add
+  // to the map type control.
+  var mapOptions = {
+    zoom: 15,
+    center: new google.maps.LatLng(-35.2199659, 149.1444995),
+    mapTypeControlOptions: {
+      mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style' ]
+    }
+  };
+  var map = new google.maps.Map(document.getElementById('map'),
+    mapOptions);
+
+  //Associate the styled map with the MapTypeId and set it to display.
+  map.mapTypes.set('map_style', styledMap);
+  map.setMapTypeId('map_style');
+  var image = 'images/demo/markbig.png.';
+  var center = new google.maps.LatLng(-35.2199659, 149.1444995);
+  var marker = new google.maps.Marker({
+  position: center,
+  icon: image
+  });
+  marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
 
 });
