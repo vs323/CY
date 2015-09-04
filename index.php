@@ -81,7 +81,8 @@
 		</div>
 </section>
 <!-- Page 5 -->
-<section>
+<section class="ccc">
+<div class="contact_wrap">
 <div class="contact_us">
 	<div class="container_box_dk">
 		<h2>Contact Us</h2>
@@ -114,10 +115,23 @@
 		</form>
 	</div>
 </div>
+<div class="contact_desk_v">
+
+		<div class="c_5">
+			<div class="com_add">
+				<p><i class="fa fa-location-arrow"></i>10/24 Flemington Rd<br><span>Mitchell, ACT, 2913.</span></p>
+			</div>
+			<div class="com_con">
+				<p><i class="fa fa-phone"></i>0448 888 045
+				<br><i class="fa fa-envelope-o"></i><a href="mailto:ycbuilding@gmail.com">ycbuilding@gmail.com</a></p>
+			</div>
+		</div>
+
+</div>
 </section>
 
 <!-- Page 6 -->
-<section class="testimonial">
+<section class="testimonial map">
 		<div class="test_head">
 			<h2>Find Us</h2>
 			<div class="little_line"></div>

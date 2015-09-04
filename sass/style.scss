@@ -19,11 +19,11 @@ Tags: Dark cold colour scheme
 /************************************
 		Colour Scheme Selection
 ************************************/
-$light_color: #F7FAF0;			//Touching Grey;
-$second_color: #D1DBBD;			//Grey Yellow;
-$medium_color: #91AA9D;			//Light grey mixing with blue;  RGB(145 170 157) www.color-hex.com
-$fourth_color: #3E606F;			//Grey blue;
-$dark_color: #193441;				//Navy blue;
+$theme_color_1: #F7FAF0;			//Touching Grey;
+$theme_color_2: #D1DBBD;			//Grey Yellow;
+$theme_color_3: #91AA9D;			//Light grey mixing with blue;  RGB(145 170 157) www.color-hex.com
+$theme_color_4: #3E606F;			//Grey blue;
+$theme_color_5: #193441;				//Navy blue;
 
 //URL: https://color.adobe.com/library/536280FB-1B6F-4E45-8327-E0BE4556E788/theme/e7460fbd-75e6-4a9c-869b-3dd71cf832e6/
 
@@ -117,7 +117,7 @@ body {
 ************************************/
 button {
   border-radius: 5px;
-  background: $medium_color;
+  background: $theme_color_3;
   border: 0;
   color: white;
 }
@@ -149,7 +149,7 @@ a {
     background-position:50% 50%\9 !important;
 }
 
-/* fullscreen setup */
+/* full-screen setup */
 html, body {
     height:100%;
     min-width:320px;
@@ -180,6 +180,7 @@ html, body {
 	height:60px;
 	position:fixed;
 	z-index:200;
+	padding-left:5%;
 	.icon_menu {
 		margin:auto 0;
 		margin-right: 10%;
@@ -191,7 +192,7 @@ html, body {
 		@include display-flex();
 		@include justify-content(space-between);
 		width:100%;
-		max-width:1024px;
+		max-width:1268px;
 		height:60px;
 		margin:0 auto;
 		img {
@@ -227,9 +228,9 @@ html, body {
 			}
 			a {
 				text-decoration:none;
-				color:$second_color;
+				color:$theme_color_2;
 				font-weight: 600;
-				&:active { color: $light_color; }
+				&:active { color: $theme_color_1; }
 			}
 		}
 	}
@@ -247,7 +248,7 @@ html, body {
 }
 .home_content {
 	width:100%;
-	max-width:1024px;
+	max-width:1268px;
 	margin:0 auto;
 	h1 {
 		margin-bottom:22px;
@@ -266,7 +267,7 @@ html, body {
 	@include align-self(flex-end);
 	position:absolute;
 	bottom:0;
-	background:$dark_color;
+	background:$theme_color_5;
 	width:100%;
 	height:100px;
 	font-weight:600;
@@ -292,6 +293,12 @@ html, body {
   background-color: rgba(0,0,0,0.3);  
   width: 100%;
   height: 100%;
+}
+.clear_fix {
+	content:"";
+	display:block;
+	clear:both;
+	visibility:hidden;
 }
 /************************************
 		Desktop
@@ -347,21 +354,21 @@ html, body {
 	width:100%;
 	padding:10px 5% 10px 5%;
 	text-align: justify;
-	color:$light_color;
+	color:$theme_color_1;
 	h2 { margin-bottom:10px; }
 }
 
 .container_box {
-	max-width:1024px;
+	max-width:1268px;
 	margin:0 auto;
 }
 .container_box_dk {
-	max-width:1024px;
+	max-width:1268px;
 	margin:0 auto;
 	color: #fff;
 	padding:10px 0 10px 0;
 }
-.little_line { height:2px; width: 75px; border: 2px solid $medium_color; margin-bottom: 10px; }
+.little_line { height:2px; width: 75px; border: 2px solid $theme_color_3; margin-bottom: 10px; }
 
 /*===========================================================
 											3ND PAGE SECTION - GALLERY
@@ -399,7 +406,7 @@ html, body {
 	img {
 		width:100%;
 		height:auto;
-		border: 5px solid $light_color;
+		border: 5px solid $theme_color_1;
 		@include transition(all 1s ease);
 	}
 	span {
@@ -435,7 +442,7 @@ html, body {
 	width:100%;
 	padding-bottom:10px;
 	margin:0 auto;
-	max-width:1024px;
+	max-width:1268px;
 }
 .testimonial_container {
 	display:block;
@@ -470,12 +477,19 @@ html, body {
 /************************************
 		Mobile
 ************************************/
-.contact_us {
-	background:#222222;
-	padding:0 5% 10px 5%;
-	padding-bottom:40px;
+.ccc {
+	background: #222222;
 	border-top: 1px solid #333;
 	border-bottom: 1px solid #333;
+	padding:0 5% 10px 5%;
+	padding-bottom:40px;
+	.contact_wrap {
+		max-width:1268px;
+		margin:0 auto;
+	}
+}
+.contact_us {
+
 	h2 {
 		margin: 5px auto;
 	}
@@ -486,14 +500,14 @@ html, body {
 }
 .contact_form_div {
 	color:#fff;
-	max-width:1024px;
+	max-width:1268px;
 	margin:0 auto;
 	.form_name {
 		margin-bottom:5px;
 		input, textarea {
 			width:100%;
 			height:35px;
-			color:$second_color;
+			color:$theme_color_2;
 			border-radius:5px;
 			padding-left:10px;
 			background:#333;
@@ -502,7 +516,7 @@ html, body {
 			border:1px solid #444;
 			margin-bottom:5px;
 			&:focus {
-				box-shadow:0 0 10px $second_color;
+				box-shadow:0 0 10px $theme_color_2;
 				@include transition(box-shadow ease 0.5s);
 			}
 		}
@@ -524,13 +538,35 @@ html, body {
 		@include display-flex();
 		@include justify-content(space-around);
 		input {
-			background:$fourth_color;
+			background:$theme_color_4;
 			width:100px;
 			height:35px;
 			border-radius:5px;
 			border:0;
 			text-shadow: 1px 1px #333;
 			margin-top: 5px;
+		}
+	}
+}
+
+.contact_desk_v {
+	display:none;
+	height:250px;
+	padding-left:5%;
+	border-left: 4px dashed #333;
+	margin-top: 120px;
+	.c_5 {
+		color:#fff;
+		font-size:1.25em;
+		padding-top:40px;
+		@include display-flex();
+		@include flex-direction (column);
+			height:280px;
+		i {
+			width:30px;
+		}
+		span {
+			margin-left:32px;
 		}
 	}
 }
@@ -543,7 +579,7 @@ html, body {
 #map {
 	display:block;
 	width:100%;
-	max-width:1024px;
+	// max-width:1268px;
 	height:60vh !important;
 	margin:0 auto;
 }
@@ -558,12 +594,39 @@ html, body {
 /************************************
 		Mobile
 ************************************/
-.bottom_footer {
+footer {
+	width:100%;
 	background: #222;
 	border-top: 1px solid #333;
+	margin-top:40px;
+	min-height:265px;
+}
+.bottom_footer {
 	padding:20px 5%;
+	position:relative;
+	max-width:1268px;
+	margin:0 auto;
+	min-height:265px;
+	.header_social_icon {
+		z-index:120;
+		position:absolute;
+		bottom:230px;
+		right:160px;
+		i {
+		  border-radius: 50%;
+		  background-color: $theme_color_4;
+		  border: 2px solid #fff;
+		  width: 45px;
+		  height: 45px;
+		  box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.5);
+		  color:#fff;
+			font-size:1.65em;
+			text-align:center;
+			padding:7px 0;
+			margin: 10px;
+		}
+	}
 	.com_info {
-		display:inline;
 		color:#fff;
 		i {
 			width:30px;
@@ -577,6 +640,7 @@ html, body {
 		color:#777;
 		text-align: center;
 		font-size:0.75em;
+		margin-top:30px;
 		span {
 			color:#fff;
 		}
@@ -615,7 +679,7 @@ html, body {
 		Gallery - Desktop
 ************************************/
 	.gl_head {
-		max-width:1024px;
+		max-width:1268px;
 		margin:0 auto;
 	}
 	.gl_container {
@@ -623,7 +687,7 @@ html, body {
 	@include flex-flow(row wrap);
 	@include justify-content(space-around);
 	padding:0;
-	max-width:1024px;
+	max-width:1268px;
 	margin:0 auto;
 		.gl_items {
 			width:320px;
@@ -640,7 +704,7 @@ html, body {
 	@include display-flex();
 	@include flex-flow(row wrap);
 	@include justify-content(space-around);
-	max-width:1024px;
+	max-width:1268px;
 	margin:0 auto; 
 	.testimonial_container {
 			width:45%;
@@ -649,7 +713,66 @@ html, body {
 /************************************
 		CONTACT - DESKTOP
 ************************************/
+	.ccc {
+		width:100%;
+		background:#222222;
+		.contact_wrap {
+			@include display-flex();
+		}
+	}
 	.contact_us {
-		width:50%;
+		width:60%;
+		margin-right:5%;
+		form {
+			#name, #number {
+				float:left; 
+				width:45%; 
+				margin-bottom:10px;
+			}
+			#number {
+				margin-left:10%;
+			}
+		}
+	}
+	.contact_desk_v {
+		display:inline;
+		width:30%;
+		h2 {
+			margin: 5px auto;
+		}
+		p {
+			font-size:0.85em;
+			padding:0;
+		}
+	}
+/************************************
+		Map - DESKTOP
+************************************/
+	.map {
+		margin:0;
+		padding:0;
+		.test_head {
+			// padding:0 5% 10px 5%;
+		}
+	}
+/************************************
+		Footer - DESKTOP
+************************************/
+	.com_info {
+		@include display-flex();
+		.com_con {
+			margin-left:50px;
+		}
+	}
+}
+
+
+
+@media screen and (min-width: 1268px) {
+	.tool_bar .fix_test img {
+		margin-left:0;
+	}
+	.test_head {
+		padding:0;
 	}
 }
