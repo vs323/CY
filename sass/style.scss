@@ -198,7 +198,6 @@ html, body {
 		img {
 			height:35px;
 			margin:auto 0;
-			margin-left:5%;
 		}
 	}
 }
@@ -305,18 +304,27 @@ html, body {
 ************************************/
 .nav_bar {
 	display:none;
-	// margin-right:5%;
 	ul {
 		list-style:none;
 		display:inline-block;
 		white-space:nowrap;
-		padding-top:15px;
+		padding-top:25px;
 		padding-left:0;
+		margin:0;
 		li {
 			float:left;
-			font-size:0.85em;
+			font-size:1em;
 			padding:0 13px;
-			a:hover { color: $a_hover; }
+			width:95px;
+			text-align:center;
+			margin-bottom:5px;
+			padding-bottom:10px;
+			&:hover {
+				border-bottom: 5px solid $a_hover;
+				color:#fff;
+				text-decoration: none;
+			}
+			a:hover { color:#fff; text-decoration: none; }
 		}
 	}
 }
@@ -486,6 +494,7 @@ html, body {
 	.contact_wrap {
 		max-width:1268px;
 		margin:0 auto;
+		margin-top:20px;
 	}
 }
 .contact_us {
@@ -494,7 +503,6 @@ html, body {
 		margin: 5px auto;
 	}
 	p {
-		font-size:0.85em;
 		padding:0;
 	}
 }
@@ -539,7 +547,7 @@ html, body {
 		@include justify-content(space-around);
 		input {
 			background:$theme_color_4;
-			width:100px;
+			width:150px;
 			height:35px;
 			border-radius:5px;
 			border:0;
@@ -550,23 +558,44 @@ html, body {
 }
 
 .contact_desk_v {
-	display:none;
-	height:250px;
-	padding-left:5%;
-	border-left: 4px dashed #333;
-	margin-top: 120px;
+	display:block;
+			@include flex-wrap(nowrap);
+		h2 {
+		margin: 5px auto;
+	}
+	p {
+		padding:0;
+		word-wrap:nowrap;
+	}
+			i {
+			width:30px;
+		}
+		span { margin-right: 32px; }
 	.c_5 {
 		color:#fff;
-		font-size:1.25em;
-		padding-top:40px;
 		@include display-flex();
 		@include flex-direction (column);
-			height:280px;
 		i {
 			width:30px;
 		}
 		span {
-			margin-left:32px;
+			margin-left:20px;
+		}
+		.com_social {
+			text-align:center;
+			margin-top:15px;
+			i {
+		  border-radius: 50%;
+		  background-color: $theme_color_4;
+		  width: 45px;
+		  height: 45px;
+		  box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.5);
+		  color:#fff;
+			font-size:1.65em;
+			text-align:center;
+			padding-top:10px;
+			margin: 0 10px;
+			}
 		}
 	}
 }
@@ -579,8 +608,7 @@ html, body {
 #map {
 	display:block;
 	width:100%;
-	// max-width:1268px;
-	height:60vh !important;
+	height:50vh;
 	margin:0 auto;
 }
 
@@ -599,42 +627,14 @@ footer {
 	background: #222;
 	border-top: 1px solid #333;
 	margin-top:40px;
-	min-height:265px;
+	// min-height:265px;
 }
 .bottom_footer {
 	padding:20px 5%;
 	position:relative;
 	max-width:1268px;
 	margin:0 auto;
-	min-height:265px;
-	.header_social_icon {
-		z-index:120;
-		position:absolute;
-		bottom:230px;
-		right:160px;
-		i {
-		  border-radius: 50%;
-		  background-color: $theme_color_4;
-		  border: 2px solid #fff;
-		  width: 45px;
-		  height: 45px;
-		  box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.5);
-		  color:#fff;
-			font-size:1.65em;
-			text-align:center;
-			padding:7px 0;
-			margin: 10px;
-		}
-	}
-	.com_info {
-		color:#fff;
-		i {
-			width:30px;
-		}
-		span {
-			margin-left:32px;
-		}
-	}
+	// min-height:265px;
 	.copyright {
 		display:block;
 		color:#777;
@@ -716,6 +716,7 @@ footer {
 	.ccc {
 		width:100%;
 		background:#222222;
+		max-height:660px;
 		.contact_wrap {
 			@include display-flex();
 		}
@@ -726,7 +727,7 @@ footer {
 		form {
 			#name, #number {
 				float:left; 
-				width:45%; 
+				width:40%; 
 				margin-bottom:10px;
 			}
 			#number {
@@ -736,34 +737,20 @@ footer {
 	}
 	.contact_desk_v {
 		display:inline;
-		width:30%;
-		h2 {
-			margin: 5px auto;
-		}
-		p {
-			font-size:0.85em;
-			padding:0;
+		width:40%;
+		border-left: 4px dashed #333;
+		padding-left:5%;
+		#map {
+			height:350px;
 		}
 	}
-/************************************
-		Map - DESKTOP
-************************************/
-	.map {
-		margin:0;
-		padding:0;
-		.test_head {
-			// padding:0 5% 10px 5%;
-		}
+	.contact_form_div .form_name textarea {
+		height:310px;
 	}
 /************************************
 		Footer - DESKTOP
 ************************************/
-	.com_info {
-		@include display-flex();
-		.com_con {
-			margin-left:50px;
-		}
-	}
+
 }
 
 
@@ -774,5 +761,12 @@ footer {
 	}
 	.test_head {
 		padding:0;
+	}
+}
+
+@media screen and (min-width: 958px) and (max-width: 1015px) {
+	/* fix height issue in map area */
+	.contact_form_div {
+		margin-top: 32px;
 	}
 }

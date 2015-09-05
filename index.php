@@ -7,7 +7,52 @@
 	<div class="container_box">
 		<h2>What We Do</h2>
 		<div class="little_line"></div>
-		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		  <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="headingOne">
+		      <h4 class="panel-title">
+		        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		          BUILDING CONTRACTS
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+		      <div class="panel-body">
+		        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+		      </div>
+		    </div>
+		  </div>
+		  <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="headingTwo">
+		      <h4 class="panel-title">
+		        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+		          HOUSE DESIGN
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+		      <div class="panel-body">
+		        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+		      </div>
+		    </div>
+		  </div>
+		  <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="headingThree">
+		      <h4 class="panel-title">
+		        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+		          KNOCKDOWN REBUILD
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+		      <div class="panel-body">
+		        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
 	</div>
 </section>
 <!-- Page 3 -->
@@ -85,9 +130,10 @@
 <div class="contact_wrap">
 <div class="contact_us">
 	<div class="container_box_dk">
-		<h2>Contact Us</h2>
+		<h2>Enquiry</h2>
 		<div class="little_line"></div>
-		<P>Thanks for your interest in YC Building. Please use the following form to get a free quote for your plan or send any enquries, and we'll get back to you soon.</P>
+		<p>Thanks for your interest in YC Building. Please use the following form to get a free quote for your plan or send any enquries, and we'll get back to you soon.</p>
+
 	</div>
 	<div class="contact_form_div">
 		<form id="contactform" action="processForm.php" method="post">
@@ -108,22 +154,30 @@
 				<textarea type="text" id="text" name="message" placeholder="Message Details" required></textarea><br>
 			</div>
 			<div class="form_send">
-				<input type="submit" value="Send" id="send">
-				<input type="reset" value="Reset" id="reset">
+				<input type="submit" value="SEND" id="send">
+
 			</div>
 			<div id="response"></div>
 		</form>
 	</div>
 </div>
 <div class="contact_desk_v">
-
+	<div class="container_box_dk">
+		<h2>Contact Us</h2>
+		<div class="little_line"></div>
+				<p><i class="fa fa-phone"></i>0448 888 045</p>
+				<p><i class="fa fa-envelope-o"></i><a href="mailto:ycbuilding@gmail.com">ycbuilding@gmail.com</a></p>
+				<p><i class="fa fa-map-marker"></i>10/24 Flemington Rd, Mitchell, ACT, 2913.</p>
+				<p style="height:5px"></p>
+	</div>
 		<div class="c_5">
-			<div class="com_add">
-				<p><i class="fa fa-location-arrow"></i>10/24 Flemington Rd<br><span>Mitchell, ACT, 2913.</span></p>
-			</div>
-			<div class="com_con">
-				<p><i class="fa fa-phone"></i>0448 888 045
-				<br><i class="fa fa-envelope-o"></i><a href="mailto:ycbuilding@gmail.com">ycbuilding@gmail.com</a></p>
+
+		<div id="map"></div>
+
+		<div class="com_social">
+				<a href="#"><i class="fa fa-facebook social_icon_style"></i></a>
+				<a href="#"><i class="fa fa-twitter social_icon_style"></i></a>
+				<a href="#"><i class="fa fa-youtube-play social_icon_style"></i></a>
 			</div>
 		</div>
 
@@ -131,16 +185,11 @@
 </section>
 
 <!-- Page 6 -->
-<section class="testimonial map">
-		<div class="test_head">
-			<h2>Find Us</h2>
-			<div class="little_line"></div>
-		</div>
-
-		<div id="map"></div>
+<!-- <section class="testimonial map">
 		
 		
-</section>
+		
+</section> -->
 
 <?php 
 	include('footer.php'); 
