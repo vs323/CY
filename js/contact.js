@@ -9,7 +9,7 @@ $(function() {
   	errorElement: "label",
   	wrapper: "div",
   	errorPlacement: function(error, element) {
-  		error.insertBefore( element.parent());
+  		error.insertBefore( element);
   		error.wrap("<div class='error'></div>");
   		$("<div></div>").insertBefore(error);
   	},

@@ -117,21 +117,35 @@ $(document).ready(function(){
 	var windowsWidth = $(window).width();
 	console.log(windowsWidth);
 	if(windowsWidth > 700) {
-	$(".gl_items").colorbox({rel:'group1'});
+	$(".project_1").colorbox({rel:'group1'});
 	$("#click").click(function(){ 
 	$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
 			return false;
+
 	});
+
+    $(".project_2").colorbox({rel:'group2'});
+    $("#click").click(function(){ 
+    $('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+            return false;
+      
+    });
 	}
 	
 	$(window).resize(function(){
 	var windowsWidth = $(window).width();
 	if(windowsWidth > 700) {
-	$(".gl_items").colorbox({rel:'group1'});
+	$(".project_1").colorbox({rel:'group1'});
 	$("#click").click(function(){ 
 	$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
 			return false;
 	});
+
+    $(".project_2").colorbox({rel:'group1'});
+    $("#click").click(function(){ 
+    $('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+            return false;
+    });
 	}
 	
 	})
