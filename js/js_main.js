@@ -141,7 +141,7 @@ $(document).ready(function(){
 			return false;
 	});
 
-    $(".project_2").colorbox({rel:'group1'});
+    $(".project_2").colorbox({rel:'group2'});
     $("#click").click(function(){ 
     $('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
             return false;
