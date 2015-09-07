@@ -33,7 +33,7 @@
 		<div class="tool_bar cevc pointer">
 			<div class="fix_test">
 				<img src="images/demo/logo_white.png" alt="logo" />
-				<div class="icon_menu"><i class="fa fa-bars" id="menu_icon"></i></div>
+				<div class="icon_menu" id="menu_icon"><i class="fa fa-bars"></i></div>
 				<div class="nav_bar">
 					<ul class="unlist_style">
 					<li><a id="nav_containerlink" href="#">Home</a></li>

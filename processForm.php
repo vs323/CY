@@ -54,8 +54,8 @@ if($errors) {
 		$mail->isSMTP();                                      // Set mailer to use SMTP
 		$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 		$mail->SMTPAuth = true;                               // Enable SMTP authentication
-		$mail->Username = 'ycbuildingsmtp@gmail.com';                 // SMTP username
-		$mail->Password = 'P@ssw0rdd123';                           // SMTP password
+		$mail->Username = 'wokitup.phillip@gmail.com';                 // SMTP username
+		$mail->Password = 'a';                           // SMTP password
 		$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 		$mail->Port = 587;                                    // TCP port to connect to
 		
@@ -93,10 +93,10 @@ if($errors) {
  
 // Die with a success message
 if($mail->Send()) {
-die("<span class='success'>Your message has been sent.</span>");
+die("<span class='success'>Your message has been sent. Thank you.</span>");
 }
 else{
-die("<span class='success'>Please try again later.</span>");
+die("<span class='fail_bad'>Something went wrong. Please try again later.</span>");
 } 
 // A function that checks to see if
 // an email is valid

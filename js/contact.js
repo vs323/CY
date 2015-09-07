@@ -1,17 +1,17 @@
 $(function() {
-	$("#reset").click(function(){
-				$("#response").fadeOut();
-			});
+	// $("#reset").click(function(){
+	// 			$("#response").fadeOut();
+	// 		});
 	// Validate the contact form
   $('#contactform').validate({
   	// Specify what the errors should look like
   	// when they are dynamically added to the form
-  	errorElement: "label",
-  	wrapper: "div",
+  	errorElement: "div",
+  	// wrapper: "div class=form_error",
   	errorPlacement: function(error, element) {
-  		error.insertBefore( element);
-  		error.wrap("<div class='error'></div>");
-  		$("<div></div>").insertBefore(error);
+  		error.insertAfter( element);
+  		// error.wrap("<div class='error'></div>");
+  		// $("<div></div>").insertBefore(error);
   	},
   	
   	// Add requirements to each of the fields

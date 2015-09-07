@@ -113,10 +113,10 @@
 	</div>
 	<div class="contact_form_div">
 		<form id="contactform" action="processForm.php" method="post">
-			<div class="form_name">
+			<div class="form_name name_input">
 				<input type="text" id="name" name="name" placeholder="Full Name">
 			</div>
-			<div class="form_name">
+			<div class="form_name number_input">
 				<input type="text" id="number" name="number" placeholder="Phone Number" required><br>
 			</div>
 			<div class="form_name">

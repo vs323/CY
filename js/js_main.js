@@ -56,7 +56,7 @@ $(window).focus(backgroundResize);
 $(document).ready(function(){
 	backgroundResize();
 	
-
+    
 	$('#menu_icon').click(function(){
 		$('.menu_overlay').toggleClass('menu_overlay_push');
 		$("#MobileMenuOverlay").hide();

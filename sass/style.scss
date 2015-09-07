@@ -184,10 +184,13 @@ html, body {
 	padding-right:5%;
 	.icon_menu {
 		margin:auto 0;
-		margin-right: 10%;
+		margin-right: 5%;
 	}
 	i {
 		font-size:1.75em;
+		width:55px;
+		height:55px;
+		padding:15px;
 	}
 	.fix_test {
 		@include display-flex();
@@ -320,12 +323,16 @@ html, body {
 			text-align:center;
 			margin-bottom:5px;
 			padding-bottom:10px;
-			&:hover {
+			&:hover, &:focus {
 				border-bottom: 5px solid $a_hover;
 				color:#fff;
 				text-decoration: none;
 			}
+			a {
+				display:block;
+			}
 			a:hover { color:#fff; text-decoration: none; }
+			a:focus { color:$a_hover; text-decoration: none; }
 		}
 	}
 }
@@ -593,8 +600,10 @@ html, body {
 			height:35px;
 			border-radius:5px;
 			border:0;
-			text-shadow: 1px 1px #333;
+			text-shadow: 2px 2px #333;
 			margin-top: 5px;
+			font-weight: 600;
+			box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.5);
 		}
 	}
 }
@@ -770,7 +779,7 @@ footer {
 	.ccc {
 		width:100%;
 		background:#222222;
-		max-height:660px;
+		max-height:720px;
 		.contact_wrap {
 			@include display-flex();
 		}
@@ -779,13 +788,28 @@ footer {
 		width:60%;
 		margin-right:5%;
 		form {
-			#name, #number {
-				float:left; 
-				width:40%; 
-				margin-bottom:10px;
+			.name_input, .number_input {
+				width:45%;
+				float:left;
 			}
-			#number {
+			.number_input {
 				margin-left:10%;
+			}
+			.error {
+				border: 1px solid #a94442 ;
+				&:focus {
+					box-shadow:0 0 10px #a94442;
+				}
+			}
+			.form_name div, #response  {
+				border:0px;
+				color: #a94442;
+			}
+			#response {
+				text-align: center;
+			}
+			.success {
+				color:#3c763d;
 			}
 		}
 	}
@@ -801,6 +825,7 @@ footer {
 	.contact_form_div .form_name textarea {
 		height:310px;
 	}
+
 /************************************
 		Footer - DESKTOP
 ************************************/
