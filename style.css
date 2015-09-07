@@ -301,7 +301,11 @@ html, body { height: 100%; min-width: 320px; }
 .contact_desk_v .c_5 .com_social i { border-radius: 50%; background-color: #3E606F; width: 45px; height: 45px; box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.5); color: #fff; font-size: 1.65em; text-align: center; padding-top: 10px; margin: 0 10px; }
 
 /* line 646, sass/style.scss */
+<<<<<<< HEAD
 .error { display: inline;  color: red;}
+=======
+.error { display: inline; }
+>>>>>>> master
 
 /*===========================================================
 											6TH PAGE SECTION - MAPS

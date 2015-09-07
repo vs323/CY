@@ -10,14 +10,22 @@ $(function() {
   	wrapper: "div",
   	errorPlacement: function(error, element) {
   		error.insertBefore( element);
+<<<<<<< HEAD
   		//error.wrap("<div class='error'></div>");
   		//$("<div></div>").insertBefore(error);
+=======
+  		error.wrap("<div class='error'></div>");
+  		$("<div></div>").insertBefore(error);
+>>>>>>> master
   	},
   	
   	// Add requirements to each of the fields
   	rules: {
   		name: {
+<<<<<<< HEAD
 			lettersonly: true,
+=======
+>>>>>>> master
   			required: true,
   			minlength: 2
   		},

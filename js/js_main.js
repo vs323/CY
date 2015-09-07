@@ -117,7 +117,11 @@ $(document).ready(function(){
 	var windowsWidth = $(window).width();
 	console.log(windowsWidth);
 	if(windowsWidth > 700) {
+<<<<<<< HEAD
 	$(".project_1").colorbox({rel:'group1', title:"true"});
+=======
+	$(".project_1").colorbox({rel:'group1'});
+>>>>>>> master
 	$("#click").click(function(){ 
 	$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
 			return false;

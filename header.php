@@ -15,10 +15,15 @@
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
 	<script type="text/javascript" src="js/jquery.colorbox.js"></script>
 	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+<<<<<<< HEAD
 	<script type="text/javascript" src="js/jquery.form.js"></script>
 	<script type="text/javascript" src="js/contact.js"></script>
 	<script type="text/javascript" src="js/jquery.validate.additional_methods.js"></script>
 	
+=======
+  <script type="text/javascript" src="js/jquery.form.js"></script>
+	<script type="text/javascript" src="js/contact.js"></script>
+>>>>>>> master
 	
 </head>
 <body>
