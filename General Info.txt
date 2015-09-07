@@ -13,3 +13,22 @@ http://markdalgleish.com/projects/stellar.js
 http://pixelcog.github.io/parallax.js/
 Skrollr.js
 
+
+
+To Do 01/09/2015
+
+Footer Information(whether term condition and privacy information needed)
+
+Gallery Structure change 
+-make the div display none
+
+contact us(call us) / get quote link
+
+Social media
+
+Change Title and explorer tab display.
+
+to have ACN ABN ACT LIcence number? 1/9/2015
+
+narrower contact us form and add information next to it.
+Testimonial ?

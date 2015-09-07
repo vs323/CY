@@ -8,10 +8,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
   <script type="text/javascript" src="js/js_main.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<link rel="stylesheet" type="text/css" href="colorbox.css" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
 	<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="js/jquery.form.js"></script>
+	<script type="text/javascript" src="js/contact.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.additional_methods.js"></script>
+	
 	
 </head>
 <body>
