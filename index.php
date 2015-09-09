@@ -35,10 +35,10 @@
 			<div class="little_line"></div>
 		</div><!-- give ID gl_id_1 -->
 		<div class="gl_container">
-			<div class="gl_items pointer project_1" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
-					<div class="gl_items pointer no_show project_1" href="images/demo/gl/test111.jpg"><img src="images/demo/gl/test111.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
-					<div class="gl_items pointer no_show project_1" href="images/demo/gl/47-Hurrell-Street-Forde-1.jpg"><img src="images/demo/gl/47-Hurrell-Street-Forde-1.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
-					<div class="gl_items pointer no_show project_1" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
+			<div class="gl_items pointer project_1" href="images/demo/gl/1.jpg"><img src="images/demo/gl/1.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
+					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1.jpg"><img src="images/demo/gl/1.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
+					<div class="gl_items pointer no_show project_1" href="images/demo/gl/2.jpg"><img src="images/demo/gl/2.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
+					<div class="gl_items pointer no_show project_1" href="images/demo/gl/3.jpg"><img src="images/demo/gl/3.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
 					<div class="gl_items pointer no_show project_1" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
 					<div class="gl_items pointer no_show project_1" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
 			<div class="gl_items pointer project_2" href="images/demo/gl/House1-600x300.jpg"><img src="images/demo/gl/House1-600x300.jpg" alt="b" /><span class="gl_subtitle">2 Champton St, Deakin, ACT</span></div>
