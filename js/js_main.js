@@ -313,7 +313,7 @@ function initialize() {
   //Associate the styled map with the MapTypeId and set it to display.
   map.mapTypes.set('map_style', styledMap);
   map.setMapTypeId('map_style');
-  var image = 'images/demo/markbig.png.';
+  var image = 'images/demo/markbig.png';
   var center = new google.maps.LatLng(-35.2199659, 149.1444995);
   var marker = new google.maps.Marker({
   position: center,

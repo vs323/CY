@@ -12,17 +12,17 @@
 		<div class="col-sm-4 bkt1">
 			<img src="images/demo/head1.jpg" alt="family" />
 			<h4>CONTRACT HOME</h4>
-			<p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. This is required when, for example, the final text is not yet available.</p>
+			<p>Building your dream house can be sometimes hassle. At YC Building, we can make it so much easier as we are committed to listen to your needs and fulfil it in a professional way. With almost 10 years experience in residential development industry, we constantly provide outstanding quality products and services in *** (service and product scopes). Please feel free to <a>contact us</a> today for a complementary quote.</p>
 		</div>
 		<div class="col-sm-4">
 			<img src="images/demo/head2.jpg" alt="family" />
 			<h4>HOME DESIGN</h4>
-			<p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. This is required when, for example, the final text is not yet available.</p>
+			<p>YC Building offers customised building design for single and two stories home in all styles and sizes. Our team will work with you in selecting the right product based on your circumstances. We believe our final project speak by itself, and please browse the gallery section on this site for our finished projects, or simply contact us to arrange a display home visit.</p>
 		</div>
 		<div class="col-sm-4">
 			<img src="images/demo/head3.jpg" alt="family" />
 			<h4>KNOCKDOWN REBUILD</h4>
-			<p>Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with ‘real’ content. This is required when, for example, the final text is not yet available.</p>
+			<p>Love where you live but would like a new home? Why not Knockdown & Rebuild? YC building gives you hassle-free as we provide a range of services including (eg. Development Approval, Demolition, and design upon your choice.) so that you can expect what is going to happen. Please contact us to discuss your needs, the process and advice on the available options.</p>
 <!-- 			<p style="color:#91AA9D; font-weight: 600;">READ MORE >>></p> -->
 		</div>
 	</div>
@@ -41,7 +41,7 @@
 					<div class="gl_items pointer no_show project_1" href="images/demo/gl/3.jpg"><img src="images/demo/gl/3.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
 					<div class="gl_items pointer no_show project_1" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
 					<div class="gl_items pointer no_show project_1" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
-			<div class="gl_items pointer project_2" href="images/demo/gl/House1-600x300.jpg"><img src="images/demo/gl/House1-600x300.jpg" alt="b" /><span class="gl_subtitle">2 Champton St, Deakin, ACT</span></div>
+			<div class="gl_items pointer project_2" href="images/demo/gl/2.jpg"><img src="images/demo/gl/2.jpg" alt="b" /><span class="gl_subtitle">2 Champton St, Deakin, ACT</span></div>
 					<div class="gl_items pointer no_show project_2" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
 					<div class="gl_items pointer no_show project_2" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
 					<div class="gl_items pointer no_show project_2" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
@@ -104,7 +104,7 @@
 <!-- Page 5 -->
 <section class="ccc">
 <div class="contact_wrap">
-<div class="contact_us">
+<div class="contact_us col-sm-6 col-md-7">
 	<div class="container_box_dk">
 		<h2>Enquiry</h2>
 		<div class="little_line"></div>
@@ -133,14 +133,14 @@
 		</form>
 	</div>
 </div>
-<div class="contact_desk_v">
+<div class="contact_desk_v col-sm-6 col-md-5">
 	<div class="container_box_dk">
 		<h2>Contact Us</h2>
 		<div class="little_line"></div>
 				<p><i class="fa fa-phone"></i>0448 888 045</p>
 				<p><i class="fa fa-envelope-o"></i><a href="mailto:ycbuilding@gmail.com">ycbuilding@gmail.com</a></p>
 				<p><i class="fa fa-map-marker"></i>10/24 Flemington Rd, Mitchell, ACT, 2913.</p>
-				<p style="height:5px"></p>
+				<p style="height:2px"></p>
 	</div>
 		<div class="c_5">
 
