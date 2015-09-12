@@ -17,6 +17,7 @@ $(function() {
   	// Add requirements to each of the fields
   	rules: {
   		name: {
+        lettersonly: true,
   			required: true,
   			minlength: 2
   		},
@@ -28,7 +29,7 @@ $(function() {
 		
 		number: {
 		required: true,
-		digits: true,
+		numbersonly: true,
   		minlength: 8		
 		},
 		

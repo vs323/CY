@@ -75,6 +75,8 @@ $(document).ready(function(){
 		
 	});
 	
+	//----------------------------------------------------------Scroll Link
+	
 	function goToByScrollHome(id){
     // Remove "link" from the ID
     id = id.replace("link", "");
@@ -113,7 +115,40 @@ $(document).ready(function(){
 	$("#MobileMenuOverlay").hide();
 });
 
+	$("#GetQuote").click(function(e) { 
+	console.log("hi");
+      // Prevent a page reload when a link is pressed
+    e.preventDefault(); 
+      // Call the scroll function
+    goToByScroll("contact_us");    
+	$(".menu_overlay, .menu_overlay_push").removeClass("menu_overlay_push");
+	$("#MobileMenuOverlay").hide();
+	});
 
+	$("#GetQuoteMobile").click(function(e) { 
+	console.log("hi");
+      // Prevent a page reload when a link is pressed
+    e.preventDefault(); 
+      // Call the scroll function
+    goToByScroll("contact_us");    
+	$(".menu_overlay, .menu_overlay_push").removeClass("menu_overlay_push");
+	$("#MobileMenuOverlay").hide();
+	});
+	
+	
+	$("#ViewGallery").click(function(e) { 
+	console.log("hi");
+      // Prevent a page reload when a link is pressed
+    e.preventDefault(); 
+      // Call the scroll function
+    goToByScroll("gallery");    
+	$(".menu_overlay, .menu_overlay_push").removeClass("menu_overlay_push");
+	$("#MobileMenuOverlay").hide();
+	});
+	
+	
+	//--------------------------------------------------Modal Gallery View.
+	/*
 	var windowsWidth = $(window).width();
 	console.log(windowsWidth);
 	if(windowsWidth > 700) {
@@ -132,7 +167,7 @@ $(document).ready(function(){
     });
 	}
 	
-	$(window).resize(function(){
+	$(window).resize(function(http://localhost/cy-master/images/demo/gl/green-building-600x300.jpg){
 	var windowsWidth = $(window).width();
 	if(windowsWidth > 700) {
 	$(".project_1").colorbox({rel:'group1'});
@@ -148,6 +183,88 @@ $(document).ready(function(){
     });
 	}
 	
+	})
+	*/
+	
+	
+	$('#project_1').magnificPopup({
+  delegate: 'div', // child items selector, by clicking on it popup will open
+  type: 'image',
+  gallery:{
+    enabled:true
+  }
+  // other options
+});
+
+$('#project_2').magnificPopup({
+  delegate: 'div', // child items selector, by clicking on it popup will open
+  type: 'image',
+  gallery:{
+    enabled:true,
+	navigateByImgClick: true,
+  },
+  image: {
+    titleSrc: 'alt'
+  }
+  // other options
+});
+	
+	//-----------------------------------------mobile screen slider.
+	
+	$(".slider_container").hide();
+            var options = {
+                 //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+                $DragOrientation: 1,
+				$ArrowKeyNavigation: true,	
+				
+				 $ArrowNavigatorOptions: {
+                    $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $Steps: 1,
+									//[Optional] Steps to go for each navigation request, default value is 1
+                }
+            };
+
+            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+			var jssor_slider2 = new $JssorSlider$("slider2_container", options);
+			function ScaleSlider() {
+                var parentWidth = jssor_slider1.$Elmt.parentNode.clientWidth;
+                if (parentWidth)
+				{
+                    jssor_slider1.$ScaleWidth(Math.min(parentWidth, 600));
+					jssor_slider2.$ScaleWidth(Math.min(parentWidth, 600));
+				}	
+                else
+                    window.setTimeout(ScaleSlider, 30);
+            }
+            ScaleSlider();
+
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+	
+	var windowsWidth = $(window).width();
+	if(windowsWidth < 700){
+	$(".slider_container").show();
+	$(".gl_container").hide();
+	}
+	
+	$(window).resize(function(){
+	var windowsWidth = $(window).width();
+	if(windowsWidth < 700) {
+	
+	$(".slider_container").show();
+	$(".gl_container").hide();
+	
+	}
+	
+	if(windowsWidth > 700){
+	
+	$(".slider_container").hide();
+	$(".gl_container").show();
+	
+	
+	}
 	})
 	
 	

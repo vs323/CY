@@ -125,6 +125,9 @@ a {
 	text-decoration:none;
 	color:$href;
 }
+a:hover {
+	color:$theme_color_3;
+}
 .pointer {
 	cursor:pointer;
 }
@@ -222,15 +225,16 @@ html, body {
 		padding:25px;
 		li {
 			height: 50px;
-			padding: 15px 0 15px 0;
 			border-top: 1px solid #c9c9c9;
 			&:first-child {
 				border: none;
 			}
 			a {
+				display:block;
 				text-decoration:none;
 				color:$theme_color_2;
 				font-weight: 600;
+				padding: 15px 0 15px 0;
 				&:active { color: $theme_color_1; }
 			}
 		}
@@ -316,11 +320,9 @@ html, body {
 		li {
 			float:left;
 			font-size:1em;
-			padding:0 13px;
 			width:95px;
 			text-align:center;
 			margin-bottom:5px;
-			padding-bottom:10px;
 			&:hover, &:focus {
 				border-bottom: 5px solid $a_hover;
 				color:#fff;
@@ -328,6 +330,8 @@ html, body {
 			}
 			a {
 				display:block;
+				padding:0 13px;
+				padding-bottom:10px;
 			}
 			a:hover { color:#fff; text-decoration: none; }
 			a:focus { color:$a_hover; text-decoration: none; }
@@ -342,8 +346,8 @@ html, body {
 	button {
 		margin-top:30px;
 		margin-right:20px;
-		width:115px;
-		height:40px;
+		width:125px;
+		height:45px;
 		font-size:0.85em;
 		@include transition(all 0.5s ease);
 	}
@@ -404,6 +408,7 @@ html, body {
 		}
 		p {
 			line-height: 1.5em;
+			
 		}
 		img {
 			max-width:100%;
@@ -462,7 +467,29 @@ html, body {
 		padding-right:10px;
 		text-align: right;
 	}
+
+	// .slider1_container img {
+ //    width: 100%;
+ //    height: auto;
+ //    @include transition(all 1s ease);
+	// }
 }
+
+	.slider_container {
+    @include display-flex();
+    @include flex-direction (column);
+    background: #222222;
+    margin: 0;
+    width: 100%;
+    @include transition(all 1s ease);
+		p {
+			color:#fff;
+			text-align:right;
+			margin:5px 0 20px 0;
+		}
+
+	}
+
 
 .no_show {
 	display:none;
@@ -675,6 +702,23 @@ html, body {
 .error {
 	display:inline;
 }
+
+.jssora12l, .jssora12r {
+                display: block;
+                position: absolute;
+                /* size of arrow element */
+                width: 30px;
+                height: 46px;
+                cursor: pointer;
+                background: url(images/a12.png) no-repeat;
+                overflow: hidden;
+            }
+.jssora12l { background-position: -16px -37px; }
+.jssora12r { background-position: -75px -37px; }
+.jssora12l:hover { background-position: -136px -37px; }
+.jssora12r:hover { background-position: -195px -37px; }
+.jssora12l.jssora12ldn { background-position: -256px -37px; }
+.jssora12r.jssora12rdn { background-position: -315px -37px; }
 /*===========================================================
 											6TH PAGE SECTION - MAPS
 ===========================================================*/
