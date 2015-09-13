@@ -12,7 +12,7 @@
 		<div class="col-sm-4 bkt1">
 			<img src="images/demo/head1.jpg" alt="family" />
 			<h4>CONTRACT HOME</h4>
-			<p>Building your dream house can be sometimes hassle. At YC Building, we can make it so much easier as we are committed to listen to your needs and fulfil it in a professional way. With almost 10 years experience in residential development industry, we constantly provide outstanding quality products and services in *** (service and product scopes). Please feel free to <a>contact us</a> today for a complementary quote.</p>
+			<p>Building your dream house can be sometimes stressful. At YC Building, we can make it so much easier as we are committed to listen to your needs and fulfil it in a professional way. With almost 10 years experience in residential development industry, we constantly provide outstanding quality products and services. Please feel free to <a>contact us</a> today for a complementary quote.</p>
 		</div>
 		<div class="col-sm-4">
 			<img src="images/demo/head2.jpg" alt="family" />
@@ -22,7 +22,7 @@
 		<div class="col-sm-4">
 			<img src="images/demo/head3.jpg" alt="family" />
 			<h4>KNOCKDOWN REBUILD</h4>
-			<p>Love where you live but would like a new home? Why not Knockdown & Rebuild? YC building gives you hassle-free as we provide a range of services including (eg. Development Approval, Demolition, and design upon your choice.) so that you can expect what is going to happen. Please contact us to discuss your needs, the process and advice on the available options.</p>
+			<p>Love where you live but would like a new home? Why not Knockdown & Rebuild? YC building gives you hassle-free as we provide a range of services including Development Approval, Demolition, and design upon your choice so that you can expect what is going to happen. Please contact us to discuss your needs, the process and advice on the available options.</p>
 <!-- 			<p style="color:#91AA9D; font-weight: 600;">READ MORE >>></p> -->
 		</div>
 	</div>
@@ -36,36 +36,36 @@
 		</div><!-- give ID gl_id_1 -->
 		<div class="gl_container">
 			<div id="project_1">
-			<div class="gl_items pointer project_1" href="images/demo/gl/1.jpg" title="1 Mugga St, Red Hill, ACT" ><img src="images/demo/gl/1.jpg" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
-					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1.jpg" title="1 Mugga St, Red Hill, ACT"><img src="images/demo/gl/1.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
-					<div class="gl_items pointer no_show project_1" href="images/demo/gl/2.jpg" title="1 Mugga St, Red Hill, ACT"><img src="images/demo/gl/2.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
-					<div class="gl_items pointer no_show project_1" href="images/demo/gl/3.jpg" title="1 Mugga St, Red Hill, ACT"><img src="images/demo/gl/3.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
-					<div class="gl_items pointer no_show project_1" href="images/demo/gl/green-building-600x300.jpg" title="1 Mugga St, Red Hill, ACT"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
-					<div class="gl_items pointer no_show project_1" href="images/demo/gl/green-building-600x300.jpg" title="1 Mugga St, Red Hill, ACT"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
+			<div class="gl_items pointer project_1" href="images/demo/gl/1/b001.jpg" title="121 Rob Riley Cct, BONNER, ACT, 2914." ><img src="images/demo/gl/1/b001.jpg" /><span class="gl_subtitle">121 Rob Riley Cct, BONNER, ACT, 2914.</span></div>
+<!-- 					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/b001.jpg" title="121 Rob Riley Cct, BONNER, ACT, 2914."><img src="images/demo/gl/1/b001.jpg" alt="a" /><span class="gl_subtitle">121 Rob Riley Cct, BONNER, ACT, 2914.</span></div> -->
+					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/b002.jpg" title="121 Rob Riley Cct, BONNER, ACT, 2914."><img src="images/demo/gl/1/b002.jpg" alt="a" /><span class="gl_subtitle">121 Rob Riley Cct, BONNER, ACT, 2914.</span></div>
 			</div>
 			<div id="project_2">	
-			<div class="gl_items pointer project_2" href="images/demo/gl/2.jpg"><img src="images/demo/gl/2.jpg" alt="b" /><span class="gl_subtitle">2 Champton St, Deakin, ACT</span></div>
-					<div class="gl_items pointer no_show project_2" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
-					<div class="gl_items pointer no_show project_2" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
-					<div class="gl_items pointer no_show project_2" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
-					<div class="gl_items pointer no_show project_2" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
-					<div class="gl_items pointer no_show project_2" href="images/demo/gl/green-building-600x300.jpg"><img src="images/demo/gl/green-building-600x300.jpg" alt="a" /><span class="gl_subtitle">1 Mugga St, Red Hill, ACT</span></div>
-			</div>			
-			<div class="gl_items pointer" href="images/demo/gl/house4-600x300.jpg"><img src="images/demo/gl/house4-600x300.jpg" alt="c" /><span class="gl_subtitle">3 George St, Lawson, ACT</span></div>
-			<div class="gl_items pointer" href="images/demo/gl/interior5-600x300.jpg"><img src="images/demo/gl/interior5-600x300.jpg" alt="d" /><span class="gl_subtitle">43 Johnston Ave, Crace, ACT</span></div>
-			<div class="gl_items pointer" href="images/demo/gl/slider01-600x300.jpg"><img src="images/demo/gl/slider01-600x300.jpg" alt="e" /><span class="gl_subtitle">29 Melbourn Ave, Deakin, ACT</span></div>
-			<div class="gl_items pointer" href="images/demo/gl/slider02-600x300.jpg"><img src="images/demo/gl/slider02-600x300.jpg" alt="f" /><span class="gl_subtitle">22 Lincon Cr, Franklin, ACT</span></div>
+			<div class="gl_items pointer project_1" href="images/demo/gl/1/c001.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911." ><img src="images/demo/gl/1/c001.jpg" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div>
+<!-- 					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/c001.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911."><img src="images/demo/gl/1/c001.jpg" alt="a" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div> -->
+					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/c002.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911."><img src="images/demo/gl/1/c002.jpg" alt="a" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div>
+					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/c003.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911."><img src="images/demo/gl/1/c003.jpg" alt="a" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div>
+					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/c004.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911."><img src="images/demo/gl/1/c004.jpg" alt="a" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div>
+					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/c005.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911."><img src="images/demo/gl/1/c005.jpg" alt="a" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div>
+					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/c006.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911."><img src="images/demo/gl/1/c006.jpg" alt="a" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div>
+			</div>
+			<div id="project_3">				
+			<div class="gl_items pointer" href="images/demo/gl/1/h001.jpg"><img src="images/demo/gl/1/h001.jpg" alt="c" /><span class="gl_subtitle">29 Albatross Cr, HARRISON, ACT, 2914.</span></div>
+<!-- 				<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/h001.jpg" title="29 Albatross Cr, HARRISON, ACT, 2914."><img src="images/demo/gl/1/c001.jpg" alt="a" /><span class="gl_subtitle">29 Albatross Cr, HARRISON, ACT, 2914.</span></div> -->
+					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/h002.jpg" title="29 Albatross Cr, HARRISON, ACT, 2914."><img src="images/demo/gl/1/c002.jpg" alt="a" /><span class="gl_subtitle">29 Albatross Cr, HARRISON, ACT, 2914.</span></div>
+					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/h003.jpg" title="29 Albatross Cr, HARRISON, ACT, 2914."><img src="images/demo/gl/1/c003.jpg" alt="a" /><span class="gl_subtitle">29 Albatross Cr, HARRISON, ACT, 2914.</span></div>
+			</div>
+			<!-- <div class="gl_items pointer" href="images/demo/gl/1/h001.jpg"><img src="images/demo/gl/1/h001.jpg" alt="d" /><span class="gl_subtitle">43 Johnston Ave, Crace, ACT</span></div>
+			<div class="gl_items pointer" href="images/demo/gl/1/h002.jpg"><img src="images/demo/gl/1/h002.jpg" alt="e" /><span class="gl_subtitle">29 Melbourn Ave, Deakin, ACT</span></div>
+			<div class="gl_items pointer" href="images/demo/gl/1/c003.jpg"><img src="images/demo/gl/1/c003.jpg" alt="f" /><span class="gl_subtitle">22 Lincon Cr, Franklin, ACT</span></div> -->
 		</div>
 		
 		
 		<div class="slider_container">
 			<div class="slider_items" id="slider1_container"  style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px;">
 				<div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 300px; overflow: hidden;">
-					<div><img u="image" src="images/demo/gl/1.jpg" /></div>
-					<div><img u="image" src="images/demo/gl/2.jpg" /></div>
-					<div><img u="image" src="images/demo/gl/3.jpg" /></div>
-					<div><img u="image" src="images/demo/gl/47-Hurrell-Street-Forde-1.jpg" /></div>
-					<div><img u="image" src="images/demo/gl/green-building-600x300.jpg" /></div>
+					<div><img u="image" src="images/demo/gl/1/b001.jpg" /></div>
+					<div><img u="image" src="images/demo/gl/1/b002.jpg" /></div>
 				</div>
 
 				<span u="arrowleft" class="jssora12l" style="top: 123px; left: 0px;">
@@ -75,14 +75,15 @@
 				</span>
 
 			</div>
-			<p>1 Mugga Way, RedHill, ACT, 2600</p>
+			<p>121 Rob Riley Cct, BONNER, ACT, 2914.</p>
 			<div class="slider_items" id="slider2_container"  style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px;">
 				<div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 300px; overflow: hidden;">
-					<div><img u="image" src="images/demo/gl/2.jpg" /></div>
-					<div><img u="image" src="images/demo/gl/3.jpg" /></div>
-					<div><img u="image" src="images/demo/gl/3.jpg" /></div>
-					<div><img u="image" src="images/demo/gl/47-Hurrell-Street-Forde-1.jpg" /></div>
-					<div><img u="image" src="images/demo/gl/green-building-600x300.jpg" /></div>
+					<div><img u="image" src="images/demo/gl/1/c001.jpg" /></div>
+					<div><img u="image" src="images/demo/gl/1/c002.jpg" /></div>
+					<div><img u="image" src="images/demo/gl/1/c003.jpg" /></div>
+					<div><img u="image" src="images/demo/gl/1/c004.jpg" /></div>
+					<div><img u="image" src="images/demo/gl/1/c005.jpg" /></div>
+					<div><img u="image" src="images/demo/gl/1/c006.jpg" /></div>
 				</div>
 				<span u="arrowleft" class="jssora12l" style="top: 123px; left: 0px;">
 				</span>
@@ -90,7 +91,21 @@
 				<span u="arrowright" class="jssora12r" style="top: 123px; right: 0px;">
 				</span>
 			</div>
-			<p>3 Marlowe Street, Franklin, ACT, 2913</p>
+			<p>2 Cocoparra Cr, CRACE, ACT, 2911.</p>
+
+			<div class="slider_items" id="slider2_container"  style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px;">
+				<div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 300px; overflow: hidden;">
+					<div><img u="image" src="images/demo/gl/1/h001.jpg" /></div>
+					<div><img u="image" src="images/demo/gl/1/h002.jpg" /></div>
+					<div><img u="image" src="images/demo/gl/1/h003.jpg" /></div>
+				</div>
+				<span u="arrowleft" class="jssora12l" style="top: 123px; left: 0px;">
+				</span>
+        <!-- Arrow Right -->
+				<span u="arrowright" class="jssora12r" style="top: 123px; right: 0px;">
+				</span>
+			</div>
+			<p>29 Albatross Cr, HARRISON, ACT, 2914.</p>
 		</div>	
 </section>
 <!-- Page 4 -->
@@ -179,8 +194,7 @@
 		<div class="little_line"></div>
 				<p><i class="fa fa-phone"></i>0448 888 045</p>
 				<p><i class="fa fa-envelope-o"></i><a href="mailto:ycbuilding@gmail.com">ycbuilding@gmail.com</a></p>
-				<p><i class="fa fa-map-marker"></i><a href="https://www.google.com/maps/dir//-35.2199659,149.1444995" target="_blank">7 / 117 Flemington Rd, Mitchell, ACT, 2911.</p>
-				<p style="height:2px"></p>
+				<p><i class="fa fa-map-marker"></i><a href="https://www.google.com/maps/dir//-35.2199659,149.1444995" target="_blank">7 / 117 Flemington Rd, Mitchell, ACT, 2911.</a></p><span id="ad_note">[Acess from Darling Street. Next to Kennard Hire]</span>
 	</div>
 		<div class="c_5">
 
@@ -188,8 +202,8 @@
 
 		<div class="com_social">
 				<a href="#"><i class="fa fa-facebook social_icon_style"></i></a>
-				<a href="#"><i class="fa fa-twitter social_icon_style"></i></a>
-				<a href="#"><i class="fa fa-youtube-play social_icon_style"></i></a>
+<!-- 				<a href="#"><i class="fa fa-twitter social_icon_style"></i></a> -->
+				<a href="#"><i class="fa fa-instagram social_icon_style"></i></a>
 			</div>
 		</div>
 

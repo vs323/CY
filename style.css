@@ -324,28 +324,31 @@ html, body { height: 100%; min-width: 320px; }
 /* line 684, sass/style.scss */
 .contact_desk_v .c_5 .com_social i { border-radius: 50%; background-color: #3E606F; width: 45px; height: 45px; box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.5); color: #fff; font-size: 1.65em; text-align: center; padding-top: 10px; margin: 0 10px; text-shadow: 2px 2px #333; }
 
-/* line 702, sass/style.scss */
-.error { display: inline; }
+/* line 701, sass/style.scss */
+#ad_note { font-size: 0.85em; color: #D1DBBD; font-style: italic; }
 
 /* line 706, sass/style.scss */
+.error { display: inline; }
+
+/* line 710, sass/style.scss */
 .jssora12l, .jssora12r { display: block; position: absolute; /* size of arrow element */ width: 30px; height: 46px; cursor: pointer; background: url(images/a12.png) no-repeat; overflow: hidden; }
 
-/* line 716, sass/style.scss */
+/* line 720, sass/style.scss */
 .jssora12l { background-position: -16px -37px; }
 
-/* line 717, sass/style.scss */
+/* line 721, sass/style.scss */
 .jssora12r { background-position: -75px -37px; }
 
-/* line 718, sass/style.scss */
+/* line 722, sass/style.scss */
 .jssora12l:hover { background-position: -136px -37px; }
 
-/* line 719, sass/style.scss */
+/* line 723, sass/style.scss */
 .jssora12r:hover { background-position: -195px -37px; }
 
-/* line 720, sass/style.scss */
+/* line 724, sass/style.scss */
 .jssora12l.jssora12ldn { background-position: -256px -37px; }
 
-/* line 721, sass/style.scss */
+/* line 725, sass/style.scss */
 .jssora12r.jssora12rdn { background-position: -315px -37px; }
 
 /*===========================================================
@@ -354,7 +357,7 @@ html, body { height: 100%; min-width: 320px; }
 /************************************
 		Mobile
 ************************************/
-/* line 728, sass/style.scss */
+/* line 732, sass/style.scss */
 #map { display: block; width: 100%; height: 50vh; margin: 0 auto; }
 
 /*===========================================================
@@ -363,77 +366,77 @@ html, body { height: 100%; min-width: 320px; }
 /************************************
 		Mobile
 ************************************/
-/* line 745, sass/style.scss */
+/* line 749, sass/style.scss */
 footer { width: 100%; background: #222; border-top: 1px solid #333; margin-top: 40px; }
 
-/* line 752, sass/style.scss */
+/* line 756, sass/style.scss */
 .bottom_footer { padding: 20px 5%; position: relative; max-width: 1268px; margin: 0 auto; }
-/* line 758, sass/style.scss */
+/* line 762, sass/style.scss */
 .bottom_footer .copyright { display: block; color: #777; text-align: center; font-size: 0.75em; margin-top: 30px; }
-/* line 764, sass/style.scss */
+/* line 768, sass/style.scss */
 .bottom_footer .copyright span { color: #fff; }
-/* line 769, sass/style.scss */
-.bottom_footer .footer_menu ul { list-style: none; text-align: center; padding: 0; }
 /* line 773, sass/style.scss */
+.bottom_footer .footer_menu ul { list-style: none; text-align: center; padding: 0; }
+/* line 777, sass/style.scss */
 .bottom_footer .footer_menu ul li { position: relative; display: inline-block; font-size: 0.75em; padding: 0 13px; }
-/* line 778, sass/style.scss */
+/* line 782, sass/style.scss */
 .bottom_footer .footer_menu ul li a:hover { color: #91AA9D; }
 
 /*===========================================================
 											MEDIA QUERY
 ===========================================================*/
-@media screen and (min-width: 768px) { /* line 790, sass/style.scss */
+@media screen and (min-width: 768px) { /* line 794, sass/style.scss */
   .menu_overlay, .under_bk { display: none; }
-  /* line 791, sass/style.scss */
+  /* line 795, sass/style.scss */
   .icon_menu { display: none; }
-  /* line 794, sass/style.scss */
-  .nav_bar, .d_under_bk { display: block; }
   /* line 798, sass/style.scss */
+  .nav_bar, .d_under_bk { display: block; }
+  /* line 802, sass/style.scss */
   .wwd .col-sm-4 { padding-right: 25px; padding-left: 25px; }
   /************************************ 		Gallery - Desktop ***********************************/
-  /* line 807, sass/style.scss */
-  .gl_head { max-width: 1268px; margin: 0 auto; }
   /* line 811, sass/style.scss */
+  .gl_head { max-width: 1268px; margin: 0 auto; }
+  /* line 815, sass/style.scss */
   .gl_container { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; flex-flow: row wrap; -webkit-flex-flow: row wrap; -moz-box: row wrap; -webkit-box-pack: space-around; -webkit-justify-content: space-around; -ms-flex-pack: space-around; justify-content: space-around; padding: 0; max-width: 1268px; margin: 0 auto; }
-  /* line 818, sass/style.scss */
+  /* line 822, sass/style.scss */
   .gl_container .gl_items { width: 320px; margin: 0; padding: 0; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease; }
   /************************************ 		Testimonials - DESKTOP ***********************************/
-  /* line 829, sass/style.scss */
+  /* line 833, sass/style.scss */
   .desktop_testi_con { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; flex-flow: row wrap; -webkit-flex-flow: row wrap; -moz-box: row wrap; -webkit-box-pack: space-around; -webkit-justify-content: space-around; -ms-flex-pack: space-around; justify-content: space-around; max-width: 1268px; margin: 0 auto; margin-top: 30px; }
-  /* line 836, sass/style.scss */
+  /* line 840, sass/style.scss */
   .desktop_testi_con .testimonial_container { width: 45%; }
   /************************************ 		CONTACT - DESKTOP ***********************************/
-  /* line 843, sass/style.scss */
-  .ccc { width: 100%; background: #222222; max-height: 720px; }
   /* line 847, sass/style.scss */
-  .ccc .contact_wrap { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; }
+  .ccc { width: 100%; background: #222222; max-height: 720px; }
   /* line 851, sass/style.scss */
-  .contact_us { margin-right: 5%; }
+  .ccc .contact_wrap { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; }
   /* line 855, sass/style.scss */
-  .contact_us form .name_input, .contact_us form .number_input { width: 45%; float: left; }
+  .contact_us { margin-right: 5%; }
   /* line 859, sass/style.scss */
+  .contact_us form .name_input, .contact_us form .number_input { width: 45%; float: left; }
+  /* line 863, sass/style.scss */
   .contact_us form .number_input { margin-left: 10%; }
-  /* line 862, sass/style.scss */
+  /* line 866, sass/style.scss */
   .contact_us form .error { border: 1px solid #a94442; }
-  /* line 864, sass/style.scss */
-  .contact_us form .error:focus { box-shadow: 0 0 10px #a94442; }
   /* line 868, sass/style.scss */
-  .contact_us form .form_name div, .contact_us form #response { border: 0px; color: #a94442; }
+  .contact_us form .error:focus { box-shadow: 0 0 10px #a94442; }
   /* line 872, sass/style.scss */
+  .contact_us form .form_name div, .contact_us form #response { border: 0px; color: #a94442; }
+  /* line 876, sass/style.scss */
   .contact_us form #response { text-align: center; }
-  /* line 875, sass/style.scss */
+  /* line 879, sass/style.scss */
   .contact_us form .success { color: #3c763d; }
-  /* line 880, sass/style.scss */
+  /* line 884, sass/style.scss */
   .contact_desk_v { display: inline; border-left: 4px dashed #333; padding-left: 5%; }
-  /* line 885, sass/style.scss */
-  .contact_desk_v #map { height: 350px; }
   /* line 889, sass/style.scss */
+  .contact_desk_v #map { height: 350px; }
+  /* line 893, sass/style.scss */
   .contact_form_div .form_name textarea { height: 310px; }
   /************************************ 		Footer - DESKTOP ***********************************/ }
-@media screen and (min-width: 1268px) { /* line 902, sass/style.scss */
+@media screen and (min-width: 1268px) { /* line 906, sass/style.scss */
   .tool_bar .fix_test img { margin-left: 0; }
-  /* line 905, sass/style.scss */
+  /* line 909, sass/style.scss */
   .test_head { padding: 0; } }
 @media screen and (min-width: 958px) and (max-width: 1015px) { /* fix height issue in map area */
-  /* line 912, sass/style.scss */
+  /* line 916, sass/style.scss */
   .contact_form_div { margin-top: 32px; } }

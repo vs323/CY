@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>YCBuilding - Canberra's Leading Residential Builder</title>
+  <title>YC Building | Canberra based building company</title>
   <link rel="shortcut icon" href="images/favicon.ico" />
-  <meta name="description" content="content" />
+  <meta name="description" content="Canberra based trustworthy residential builder" />
+  <meta name="keywords" content="Canberra based building company, YC building, Canberra Residential developer, Canberra Builder, Canberra Knowckdown, Canberra Home Design" />
+  <meta name="author" content="Canberr Web Development, JVR Web Development, Josh SHEN, Alex LIU" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -41,7 +43,7 @@
 				<div class="nav_bar">
 					<ul class="unlist_style">
 					<li><a id="nav_containerlink" href="#">Home</a></li>
-					<li><a id="second_pagelink" href="#">Who We Are</a></li>
+					<li><a id="second_pagelink" href="#">What We Do</a></li>
 					<li><a id="gallerylink" href="#">Our Work</a></li>
 					<li><a id="testimoniallink" href="#">Testimonial</a></li>
 					<li><a id="contact_uslink" href="#">Contact Us</a></li>
@@ -54,7 +56,7 @@
 		<nav class="menu_overlay">
 			<ul class="unlist_style">
 					<li><a id="nav_containerlink" href="#">Home</a></li>
-					<li><a id="second_pagelink" href="#">Who We Are</a></li>
+					<li><a id="second_pagelink" href="#">What We Do</a></li>
 					<li><a id="gallerylink" href="#">Our Work</a></li>
 					<li><a id="testimoniallink" href="#">Testimonial</a></li>
 				<li><a id="contact_uslink" href="#">Contact Us</a></li>

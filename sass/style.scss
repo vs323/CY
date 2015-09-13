@@ -698,7 +698,11 @@ html, body {
 	}
 }
 
-
+#ad_note {
+	font-size: 0.85em;
+	color: $theme_color_2;
+	font-style:italic;
+}
 .error {
 	display:inline;
 }
