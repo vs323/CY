@@ -35,15 +35,15 @@
 			<div class="little_line"></div>
 		</div><!-- give ID gl_id_1 -->
 		<div class="gl_container">
-			<div id="project_1">
+<!--			<div id="project_1">
 			<div class="gl_items pointer project_1" href="images/demo/gl/1/b001.jpg" title="121 Rob Riley Cct, BONNER, ACT, 2914." ><img src="images/demo/gl/1/b001.jpg" /><span class="gl_subtitle">121 Rob Riley Cct, BONNER, ACT, 2914.</span></div>
-<!-- 					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/b001.jpg" title="121 Rob Riley Cct, BONNER, ACT, 2914."><img src="images/demo/gl/1/b001.jpg" alt="a" /><span class="gl_subtitle">121 Rob Riley Cct, BONNER, ACT, 2914.</span></div> -->
-					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/b002.jpg" title="121 Rob Riley Cct, BONNER, ACT, 2914."><img src="images/demo/gl/1/b002.jpg" alt="a" /><span class="gl_subtitle">121 Rob Riley Cct, BONNER, ACT, 2914.</span></div>
+ 					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/b001.jpg" title="121 Rob Riley Cct, BONNER, ACT, 2914."><img src="images/demo/gl/1/b001.jpg" alt="a" /><span class="gl_subtitle">121 Rob Riley Cct, BONNER, ACT, 2914.</span></div> -->
+<!--					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/b002.jpg" title="121 Rob Riley Cct, BONNER, ACT, 2914."><img src="images/demo/gl/1/b002.jpg" alt="a" /><span class="gl_subtitle">121 Rob Riley Cct, BONNER, ACT, 2914.</span></div>
 			</div>
 			<div id="project_2">	
 			<div class="gl_items pointer project_1" href="images/demo/gl/1/c001.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911." ><img src="images/demo/gl/1/c001.jpg" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div>
-<!-- 					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/c001.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911."><img src="images/demo/gl/1/c001.jpg" alt="a" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div> -->
-					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/c002.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911."><img src="images/demo/gl/1/c002.jpg" alt="a" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div>
+ 					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/c001.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911."><img src="images/demo/gl/1/c001.jpg" alt="a" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div> -->
+<!--					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/c002.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911."><img src="images/demo/gl/1/c002.jpg" alt="a" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div>
 					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/c003.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911."><img src="images/demo/gl/1/c003.jpg" alt="a" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div>
 					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/c004.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911."><img src="images/demo/gl/1/c004.jpg" alt="a" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div>
 					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/c005.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911."><img src="images/demo/gl/1/c005.jpg" alt="a" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div>
@@ -51,14 +51,165 @@
 			</div>
 			<div id="project_3">				
 			<div class="gl_items pointer" href="images/demo/gl/1/h001.jpg"><img src="images/demo/gl/1/h001.jpg" alt="c" /><span class="gl_subtitle">29 Albatross Cr, HARRISON, ACT, 2914.</span></div>
-<!-- 				<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/h001.jpg" title="29 Albatross Cr, HARRISON, ACT, 2914."><img src="images/demo/gl/1/c001.jpg" alt="a" /><span class="gl_subtitle">29 Albatross Cr, HARRISON, ACT, 2914.</span></div> -->
-					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/h002.jpg" title="29 Albatross Cr, HARRISON, ACT, 2914."><img src="images/demo/gl/1/c002.jpg" alt="a" /><span class="gl_subtitle">29 Albatross Cr, HARRISON, ACT, 2914.</span></div>
+ 				<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/h001.jpg" title="29 Albatross Cr, HARRISON, ACT, 2914."><img src="images/demo/gl/1/c001.jpg" alt="a" /><span class="gl_subtitle">29 Albatross Cr, HARRISON, ACT, 2914.</span></div> -->
+<!--					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/h002.jpg" title="29 Albatross Cr, HARRISON, ACT, 2914."><img src="images/demo/gl/1/c002.jpg" alt="a" /><span class="gl_subtitle">29 Albatross Cr, HARRISON, ACT, 2914.</span></div>
 					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/h003.jpg" title="29 Albatross Cr, HARRISON, ACT, 2914."><img src="images/demo/gl/1/c003.jpg" alt="a" /><span class="gl_subtitle">29 Albatross Cr, HARRISON, ACT, 2914.</span></div>
 			</div>
 			<!-- <div class="gl_items pointer" href="images/demo/gl/1/h001.jpg"><img src="images/demo/gl/1/h001.jpg" alt="d" /><span class="gl_subtitle">43 Johnston Ave, Crace, ACT</span></div>
 			<div class="gl_items pointer" href="images/demo/gl/1/h002.jpg"><img src="images/demo/gl/1/h002.jpg" alt="e" /><span class="gl_subtitle">29 Melbourn Ave, Deakin, ACT</span></div>
 			<div class="gl_items pointer" href="images/demo/gl/1/c003.jpg"><img src="images/demo/gl/1/c003.jpg" alt="f" /><span class="gl_subtitle">22 Lincon Cr, Franklin, ACT</span></div> -->
+		
+			<div class="my-gallery">
+
+			<figure class="gl_items pointer" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				<a  href="images/demo/gl/1/c001.jpg" itemprop="contentUrl" data-size="1200x800">
+					<img src="images/demo/gl/1/c001.jpg" itemprop="thumbnail" alt="Image description" />
+				</a>
+                <figcaption class="figcaption" itemprop="caption description">2 Cocoparra Cr, CRACE, ACT, 2911.</figcaption>
+			</figure>
+			
+			 <figure class="gl_items pointer no_show" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				<a  href="images/demo/gl/1/c002.jpg" itemprop="contentUrl" data-size="1200x800">
+					<img src="images/demo/gl/1/c002.jpg" itemprop="thumbnail" alt="Image description" />
+				</a>
+				<figcaption class="figcaption" itemprop="caption description">2 Cocoparra Cr, CRACE, ACT, 2911.</figcaption>
+			</figure>
+
+			<figure class="gl_items pointer no_show" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				<a  href="images/demo/gl/1/c003.jpg" itemprop="contentUrl" data-size="1200x800">
+					<img src="images/demo/gl/1/c003.jpg" itemprop="thumbnail" alt="Image description" />
+				</a>
+				<figcaption class="figcaption" itemprop="caption description">2 Cocoparra Cr, CRACE, ACT, 2911.</figcaption>
+			</figure>
+			
+			<figure class="gl_items pointer no_show" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				<a  href="images/demo/gl/1/c004.jpg" itemprop="contentUrl" data-size="1200x800">
+					<img src="images/demo/gl/1/c004.jpg" itemprop="thumbnail" alt="Image description" />
+				</a>
+				<figcaption class="figcaption" itemprop="caption description">2 Cocoparra Cr, CRACE, ACT, 2911.</figcaption>
+			</figure>
+			
+			
+			<figure class="gl_items pointer no_show" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				<a  href="images/demo/gl/1/c005.jpg" itemprop="contentUrl" data-size="1200x800">
+					<img src="images/demo/gl/1/c005.jpg" itemprop="thumbnail" alt="Image description" />
+				</a>
+				<figcaption class="figcaption" itemprop="caption description">2 Cocoparra Cr, CRACE, ACT, 2911.</figcaption>
+			</figure>
+			
+			</div>
+			
+			
+			<div class="my-gallery">
+
+			<figure class="gl_items pointer" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				<a  href="images/demo/gl/1/h001.jpg" itemprop="contentUrl" data-size="1200x800">
+					<img src="images/demo/gl/1/h001.jpg" itemprop="thumbnail" alt="Image description" />
+				</a>
+                <figcaption class="figcaption" itemprop="caption description">29 Albatross Cr, HARRISON, ACT, 2914.</figcaption>
+			</figure>
+			
+			 <figure class="gl_items pointer no_show" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				<a  href="images/demo/gl/1/h002.jpg" itemprop="contentUrl" data-size="1200x800">
+					<img src="images/demo/gl/1/h002.jpg" itemprop="thumbnail" alt="Image description" />
+				</a>
+				<figcaption class="figcaption" itemprop="caption description">29 Albatross Cr, HARRISON, ACT, 2914.</figcaption>
+			</figure>
+
+			<figure class="gl_items pointer no_show" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				<a  href="images/demo/gl/1/h003.jpg" itemprop="contentUrl" data-size="1200x800">
+					<img src="images/demo/gl/1/h003.jpg" itemprop="thumbnail" alt="Image description" />
+				</a>
+				<figcaption class="figcaption" itemprop="caption description">29 Albatross Cr, HARRISON, ACT, 2914.</figcaption>
+			</figure>
+			</div>
+			
+			<div class="my-gallery">
+
+			<figure class="gl_items pointer" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				<a  href="images/demo/gl/1/b001.jpg" itemprop="contentUrl" data-size="1200x800">
+					<img src="images/demo/gl/1/b001.jpg" itemprop="thumbnail" alt="Image description" />
+				</a>
+                <figcaption class="figcaption" itemprop="caption description">121 Rob Riley Cct, BONNER, ACT, 2914.</figcaption>
+			</figure>
+			
+			 <figure class="gl_items pointer no_show" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				<a  href="images/demo/gl/1/b002.jpg" itemprop="contentUrl" data-size="1200x800">
+					<img src="images/demo/gl/1/b002.jpg" itemprop="thumbnail" alt="Image description" />
+				</a>
+				<figcaption class="figcaption" itemprop="caption description">121 Rob Riley Cct, BONNER, ACT, 2914.</figcaption>
+			</figure>
+
+			
+			</div>
+		
 		</div>
+		<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 		
 		
 		<div class="slider_container">
@@ -93,7 +244,7 @@
 			</div>
 			<p>2 Cocoparra Cr, CRACE, ACT, 2911.</p>
 
-			<div class="slider_items" id="slider2_container"  style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px;">
+			<div class="slider_items" id="slider3_container"  style="position: relative; top: 0px; left: 0px; width: 600px; height: 300px;">
 				<div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 300px; overflow: hidden;">
 					<div><img u="image" src="images/demo/gl/1/h001.jpg" /></div>
 					<div><img u="image" src="images/demo/gl/1/h002.jpg" /></div>
@@ -107,6 +258,7 @@
 			</div>
 			<p>29 Albatross Cr, HARRISON, ACT, 2914.</p>
 		</div>	
+		
 </section>
 <!-- Page 4 -->
 <section class="testimonial">
@@ -117,8 +269,8 @@
 		<div class="desktop_testi_con">
 				<div class="testimonial_container">
 					<div>
-						<p><img src="images/demo/quotation.png" /> We are very happy with YC’s building quality as well as professional manner especially the response time. "</p>
-						<p style="text-align: right;">- Jason Statham</p>
+						<p><img src="images/demo/quotation.png" /> 已经有两套房子委托ycbuilding修建的经历了 我们全家对yc各方面感觉都非常满意 yc工作高效 质量过硬 服务热情真诚耐心 沟通特别融洽 性价比也极高 更重要的是售后服务也非常到位 完全没有后顾之忧 毫无疑问下一套房子我还会找yc来修建并且强烈推荐我的亲朋好友选择yc！也祝愿yc事业蒸蒸日上 生意红火！ "</p>
+						<p style="text-align: right;">- Jin Dai</p>
 					</div>
 <!-- 					<div class="potrait">
 						<img src="images/demo/1.jpg" alt="potrait" /><div class="t_name">Jason Statham</div>
@@ -127,7 +279,7 @@
 
 				<div class="testimonial_container">
 					<div>
-						<p><img src="images/demo/quotation.png" />The team that was assigned to our project were extremely professional throughout the project. We would like to extend our sincere thanks for the job well done.</p>
+						<p><img src="images/demo/quotation.png" />The team that was assigned to our project were extremely professional throughout the project. We would like to extend our sincere thanks for the job well done. "</p>
 						<p style="text-align: right;">- Jason Statham</p>
 					</div>
 		<!-- 			<div class="potrait">
@@ -137,7 +289,7 @@
 
 				<div class="testimonial_container">
 					<div>
-						<p><img src="images/demo/quotation.png" />They are so friendly and very easy to deal with. The floor plan they designed is just perfect for us.</p>
+						<p><img src="images/demo/quotation.png" />They are so friendly and very easy to deal with. The floor plan they designed is just perfect for us. "</p>
 						<p style="text-align: right;">- Jason Statham</p>
 					</div>
 				<!-- 	<div class="potrait">
@@ -147,7 +299,7 @@
 
 				<div class="testimonial_container">
 					<div>
-						<p><img src="images/demo/quotation.png" />We are pleased with our new home. Everything is delivered on time with top quality.</p>
+						<p><img src="images/demo/quotation.png" />We are pleased with our new home. Everything is delivered on time with top quality. "</p>
 						<p style="text-align: right;">- Jason Statham</p>
 					</div>
 					<!-- <div class="potrait">

@@ -562,6 +562,10 @@ $.validator.addMethod("numbersonly", function(value, element) {
 	return this.optional(element) || /^[0-9+]+$/i.test(value);
 }, "Digits only please");
 
+$.validator.addMethod("englishonly", function(value, element) {
+	return this.optional(element) || /^[0-9+-_A-Za-z`~!@#$%^&*?() {}.,'";:<>]+$/i.test(value);
+}, "Letters only please");
+
 $.validator.addMethod("letterswithbasicpunc", function(value, element) {
 	return this.optional(element) || /^[a-z\-.,()'"\s]+$/i.test(value);
 }, "Letters or punctuation only please");

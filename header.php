@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>YC Building | Canberra based building company</title>
+  <title>YC Building | Canberra Residential Builders</title>
   <link rel="shortcut icon" href="images/favicon.ico" />
   <meta name="description" content="Canberra based trustworthy residential builder" />
   <meta name="keywords" content="Canberra based building company, YC building, Canberra Residential developer, Canberra Builder, Canberra Knowckdown, Canberra Home Design" />
@@ -20,10 +20,31 @@
 	<script type="text/javascript" src="js/jquery.validate.additional_methods.js"></script>
 	<script type="text/javascript" src="js/jssor.js"></script>
     <script type="text/javascript" src="js/jssor.slider.js"></script>
-	<link rel="stylesheet" type="text/css" href="magnific-popup.css">
-	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+	<link rel="stylesheet" type="text/css" href="photoswipe.css"> 
+	<link rel="stylesheet" type="text/css" href="default-skin.css"> 
+	<script type="text/javascript" src="js/photoswipe.min.js"></script>
+	<script type="text/javascript" src="js/photoswipe-ui-default.min.js"></script>
 	
-	
+<script type="text/css">	
+.my-gallery {
+  width: 100%;
+  float: left;
+}
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 150px;
+}
+.my-gallery figcaption {
+  display: none;
+}
+</script>
+
 </head>
 <body>
 <!--[if lt IE 9]>
@@ -76,7 +97,7 @@
 		</div>
 		<!-- HOME page Bottom Part -->
 		<div class="under_bk cevc">
-			<a href="tel:+61499984141"><button>CALL US</button></a><button id="GetQuoteMobile">GET QUOTES</button>
+			<a href="tel:+61448888045"><button>CALL US</button></a><button id="GetQuoteMobile">GET QUOTES</button>
 		</div>
 
 	</section>

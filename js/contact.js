@@ -34,6 +34,7 @@ $(function() {
 		},
 		
   		message: {
+			englishonly: true,
   			required: true,
   			minlength: 10
   		}
