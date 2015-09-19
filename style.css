@@ -358,7 +358,7 @@ html, body { height: 100%; min-width: 320px; }
 		Mobile
 ************************************/
 /* line 732, sass/style.scss */
-#map { display: block; width: 100%; height: 50vh; margin: 0 auto; }
+#map { display: block; width: 100%; height: 45vh; margin: 0 auto; }
 
 /*===========================================================
 											Footer
@@ -431,7 +431,7 @@ footer { width: 100%; background: #222; border-top: 1px solid #333; margin-top: 
   /* line 889, sass/style.scss */
   .contact_desk_v #map { height: 350px; }
   /* line 893, sass/style.scss */
-  .contact_form_div .form_name textarea { height: 310px; }
+  .contact_form_div .form_name textarea { height: 350px; }
   /************************************ 		Footer - DESKTOP ***********************************/ }
 @media screen and (min-width: 1268px) { /* line 906, sass/style.scss */
   .tool_bar .fix_test img { margin-left: 0; }

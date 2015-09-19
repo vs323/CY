@@ -35,30 +35,6 @@
 			<div class="little_line"></div>
 		</div><!-- give ID gl_id_1 -->
 		<div class="gl_container">
-<!--			<div id="project_1">
-			<div class="gl_items pointer project_1" href="images/demo/gl/1/b001.jpg" title="121 Rob Riley Cct, BONNER, ACT, 2914." ><img src="images/demo/gl/1/b001.jpg" /><span class="gl_subtitle">121 Rob Riley Cct, BONNER, ACT, 2914.</span></div>
- 					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/b001.jpg" title="121 Rob Riley Cct, BONNER, ACT, 2914."><img src="images/demo/gl/1/b001.jpg" alt="a" /><span class="gl_subtitle">121 Rob Riley Cct, BONNER, ACT, 2914.</span></div> -->
-<!--					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/b002.jpg" title="121 Rob Riley Cct, BONNER, ACT, 2914."><img src="images/demo/gl/1/b002.jpg" alt="a" /><span class="gl_subtitle">121 Rob Riley Cct, BONNER, ACT, 2914.</span></div>
-			</div>
-			<div id="project_2">	
-			<div class="gl_items pointer project_1" href="images/demo/gl/1/c001.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911." ><img src="images/demo/gl/1/c001.jpg" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div>
- 					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/c001.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911."><img src="images/demo/gl/1/c001.jpg" alt="a" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div> -->
-<!--					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/c002.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911."><img src="images/demo/gl/1/c002.jpg" alt="a" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div>
-					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/c003.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911."><img src="images/demo/gl/1/c003.jpg" alt="a" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div>
-					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/c004.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911."><img src="images/demo/gl/1/c004.jpg" alt="a" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div>
-					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/c005.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911."><img src="images/demo/gl/1/c005.jpg" alt="a" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div>
-					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/c006.jpg" title="2 Cocoparra Cr, CRACE, ACT, 2911."><img src="images/demo/gl/1/c006.jpg" alt="a" /><span class="gl_subtitle">2 Cocoparra Cr, CRACE, ACT, 2911.</span></div>
-			</div>
-			<div id="project_3">				
-			<div class="gl_items pointer" href="images/demo/gl/1/h001.jpg"><img src="images/demo/gl/1/h001.jpg" alt="c" /><span class="gl_subtitle">29 Albatross Cr, HARRISON, ACT, 2914.</span></div>
- 				<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/h001.jpg" title="29 Albatross Cr, HARRISON, ACT, 2914."><img src="images/demo/gl/1/c001.jpg" alt="a" /><span class="gl_subtitle">29 Albatross Cr, HARRISON, ACT, 2914.</span></div> -->
-<!--					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/h002.jpg" title="29 Albatross Cr, HARRISON, ACT, 2914."><img src="images/demo/gl/1/c002.jpg" alt="a" /><span class="gl_subtitle">29 Albatross Cr, HARRISON, ACT, 2914.</span></div>
-					<div class="gl_items pointer no_show project_1" href="images/demo/gl/1/h003.jpg" title="29 Albatross Cr, HARRISON, ACT, 2914."><img src="images/demo/gl/1/c003.jpg" alt="a" /><span class="gl_subtitle">29 Albatross Cr, HARRISON, ACT, 2914.</span></div>
-			</div>
-			<!-- <div class="gl_items pointer" href="images/demo/gl/1/h001.jpg"><img src="images/demo/gl/1/h001.jpg" alt="d" /><span class="gl_subtitle">43 Johnston Ave, Crace, ACT</span></div>
-			<div class="gl_items pointer" href="images/demo/gl/1/h002.jpg"><img src="images/demo/gl/1/h002.jpg" alt="e" /><span class="gl_subtitle">29 Melbourn Ave, Deakin, ACT</span></div>
-			<div class="gl_items pointer" href="images/demo/gl/1/c003.jpg"><img src="images/demo/gl/1/c003.jpg" alt="f" /><span class="gl_subtitle">22 Lincon Cr, Franklin, ACT</span></div> -->
-		
 			<div class="my-gallery">
 
 			<figure class="gl_items pointer" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
@@ -345,18 +321,19 @@
 		<h2>Contact Us</h2>
 		<div class="little_line"></div>
 				<p><i class="fa fa-phone"></i>0448 888 045</p>
+				<p><i class="fa fa-facebook"></i><a href="http://www.facebook.com/ycbuilding">Home Improvment Q&A</a></p>
 				<p><i class="fa fa-envelope-o"></i><a href="mailto:ycbuilding@gmail.com">ycbuilding@gmail.com</a></p>
 				<p><i class="fa fa-map-marker"></i><a href="https://www.google.com/maps/dir//-35.2199659,149.1444995" target="_blank">7 / 117 Flemington Rd, Mitchell, ACT, 2911.</a></p><span id="ad_note">[Acess from Darling Street. Next to Kennard Hire]</span>
+
 	</div>
 		<div class="c_5">
 
 		<div id="map"></div>
 
-		<div class="com_social">
+<!-- 		<div class="com_social">
 				<a href="#"><i class="fa fa-facebook social_icon_style"></i></a>
-<!-- 				<a href="#"><i class="fa fa-twitter social_icon_style"></i></a> -->
 				<a href="#"><i class="fa fa-instagram social_icon_style"></i></a>
-			</div>
+			</div> -->
 		</div>
 
 </div>
