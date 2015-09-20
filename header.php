@@ -54,6 +54,7 @@
 <!--==================================
 		Mobile Header
 ====================================-->
+
 	<div class="overlay" id="MobileMenuOverlay"></div>
 	<section class="nav_container background fullscreen no-overflow" style="background-image:url('images/demo/house1_ex.jpg');" data-img-width="1300" data-img-height="867">
 

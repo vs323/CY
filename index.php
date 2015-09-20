@@ -245,7 +245,7 @@
 		<div class="desktop_testi_con">
 				<div class="testimonial_container">
 					<div>
-						<p><img src="images/demo/quotation.png" /> 已经有两套房子委托ycbuilding修建的经历了 我们全家对yc各方面感觉都非常满意 yc工作高效 质量过硬 服务热情真诚耐心 沟通特别融洽 性价比也极高 更重要的是售后服务也非常到位 完全没有后顾之忧 毫无疑问下一套房子我还会找yc来修建并且强烈推荐我的亲朋好友选择yc！也祝愿yc事业蒸蒸日上 生意红火！ "</p>
+						<p class="cn"><img src="images/demo/quotation.png" /> 已经有两套房子委托ycbuilding修建的经历了 我们全家对yc各方面感觉都非常满意 yc工作高效 质量过硬 服务热情真诚耐心 沟通特别融洽 性价比也极高 更重要的是售后服务也非常到位 完全没有后顾之忧 毫无疑问下一套房子我还会找yc来修建并且强烈推荐我的亲朋好友选择yc！也祝愿yc事业蒸蒸日上 生意红火！ "</p>
 						<p style="text-align: right;">- Jin Dai</p>
 					</div>
 <!-- 					<div class="potrait">
@@ -321,7 +321,7 @@
 		<h2>Contact Us</h2>
 		<div class="little_line"></div>
 				<p><i class="fa fa-phone"></i>0448 888 045</p>
-				<p><i class="fa fa-facebook"></i><a href="http://www.facebook.com/ycbuilding">Home Improvment Q&A</a></p>
+				<p><i class="fa fa-thumbs-up"></i><a href="http://www.facebook.com/ycbuilding">Like Us for Home Improvment Q&A</a></p>
 				<p><i class="fa fa-envelope-o"></i><a href="mailto:ycbuilding@gmail.com">ycbuilding@gmail.com</a></p>
 				<p><i class="fa fa-map-marker"></i><a href="https://www.google.com/maps/dir//-35.2199659,149.1444995" target="_blank">7 / 117 Flemington Rd, Mitchell, ACT, 2911.</a></p><span id="ad_note">[Acess from Darling Street. Next to Kennard Hire]</span>
 

@@ -536,6 +536,7 @@ html, body {
 	img {
 		width:40px;
 		margin-right:10px;
+		vertical-align: bottom;
 	}
 	.potrait {
 		position: absolute;
@@ -553,6 +554,11 @@ html, body {
 			font-weight: 600;
 		}
 	}
+}
+
+.cn {
+	font-family: "Microsoft YaHei";
+	letter-spacing:3px;
 }
 /*===========================================================
 											5TH PAGE SECTION - Contact Us
