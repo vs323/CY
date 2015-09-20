@@ -8,7 +8,7 @@
   <meta name="author" content="Canberr Web Development, JVR Web Development, Josh SHEN, Alex LIU" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script type="text/javascript" src="js/js_main.js"></script>
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="style.css" />
@@ -56,7 +56,7 @@
 ====================================-->
 	<div class="overlay" id="MobileMenuOverlay"></div>
 	<section class="nav_container background fullscreen no-overflow" style="background-image:url('images/demo/house1_ex.jpg');" data-img-width="1300" data-img-height="867">
-		
+
 		<div class="tool_bar cevc pointer">
 			<div class="fix_test">
 				<img src="images/demo/logo_white.png" alt="logo" />

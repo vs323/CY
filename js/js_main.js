@@ -1,18 +1,4 @@
 
-/* fix vertical when not overflow
-call fullscreenFix() if .fullscreen content changes */
-/*function fullscreenFix(){
-    var h = $('body').height();
-    // set .fullscreen height
-    $(".content-b").each(function(i){
-        if($(this).innerHeight() <= h){
-            $(this).closest(".fullscreen").addClass("not-overflow");
-        }
-    });
-}
-$(window).resize(fullscreenFix);
-fullscreenFix();*/
-
 /* resize background images */
 function backgroundResize(){
     var windowH = $(window).height();
@@ -50,7 +36,6 @@ function backgroundResize(){
 
 $(window).resize(backgroundResize);
 $(window).focus(backgroundResize);
-
 
 
 $(document).ready(function(){
@@ -147,44 +132,6 @@ $(document).ready(function(){
 	});
 	
 	
-	//--------------------------------------------------Modal Gallery View.
-	/*
-	var windowsWidth = $(window).width();
-	console.log(windowsWidth);
-	if(windowsWidth > 700) {
-	$(".project_1").colorbox({rel:'group1'});
-	$("#click").click(function(){ 
-	$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
-			return false;
-
-	});
-
-    $(".project_2").colorbox({rel:'group2'});
-    $("#click").click(function(){ 
-    $('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
-            return false;
-      
-    });
-	}
-	
-	$(window).resize(function(http://localhost/cy-master/images/demo/gl/green-building-600x300.jpg){
-	var windowsWidth = $(window).width();
-	if(windowsWidth > 700) {
-	$(".project_1").colorbox({rel:'group1'});
-	$("#click").click(function(){ 
-	$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
-			return false;
-	});
-
-    $(".project_2").colorbox({rel:'group2'});
-    $("#click").click(function(){ 
-    $('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
-            return false;
-    });
-	}
-	
-	})
-	*/
 	
 	
 	
