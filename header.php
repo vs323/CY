@@ -27,7 +27,7 @@
 	
 	
 	
-<script type="text/css">	
+<!-- <script type="text/css">	
 .my-gallery {
   width: 100%;
   float: left;
@@ -45,15 +45,15 @@
 .my-gallery figcaption {
   display: none;
 }
-</script>
+</script> -->
 
- <script type="text/css">
+ <style type="text/css">
 
-#preload{
+#preload {
 display: none;
 }
 
-</script>
+</style>
 
 </head>
 <body>

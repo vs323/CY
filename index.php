@@ -256,7 +256,7 @@
 				<div class="testimonial_container">
 					<div>
 						<p><img src="images/demo/quotation.png" />The team that was assigned to our project were extremely professional throughout the project. We would like to extend our sincere thanks for the job well done. "</p>
-						<p style="text-align: right;">- Jason Statham</p>
+						<p style="text-align: right;">- Michael & Joanne CHEN</p>
 					</div>
 		<!-- 			<div class="potrait">
 						<img src="images/demo/2.jpeg" alt="potrait" /><div class="t_name">Scarlett Johan</div>
@@ -266,7 +266,7 @@
 				<div class="testimonial_container">
 					<div>
 						<p><img src="images/demo/quotation.png" />They are so friendly and very easy to deal with. The floor plan they designed is just perfect for us. "</p>
-						<p style="text-align: right;">- Jason Statham</p>
+						<p style="text-align: right;">- Robert @ Crace</p>
 					</div>
 				<!-- 	<div class="potrait">
 						<img src="images/demo/3.jpg" alt="potrait" /><div class="t_name">Robter Downey Jr.</div>
@@ -276,7 +276,7 @@
 				<div class="testimonial_container">
 					<div>
 						<p><img src="images/demo/quotation.png" />We are pleased with our new home. Everything is delivered on time with top quality. "</p>
-						<p style="text-align: right;">- Jason Statham</p>
+						<p style="text-align: right;">- Ryan LIU</p>
 					</div>
 					<!-- <div class="potrait">
 						<img src="images/demo/4.jpg" alt="potrait" /><div class="t_name">Anne Hathaway</div>
