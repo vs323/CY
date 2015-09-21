@@ -63,7 +63,7 @@ if($errors) {
 		$mail->FromName = "Enquiry From YCBuilding Website";
 		
 		
-		$mail->addAddress('josh.shenzhong@gmail.com'); 
+		$mail->addAddress('ycbuilding@gmail.com'); 
 		$mail->Subject = 'Enquiry';
 		$mail->Body  .= "Client Name:";
 		$mail->Body  .= "\n";
