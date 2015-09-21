@@ -14,16 +14,18 @@
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
+	<script type="text/javascript" src="js/jssor.slider.min.js"></script>
 	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
     <script type="text/javascript" src="js/jquery.form.js"></script>
 	<script type="text/javascript" src="js/contact.js"></script>
 	<script type="text/javascript" src="js/jquery.validate.additional_methods.js"></script>
-	<script type="text/javascript" src="js/jssor.js"></script>
-    <script type="text/javascript" src="js/jssor.slider.js"></script>
+
 	<link rel="stylesheet" type="text/css" href="photoswipe.css"> 
 	<link rel="stylesheet" type="text/css" href="default-skin.css"> 
 	<script type="text/javascript" src="js/photoswipe.min.js"></script>
 	<script type="text/javascript" src="js/photoswipe-ui-default.min.js"></script>
+	
+	
 	
 <script type="text/css">	
 .my-gallery {
@@ -45,8 +47,19 @@
 }
 </script>
 
+ <script type="text/css">
+
+#preload{
+display: none;
+}
+
+</script>
+
 </head>
 <body>
+	<div id="preload">
+	<img id="imageload" src="images/demo/house1_ex.jpg" width="0" height="0" />
+	</div>
 <!--[if lt IE 9]>
 <p>You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
@@ -54,7 +67,7 @@
 <!--==================================
 		Mobile Header
 ====================================-->
-
+	
 	<div class="overlay" id="MobileMenuOverlay"></div>
 	<section class="nav_container background fullscreen no-overflow" style="background-image:url('images/demo/house1_ex.jpg');" data-img-width="1300" data-img-height="867">
 
