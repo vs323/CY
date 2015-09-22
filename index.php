@@ -320,31 +320,25 @@
 	<div class="container_box_dk">
 		<h2>Contact Us</h2>
 		<div class="little_line"></div>
-				<p><i class="fa fa-phone"></i>0448 888 045</p>
+				<p><i class="fa fa-phone" style="margin-top:30px;"></i>0448 888 045</p>
 				<p><i class="fa fa-thumbs-up"></i><a href="http://www.facebook.com/ycbuilding">Like Us for Home Improvment Q&A</a></p>
-				<p><i class="fa fa-envelope-o"></i><a href="mailto:ycbuilding@gmail.com">ycbuilding@gmail.com</a></p>
+				<!-- <p><i class="fa fa-envelope-o"></i><a href="mailto:ycbuilding@gmail.com">ycbuilding@gmail.com</a></p> -->
 				<p><i class="fa fa-map-marker"></i><a href="https://www.google.com/maps/dir//-35.2199659,149.1444995" target="_blank">7 / 117 Flemington Rd, Mitchell, ACT, 2911.</a></p><span id="ad_note">[Acess from Darling Street. Next to Kennard Hire]</span>
 
 	</div>
-		<div class="c_5">
+		<div class="c_5" style="margin-top:30px;">
 
 		<div id="map"></div>
 
-<!-- 		<div class="com_social">
-				<a href="#"><i class="fa fa-facebook social_icon_style"></i></a>
-				<a href="#"><i class="fa fa-instagram social_icon_style"></i></a>
-			</div> -->
-		</div>
 
+		</div>
+		<div class="com_social">
+				<a href="http://www.facebook.com/ycbuilding">Follow us<i class="fa fa-facebook social_icon_style"></i></a>
+			</div>
 </div>
 </section>
 
-<!-- Page 6 -->
-<!-- <section class="testimonial map">
-		
-		
-		
-</section> -->
+
 
 <?php 
 	include('footer.php'); 

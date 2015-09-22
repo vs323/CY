@@ -306,51 +306,59 @@ html, body { height: 100%; min-width: 320px; }
 .contact_form_div .form_send input { background: #3E606F; width: 150px; height: 35px; border-radius: 5px; border: 0; text-shadow: 2px 2px #333; margin-top: 5px; font-weight: 600; box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.5); }
 
 /* line 662, sass/style.scss */
-.contact_desk_v { display: block; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; }
-/* line 665, sass/style.scss */
+.contact_desk_v { display: block; position: relative; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; }
+/* line 666, sass/style.scss */
 .contact_desk_v h2 { margin: 5px auto; }
-/* line 668, sass/style.scss */
-.contact_desk_v p { padding: 0; word-wrap: nowrap; }
-/* line 672, sass/style.scss */
+/* line 669, sass/style.scss */
+.contact_desk_v p, .contact_desk_v p a { padding: 0; word-wrap: nowrap; }
+/* line 673, sass/style.scss */
 .contact_desk_v i { width: 30px; }
-/* line 675, sass/style.scss */
-.contact_desk_v span { margin-right: 32px; }
 /* line 676, sass/style.scss */
+.contact_desk_v span { margin-right: 32px; }
+/* line 677, sass/style.scss */
 .contact_desk_v .c_5 { color: #fff; display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; }
-/* line 680, sass/style.scss */
+/* line 681, sass/style.scss */
 .contact_desk_v .c_5 i { width: 30px; }
-/* line 683, sass/style.scss */
+/* line 684, sass/style.scss */
 .contact_desk_v .c_5 span { margin-left: 20px; }
-/* line 686, sass/style.scss */
-.contact_desk_v .c_5 .com_social { text-align: center; margin-top: 15px; }
-/* line 689, sass/style.scss */
-.contact_desk_v .c_5 .com_social i { border-radius: 50%; background-color: #3E606F; width: 45px; height: 45px; box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.5); color: #fff; font-size: 1.65em; text-align: center; padding-top: 10px; margin: 0 10px; text-shadow: 2px 2px #333; }
 
-/* line 706, sass/style.scss */
+/* line 689, sass/style.scss */
+.com_social { position: absolute; top: -40px; right: 25px; text-align: center; width: 150px; height: 40px; background: #3E606F; display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
+/* line 700, sass/style.scss */
+.com_social span { margin: 0; color: #fff; }
+/* line 704, sass/style.scss */
+.com_social i { border-radius: 50%; background-color: #3E606F; border: 2px solid #fff; width: 25px; height: 25px; box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.5); color: #fff; font-size: 1em; text-align: center; padding-top: 4px; margin: 0 10px; text-shadow: 2px 2px #333; }
+/* line 718, sass/style.scss */
+.com_social a:hover { color: #fff; text-decoration: none; }
+
+/* line 724, sass/style.scss */
+.com_social::after { content: ""; display: block; height: 0; border-left: 15px solid #fff; border-bottom: 16px solid transparent; position: absolute; bottom: 0; right: -15px; }
+
+/* line 734, sass/style.scss */
 #ad_note { font-size: 0.85em; color: #D1DBBD; font-style: italic; }
 
-/* line 711, sass/style.scss */
+/* line 739, sass/style.scss */
 .error { display: inline; }
 
-/* line 715, sass/style.scss */
+/* line 743, sass/style.scss */
 .jssora12l, .jssora12r { display: block; position: absolute; /* size of arrow element */ width: 30px; height: 46px; cursor: pointer; background: url(images/a12.png) no-repeat; overflow: hidden; }
 
-/* line 725, sass/style.scss */
+/* line 753, sass/style.scss */
 .jssora12l { background-position: -16px -37px; }
 
-/* line 726, sass/style.scss */
+/* line 754, sass/style.scss */
 .jssora12r { background-position: -75px -37px; }
 
-/* line 727, sass/style.scss */
+/* line 755, sass/style.scss */
 .jssora12l:hover { background-position: -136px -37px; }
 
-/* line 728, sass/style.scss */
+/* line 756, sass/style.scss */
 .jssora12r:hover { background-position: -195px -37px; }
 
-/* line 729, sass/style.scss */
+/* line 757, sass/style.scss */
 .jssora12l.jssora12ldn { background-position: -256px -37px; }
 
-/* line 730, sass/style.scss */
+/* line 758, sass/style.scss */
 .jssora12r.jssora12rdn { background-position: -315px -37px; }
 
 /*===========================================================
@@ -359,7 +367,7 @@ html, body { height: 100%; min-width: 320px; }
 /************************************
 		Mobile
 ************************************/
-/* line 737, sass/style.scss */
+/* line 765, sass/style.scss */
 #map { display: block; width: 100%; height: 45vh; margin: 0 auto; }
 
 /*===========================================================
@@ -368,77 +376,81 @@ html, body { height: 100%; min-width: 320px; }
 /************************************
 		Mobile
 ************************************/
-/* line 754, sass/style.scss */
+/* line 782, sass/style.scss */
 footer { width: 100%; background: #222; border-top: 1px solid #333; margin-top: 40px; }
 
-/* line 761, sass/style.scss */
+/* line 789, sass/style.scss */
 .bottom_footer { padding: 20px 5%; position: relative; max-width: 1268px; margin: 0 auto; }
-/* line 767, sass/style.scss */
+/* line 795, sass/style.scss */
 .bottom_footer .copyright { display: block; color: #777; text-align: center; font-size: 0.75em; margin-top: 30px; }
-/* line 773, sass/style.scss */
+/* line 801, sass/style.scss */
 .bottom_footer .copyright span { color: #fff; }
-/* line 778, sass/style.scss */
+/* line 806, sass/style.scss */
 .bottom_footer .footer_menu ul { list-style: none; text-align: center; padding: 0; }
-/* line 782, sass/style.scss */
+/* line 810, sass/style.scss */
 .bottom_footer .footer_menu ul li { position: relative; display: inline-block; font-size: 0.75em; padding: 0 13px; }
-/* line 787, sass/style.scss */
+/* line 815, sass/style.scss */
 .bottom_footer .footer_menu ul li a:hover { color: #91AA9D; }
 
 /*===========================================================
 											MEDIA QUERY
 ===========================================================*/
-@media screen and (min-width: 768px) { /* line 799, sass/style.scss */
+@media screen and (max-width: 767px) { /* line 827, sass/style.scss */
+  .com_social { display: none; }
+  /* line 830, sass/style.scss */
+  .contact_desk_v { margin-top: 40px; } }
+@media screen and (min-width: 768px) { /* line 840, sass/style.scss */
   .menu_overlay, .under_bk { display: none; }
-  /* line 800, sass/style.scss */
+  /* line 841, sass/style.scss */
   .icon_menu { display: none; }
-  /* line 803, sass/style.scss */
+  /* line 844, sass/style.scss */
   .nav_bar, .d_under_bk { display: block; }
-  /* line 807, sass/style.scss */
+  /* line 848, sass/style.scss */
   .wwd .col-sm-4 { padding-right: 25px; padding-left: 25px; }
   /************************************ 		Gallery - Desktop ***********************************/
-  /* line 816, sass/style.scss */
+  /* line 857, sass/style.scss */
   .gl_head { max-width: 1268px; margin: 0 auto; }
-  /* line 820, sass/style.scss */
+  /* line 861, sass/style.scss */
   .gl_container { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; flex-flow: row wrap; -webkit-flex-flow: row wrap; -moz-box: row wrap; -webkit-box-pack: space-around; -webkit-justify-content: space-around; -ms-flex-pack: space-around; justify-content: space-around; padding: 0; max-width: 1268px; margin: 0 auto; }
-  /* line 827, sass/style.scss */
+  /* line 868, sass/style.scss */
   .gl_container .gl_items { width: 320px; margin: 0; padding: 0; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease; }
   /************************************ 		Testimonials - DESKTOP ***********************************/
-  /* line 838, sass/style.scss */
+  /* line 879, sass/style.scss */
   .desktop_testi_con { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; flex-flow: row wrap; -webkit-flex-flow: row wrap; -moz-box: row wrap; -webkit-box-pack: space-around; -webkit-justify-content: space-around; -ms-flex-pack: space-around; justify-content: space-around; max-width: 1268px; margin: 0 auto; margin-top: 30px; }
-  /* line 845, sass/style.scss */
+  /* line 886, sass/style.scss */
   .desktop_testi_con .testimonial_container { width: 45%; }
   /************************************ 		CONTACT - DESKTOP ***********************************/
-  /* line 852, sass/style.scss */
+  /* line 893, sass/style.scss */
   .ccc { width: 100%; background: #222222; max-height: 720px; }
-  /* line 856, sass/style.scss */
+  /* line 897, sass/style.scss */
   .ccc .contact_wrap { display: flex; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; }
-  /* line 860, sass/style.scss */
+  /* line 901, sass/style.scss */
   .contact_us { margin-right: 5%; }
-  /* line 864, sass/style.scss */
+  /* line 905, sass/style.scss */
   .contact_us form .name_input, .contact_us form .number_input { width: 45%; float: left; }
-  /* line 868, sass/style.scss */
+  /* line 909, sass/style.scss */
   .contact_us form .number_input { margin-left: 10%; }
-  /* line 871, sass/style.scss */
+  /* line 912, sass/style.scss */
   .contact_us form .error { border: 1px solid #a94442; }
-  /* line 873, sass/style.scss */
-  .contact_us form .error:focus { box-shadow: 0 0 10px #a94442; }
-  /* line 877, sass/style.scss */
-  .contact_us form .form_name div, .contact_us form #response { border: 0px; color: #a94442; }
-  /* line 881, sass/style.scss */
-  .contact_us form #response { text-align: center; }
-  /* line 884, sass/style.scss */
-  .contact_us form .success { color: #3c763d; }
-  /* line 889, sass/style.scss */
-  .contact_desk_v { display: inline; border-left: 4px dashed #333; padding-left: 5%; }
-  /* line 894, sass/style.scss */
-  .contact_desk_v #map { height: 350px; }
-  /* line 898, sass/style.scss */
-  .contact_form_div .form_name textarea { height: 350px; }
-  /************************************ 		Footer - DESKTOP ***********************************/ }
-@media screen and (min-width: 1268px) { /* line 911, sass/style.scss */
-  .tool_bar .fix_test img { margin-left: 0; }
   /* line 914, sass/style.scss */
+  .contact_us form .error:focus { box-shadow: 0 0 10px #a94442; }
+  /* line 918, sass/style.scss */
+  .contact_us form .form_name div, .contact_us form #response { border: 0px; color: #a94442; }
+  /* line 922, sass/style.scss */
+  .contact_us form #response { text-align: center; }
+  /* line 925, sass/style.scss */
+  .contact_us form .success { color: #3c763d; }
+  /* line 930, sass/style.scss */
+  .contact_desk_v { display: inline; border-left: 4px dashed #333; padding-left: 5%; }
+  /* line 935, sass/style.scss */
+  .contact_desk_v #map { height: 350px; }
+  /* line 939, sass/style.scss */
+  .contact_form_div .form_name textarea { height: 375px; }
+  /************************************ 		Footer - DESKTOP ***********************************/ }
+@media screen and (min-width: 1268px) { /* line 952, sass/style.scss */
+  .tool_bar .fix_test img { margin-left: 0; }
+  /* line 955, sass/style.scss */
   .test_head { padding: 0; } }
 @media screen and (min-width: 958px) and (max-width: 1015px) { /* fix height issue in map area */
-  /* line 921, sass/style.scss */
+  /* line 962, sass/style.scss */
   .contact_form_div { margin-top: 32px; } }

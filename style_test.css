@@ -1,0 +1,30 @@
+/* background setup */
+/* line 2, sass/style_test.scss */
+.background { background-repeat: no-repeat; /* custom background-position */ background-position: 50% 50%; /* ie8- graceful degradation */ background-position: 50% 50% \9  !important; }
+
+/* fullscreen setup */
+/* line 11, sass/style_test.scss */
+html, body, header { /* give this to all tags from html to .fullscreen */ height: 100%; }
+
+/* line 15, sass/style_test.scss */
+.fullscreen, .content-a { width: 100%; min-height: 100%; }
+
+/* line 20, sass/style_test.scss */
+.not-fullscreen, .not-fullscreen .content-a, .fullscreen.not-overflow, .fullscreen.not-overflow .content-a { height: 100%; overflow: hidden; }
+
+/* content centering styles */
+/* line 29, sass/style_test.scss */
+.content-a { display: table; }
+
+/* line 32, sass/style_test.scss */
+.content-b { display: table-cell; position: relative; vertical-align: middle; text-align: center; }
+
+/* visual styles */
+/* line 40, sass/style_test.scss */
+body { margin: 0; font-family: sans-serif; font-size: 28px; line-height: 100px; color: #ffffff; text-align: center; }
+
+/* line 48, sass/style_test.scss */
+section { background: #9ed100; }
+
+/* line 51, sass/style_test.scss */
+.not-fullscreen { height: 50%; }

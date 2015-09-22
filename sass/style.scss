@@ -661,11 +661,12 @@ html, body {
 
 .contact_desk_v {
 	display:block;
+	position:relative;
 		@include flex-wrap(nowrap);
 		h2 {
 			margin: 5px auto;
 		}
-		p {
+		p, p a {
 			padding:0;
 			word-wrap:nowrap;
 		}
@@ -683,26 +684,53 @@ html, body {
 		span {
 			margin-left:20px;
 		}
+	}
+}
 		.com_social {
+			position:absolute;
+			top:-40px;;
+			right:25px;
 			text-align:center;
-			margin-top:15px;
+			width:150px;
+			height:40px;
+			background:$theme_color_4;
+			@include display-flex();
+			@include align-items(center);
+			@include justify-content(center);
+			span {
+				margin:0;
+				color:#fff;
+			}
 			i {
 			  border-radius: 50%;
 			  background-color: $theme_color_4;
-			  width: 45px;
-			  height: 45px;
+			  border: 2px solid #fff;
+			  width: 25px;
+			  height: 25px;
 			  box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.5);
 			  color:#fff;
-				font-size:1.65em;
+				font-size:1em;
 				text-align:center;
-				padding-top:10px;
+				padding-top:4px;
 				margin: 0 10px;
 				text-shadow: 2px 2px #333;
 			}
+			a:hover {
+				color:#fff;
+				text-decoration: none;
+			}
 		}
-	}
-}
 
+		.com_social::after {
+				content:"";
+				display:block;
+				height:0;
+				border-left:15px solid #fff;
+				border-bottom:16px solid transparent;
+				position:absolute;
+				bottom:0;
+				right:-15px;
+			}
 #ad_note {
 	font-size: 0.85em;
 	color: $theme_color_2;
@@ -795,6 +823,19 @@ footer {
 /*===========================================================
 											MEDIA QUERY
 ===========================================================*/
+@media screen and (max-width:767px) {
+	.com_social {
+		display:none;
+	}
+	.contact_desk_v {
+		margin-top:40px;
+	}
+	// .ccc {
+	// 	background-image: linear-gradient(bottom, #2B2B2B 53%, #222 47%);
+	// 	background-image: -webkit-linear-gradient(bottom, #2B2B2B 53%, #222 47%);
+	// }
+}
+
 @media screen and (min-width: 768px) {
 	.menu_overlay, .under_bk { display:none; }
 	.icon_menu {
@@ -888,15 +929,15 @@ footer {
 	}
 	.contact_desk_v {
 		display:inline;
-		// width:40%;
 		border-left: 4px dashed #333;
 		padding-left:5%;
+
 		#map {
 			height:350px;
 		}
 	}
 	.contact_form_div .form_name textarea {
-		height:350px;
+		height:375px;
 	}
 
 /************************************
